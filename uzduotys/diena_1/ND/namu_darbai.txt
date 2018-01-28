@@ -1,2 +1,16 @@
-Pasipraktikuoti HTML 5 elementus:   http://htmlcheatsheet.com/   
+Pasipraktikuoti HTML 5 elementus:  
+
+
+0) pasikartoti GIT komandas:
+sukurti faila “testas” ir ji ideti i GIT, tada istrinti faila ir pakeitimus “ideti” i serveri
+
+1) http://htmlcheatsheet.com/   
 uzvedus pele ant elementu, keireje issoks piestukas -> paspaudus -> apacioje ekrano galesi paprogramuoti
+
+2) sukurti  paveiksliuka, ant kurio paspaudus nueisime i delfi.lt
+3) sukurti lentele “table” stulpeliai: vardas , pavarde, amzius
+uzpirldyti 
+4) ideti google maps
+5) ideti youtube klipa
+6) sukurti menu punktus naudojant html5 elementus:
+nav ul li

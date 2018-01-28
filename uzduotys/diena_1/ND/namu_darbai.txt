@@ -1,0 +1,2 @@
+Pasipraktikuoti HTML 5 elementus:   http://htmlcheatsheet.com/   
+uzvedus pele ant elementu, keireje issoks piestukas -> paspaudus -> apacioje ekrano galesi paprogramuoti

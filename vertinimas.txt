@@ -1,0 +1,43 @@
+﻿Tartpinis testas 10% (html, css)
+Tarpinis atsiskaitymas 10% (bootstrap)
+Tarpinis atsiskaitymas 10% (js, jquery)
+Galutinis testas 10%  (php, +)
+Baigiamasis 60%
+
+Baigiamasis:
+//——————Front End  (css, js, libs)———
+0.5 slider / bg-video (responsive)
+0.7 responsive visas puslapis
+0.5 ajax (gauti duomenis)
+0.5 ajax (siusti duomenis)
+-0.5 BOOTSTRAP (jei bent 10 klasiunepanaudosi)
+0.5 MDL (bent 10 klasiu, is ju visos pagrindines grido)
+0.3 scss / sass / less - (kintamieji bent 5x, nesting bend 2x, hover)
+0.1-0.3 Dizainas (foreach different layout (Max: 1.2))
+0.3 vector icons
+0 - 0.3 js efektai (max. 1.5)
+
+ iki 0.8 js form validator  
+ 
+//——————Back End  (PHP)——————————————————
+iki 0.5 Email siuntimas, redirect i page, isvesti zinute
+0.4 PHP include (bent 4x)
+3x 0.5  PHP duomenu isvedimas (max 3 skirtingos lenteles,)
+3x 0.5 PHP duomenu ivedimas   (max 3 skirtingos lenteles)
+0.5 Registracija 
+=======
+0.5 PHP Login + PHP sesion (ir bent vienas session kintamaasis)
+
+//———————————————WP ————————————————————————
+0.4 uz meniu isvedima naudojant WP
+0.2 uz Post title, content, date isvedima
+0.2 uz Nuotraukos isvedima
+0.2 uz header, footer isvedima su WP
+5x 0.2 uz kiekviena wp_template_part panaudojima
+0.2 uz komentaru isvedima
+0.1 uz login formos isvedima
+0.2 uz veikencio search isvedima  
+2x 0.2 uz WP duomenu ivedimas (max 2 skirtingos lenteles)
+
+
+ 

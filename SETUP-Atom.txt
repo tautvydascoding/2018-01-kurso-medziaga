@@ -14,6 +14,7 @@ atom-autocomplete-php
 linter-php
 color-picker   // ijungimas Alt + C
 
+atom-live-server
 
 =========short-cuts=============:
 p, a, button, header, footer, section … - HTML 5 auto elementu kurimas

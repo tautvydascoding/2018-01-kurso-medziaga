@@ -92,7 +92,6 @@ aside {
     top: 0;
 }
 
-
 // ---- background juodas nuo virsau ir pilkeja i apacia-----
 background-image: -webkit-linear-gradient( top, #000, gray); 
 

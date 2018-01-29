@@ -1,4 +1,4 @@
- Goto-definition   - PHP f-ju atidarymui
+﻿
 
 
 linter
@@ -31,7 +31,7 @@ Plugins -> auto-save -> ON
 Settings -> Editor -> SotWrap  // visas kodas kuris netips  atvaiduoti ekrane, bus nukeltas i kita eilute
  
 
-
+ Goto-definition   - PHP f-ju atidarymui
 jQuery-snippets
 jquery
 emmet

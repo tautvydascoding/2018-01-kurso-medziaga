@@ -15,3 +15,6 @@
 {6}   - 6 skaiciai (kiekis)
 
 more: https://www.w3schools.com/tags/att_input_pattern.asp
+
+
+jk

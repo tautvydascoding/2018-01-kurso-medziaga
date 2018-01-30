@@ -7,9 +7,9 @@ linter-csslint ?
 linter-jshint 
 linter-sass-lint
 
+autoclose-html
  
 beautify       // ivykdo ctrl + ALT + B
-autoclose-html
 atom-autocomplete-php
 linter-php
 color-picker   // ijungimas Alt + C
@@ -25,6 +25,7 @@ ctrl + d - dublicate row's
 ctrl + shift + P 
 emmet
 log - java script logo isvedimui
+ctrl + shift + D   - copy - paste visa eilute
 
 ========== Setting ==========
 Plugins -> auto-save -> ON

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+
+        <thead>
+            <tr>
+                <!-- table row -->
+                <th>Vardas</th>
+                <th>Pavarde</th>
+                <th>Amzius</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Saulius</td>
+                <td>Meksauskas</td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <td>Paulius</td>
+                <td>Dakauskas</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Irena</td>
+                <td>Zekauskiene</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>Ona</td>
+                <td>Mazauskiene</td>
+                <td>55</td>
+            </tr>
+            <tr>
+                <td>Lukas</td>
+                <td>Mikeliavicius</td>
+                <td>34</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Nes vaikas 190 cm ugio</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h3>Registracija</h3>
+    <form action="index.html" method="get">
+
+        <label for="">Jusu vardas</label> <br>
+        <input type="text" value="" maxlength="5" placeholder="Vardas"> <br>
+
+        <label for="">Slaptazodis</label> <br>
+        <input type="password" name="slaptazodis" id="" minlength="5" placeholder="Slaptazodis"> <br>
+
+        <label for="">Email</label> <br>
+        <input type="email" name="" id="" placeholder="Email"> <br>
+
+        <label for="">Data</label> <br>
+        <input type="date" name="" id="" placeholder="Email"> <br>
+
+        <label for="">Vyras</label>
+        <input type="radio" name="lytis" id=""> <br>
+        <label for="">Moteris</label>
+        <input type="radio" name="lytis" id=""> <br>
+        <label for="">Kita</label>
+        <input type="radio" name="lytis" id=""> <br>
+
+        <label for="">Rajonai</label>
+        <select name="Rajonai" id="">
+            <optgroup label="Kaunas">
+                <option value="auk_sanciai">Aukstieji sanciai</option>
+                <option value="zem_sanciai">Zemieji sanciai</option>
+            </optgroup>
+            <optgroup label="Vilnius">
+                <option value="auk_sanciai">Aukstieji sanciai</option>
+                <option value="zem_sanciai">Zemieji sanciai</option>
+            </optgroup>
+        </select>
+
+        <label for="">Atsiliepimas</label> <br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Jusus atsiliepimas"></textarea> <br>
+
+        <button type="submit">
+            <!-- type turi buti submit -->
+            Registracija
+        </button>
+        <!-- arba -->
+        <input type="Submit" value="OK">
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+<!—- ==================== responsive design ====================  -—>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<!—- ============== patterns - regx ==================== -—>
+        <form class="" action="index.html" method="post">
+            <input id="telNo" name="telNo" type="tel" required  pattern="370[0-9]{6}">
+            <input type="submit" name="" value="">
+        </form>
+
+
+[0-9] - koki galimi skaiciai
+{6}   - 6 skaiciai (kiekis)
+
+more: https://www.w3schools.com/tags/att_input_pattern.asp
+
+
+jk

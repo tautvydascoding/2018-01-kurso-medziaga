@@ -1,4 +1,4 @@
- Goto-definition   - PHP f-ju atidarymui
+﻿
 
 
 linter
@@ -7,9 +7,9 @@ linter-csslint ?
 linter-jshint 
 linter-sass-lint
 
+autoclose-html
  
 beautify       // ivykdo ctrl + ALT + B
-autoclose-html
 atom-autocomplete-php
 linter-php
 color-picker   // ijungimas Alt + C
@@ -25,13 +25,14 @@ ctrl + d - dublicate row's
 ctrl + shift + P 
 emmet
 log - java script logo isvedimui
+ctrl + shift + D   - copy - paste visa eilute
 
 ========== Setting ==========
 Plugins -> auto-save -> ON
 Settings -> Editor -> SotWrap  // visas kodas kuris netips  atvaiduoti ekrane, bus nukeltas i kita eilute
  
 
-
+ Goto-definition   - PHP f-ju atidarymui
 jQuery-snippets
 jquery
 emmet

@@ -1,0 +1,44 @@
+h1 {
+    color: red;
+    color: #132;
+    color: #132321;
+    color: rgb(0,0,125,0.5);
+}
+
+
+h2 {
+    background-color: green;
+}
+h2 {
+    background-color: red;
+}
+.reklama {
+    background-color: blue;
+}
+#brand {
+    font-size: 30px;
+}
+
+h2.reklama {
+    color: white;
+}
+h2 .reklama {
+    color: red;
+}
+main section nav {
+    color: red;
+}
+h1 {
+    color: red;
+}
+h3 {
+    color: red;
+}
+h5 {
+    color: red;
+}
+h1,
+h3,
+h5 {
+    color: red;
+}

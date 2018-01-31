@@ -1,0 +1,38 @@
+h1{
+    color: green;
+    text-align: center;
+}
+
+h2{
+    position: absolute;
+    right: 50px;
+}
+
+article{
+    background-color: lime;
+    border: solid 3px black;
+    /* Elementu dejimas i viena eilute
+    1) elementu plotis: width
+    2) visi elementai turi tureti: float
+    3) paleis clear: both komanda */
+    width: 30%;
+    float: left;
+}
+
+article{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 1px;
+    position: relative;
+    /* z koordinate(i gili) */
+    z-index: 9;
+}
+
+
+/* istaiso float buga.
+    reiketu visada deti kai baigiamas naudoti float,
+    kad kiti salia esantys elementai nefloatintu*/
+.float-fix{
+    clear: both;
+}

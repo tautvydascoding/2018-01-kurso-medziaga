@@ -29,7 +29,6 @@ span {
     clear: both;
 }
 .chicken {
-    color: black;
     background-color: pink;
 }
 .ateiviai {
@@ -37,7 +36,6 @@ span {
     background-color: red;
 }
 .sushi {
-    color: black;
     background-color: yellow;
 }
 article div {
@@ -54,4 +52,5 @@ article p {
     padding-left: 20px;
     padding-right: 20px;
     text-align: justify;
+    margin-top: 30px;
 }

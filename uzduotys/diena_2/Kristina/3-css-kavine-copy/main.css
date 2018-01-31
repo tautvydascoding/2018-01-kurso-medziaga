@@ -1,0 +1,57 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+article {
+    background-color: #b2b2b2;
+    width: 30%;
+    border: solid 2px #000;
+    float: left;
+}
+.float-fix {
+    clear: both;
+}
+/*paverciam garais, gali vaiksciot bet kaip */
+h2 {
+    position: absolute;
+    right: 50px;
+}
+article {
+    position: relative;
+    z-index: 9
+}
+/*  */
+span {
+    padding: 5px;
+    float: left;
+}
+.float-fix {
+    clear: both;
+}
+.chicken {
+    color: black;
+    background-color: pink;
+}
+.ateiviai {
+    color: white;
+    background-color: red;
+}
+.sushi {
+    color: black;
+    background-color: yellow;
+}
+article div {
+    text-align: center;
+    float: right;
+    width: 100px;
+    padding: 5px;
+    border: solid 2px #000;
+    margin-right: -2px;
+    margin-top: -2px;
+}
+article p {
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}

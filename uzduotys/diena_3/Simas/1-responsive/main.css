@@ -60,3 +60,27 @@ p {
     background-color: #e5d198;
 }
 
+
+/* ---for tablet (nuo 0 iki 768)-- */
+@media (max-width: 768px) {
+    article {
+        width: 46.25%;
+    }
+    .preke-paskutine {
+        width: 95%;
+        margin-top: 2.5%;
+    }
+} /* uzsidare media */
+/* ---------------- */
+
+/* for mobile */
+@media (max-width: 425px) {
+    article {
+        width: 95%;
+    } 
+
+    /* pseud selector iesko pirmo article */
+    article:first-of-type {
+        margin-bottom: 2.5%;
+    }
+}

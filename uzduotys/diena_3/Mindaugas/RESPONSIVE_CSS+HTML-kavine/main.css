@@ -1,0 +1,101 @@
+/*  remelio iskaiciavimas i elemento ploti */
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+article {
+  width: 30%;
+  background-color: grey;
+  border: solid 2px #000;
+  /* elementu i viena eilute dejomas
+    1. elementai turi tureti ploti (width)
+    2. Visi vienos eilutes elamentai turi tureti FLOAT left arba right
+    3. baigus naudoti float ji isjungti sukuriant tuscia elementa su klase, kad butu galima paleisti clear: both komanda
+    4. */
+  float: left;
+}
+
+.float-fix {
+  clear: both;
+}
+
+h2 {
+  /* kaip elementa padeti bet kur ekrane
+    1. paversti elemta absoliuciu
+    2.pradeda veikti komandos right, left, top bottom (kai neijungtas pozicionavimas, isvardintos komandos neveikia)
+    3. uzdeti position: relative kuriame norime skraidyti */
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0;
+}
+
+.preke1 {
+  background-color: pink;
+  border
+}
+
+.preke2 {
+  background-color: blue;
+}
+
+.preke3 {
+  background-color: #43b49d;
+}
+
+article {
+  position: relative;
+  margin-left: 2.5%;
+
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1.5%;
+}
+
+h2 {
+  border-bottom: solid 2px #000;
+  border-left: solid 2px #000;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 0;
+  padding-top: 7%;
+}
+
+body {
+  margin: 0;
+}
+
+.paskutine {
+  margin-right: 2.5%
+}
+
+/*  for tablets */
+
+@media (max-width: 768px) {
+  article {
+    width: 46.25%;
+  }
+  .paskutine {
+    width: 95%;
+    margin-top: 2.5%;
+  }
+}
+
+@media (max-width: 415px) {
+  article, .paskutine {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+}

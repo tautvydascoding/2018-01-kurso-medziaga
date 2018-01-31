@@ -1,0 +1,30 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+article {
+    background-color: #b2b2b2;
+    border: solid 2px #000;
+
+    /* i viena eilute elmemtu dejimas:
+        1) elementai turi "width"
+        2) VISI elementai turi "float" (kurie norite kad butu vienoje eil.)
+        3) baigus naudoti float, ji isjungti:
+            sukurti elementa ir paleisti "clear: both;"
+     */
+    width: 30%;
+    float: left;
+}
+.float-fix {
+    clear: both;
+}
+
+h2 {
+    /* paverciam "garais" */
+    position: absolute;
+    right: 50px;
+}
+article {
+    position: relative;
+    z-index: 9;
+}

@@ -1,4 +1,4 @@
-<!—- ==================== responsive design ====================  -—>
+﻿<!—- ==================== responsive design ====================  -—>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -10,8 +10,8 @@
             <input type="submit" name="" value="">
         </form>
 
-
-[0-9] - koki galimi skaiciai
+[a-zA-Z]
+[0-5] - koki galimi skaiciai
 {6}   - 6 skaiciai (kiekis)
 
 more: https://www.w3schools.com/tags/att_input_pattern.asp

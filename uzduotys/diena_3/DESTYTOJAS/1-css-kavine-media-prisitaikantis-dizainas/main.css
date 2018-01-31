@@ -14,7 +14,6 @@ h1 {
 }
 .preke-paskutine {
     margin-right: 2.5%;
-    font-size: 50px;
 }
 article {
     background-color: #b2b2b2;
@@ -69,3 +68,29 @@ h2 {
 article {
     position: relative;
 }
+
+/* ----- for tabled (nuo 0 iki 768px)----- */
+@media (max-width: 768px) {
+    article {
+        width: 46.25%;
+    }
+    .preke-paskutine {
+        width: 95%;
+        margin-top: 2.5%;
+    }
+} /* uzsidaro media */
+
+/* -----for mobile-(nuo 0 iki 425)----- */
+@media (max-width: 425px) {
+    article {
+        width: 95%;
+    }
+    /* pseuso selector
+    :first-of-type - iesko pirmo article */
+    article:first-of-type {
+        margin-bottom: 2.5%;
+    }
+}
+
+
+/*  */

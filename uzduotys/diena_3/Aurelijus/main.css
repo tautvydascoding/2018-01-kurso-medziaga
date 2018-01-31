@@ -1,0 +1,98 @@
+/* remeliu iskaiciavimas i ploti */
+*{
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+}
+
+h1{
+    color: green;
+    text-align: center;
+}
+
+h2{
+    /* 1) elementa paversti paversti absoliuciu */
+    position: absolute;
+    /* 2) pradeda veikti komandos: left, right, top, bottom */
+    /* 3) position "relitive" elementui kuriame jus norite buti vaizduojamas(skraidyt) */
+    top: 0px;
+    right: 0px;
+    border: solid black;
+    border-right: none;
+    border-left: dotted black;
+    border-top: none;
+    margin: 0;
+    padding-right: 15px;
+    padding-left:  15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    /* veikia tik tada, kai nustatytas poscijos budas: absolute arba relitive */
+}
+
+/* remelio iskaiciavimas */
+.first{
+    padding-right: 2.5%;
+}
+.second{
+    padding-right: 2.5%;
+}
+.third{
+    padding-right: 2.5%;
+}
+
+article{
+    background-color: lime;
+    border: solid 3px black;
+    border-width: thin;
+    /* Elementu dejimas i viena eilute
+    1) elementu plotis: width
+    2) visi elementai turi tureti: float
+    3) paleis clear: both komanda */
+    width: 30%;
+    float: left;
+    /*  */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+    position: relative;
+    /* z koordinate(i gili) */
+    /* z-index: 9; */
+}
+
+/* pavadinimu spalvos */
+.preke1{
+    background-color: rgb(245, 242, 10);
+}
+.preke2{
+    background-color: red;
+}
+.preke3{
+    background-color: rgb(241, 234, 234);
+}
+
+/* istaiso float buga.
+    reiketu visada deti kai baigiamas naudoti float,
+    kad kiti salia esantys elementai nefloatintu*/
+.float-fix{
+    clear: both;
+}
+
+p{
+    padding: 10px;
+    padding-top: 30px;
+}
+
+/* Medijos */
+/* Plansetems */
+@media (max-width: 768px){      /* atsidaro media */
+article{                        /* atsidaro */
+    width: 46.25%;
+}    /* uzsidaro */
+.third{
+    width: 95%;
+}
+}     /* uzsidaro media */

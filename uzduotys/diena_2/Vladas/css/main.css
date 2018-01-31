@@ -1,0 +1,11 @@
+h1 {color: green; }
+h2 {color: purple; background-color: green; }
+h3 {color: yellow; }
+h3 {color: red; }
+h4 {color: orange; }
+.reklama {background-color: grey; }
+#Nickas {font-size: 30px; }
+h2.reklama {color: white; }
+h2 .reklama {color: red; }
+nav {color: red; }
+hi, h4 {color: red; }

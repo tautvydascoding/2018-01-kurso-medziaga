@@ -1,0 +1,26 @@
+h1 {
+  color: red;
+  text-align: center;
+}
+
+article {
+  background-color: #b2b2b2;
+  width: 30%;
+  border: solid 2px #000;
+  width: 30%;
+  float: left;
+}
+
+.float-fix {
+  clear: both;
+}
+
+h2 {
+    position: absolute;
+    right: 50px
+}
+
+article {
+    position: relative;
+    z-index: 9;
+}

@@ -1,0 +1,51 @@
+h1 {
+  color: red;
+  color: #b2b;
+  /* color: #132321;
+  color: rgba(0, 0, 125 0.5);*/
+}
+
+h2 {
+  background-color: green;
+}
+
+h2 {
+  background-color: red;
+}
+
+.reklama {
+  background-color: blue;
+}
+
+#brand {
+    hfont-size: 60px;
+}
+
+h2.reklama {
+    color: white;
+}
+
+h2 .reklama {
+    color: red
+}
+main section nav{
+    color: red;
+}
+
+h1 {
+    color: red;
+}
+
+h3 {
+    color: red;
+}
+
+h5 {
+    color: red;
+}
+/* arba */
+h1,
+h3,
+h5 {
+    color: red;
+}

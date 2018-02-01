@@ -1,0 +1,116 @@
+html{
+    background-color: rgb(209, 71, 187);
+}
+body{
+    /* Centravimas X asyje */
+    /* 1) butinas plotis
+        2) margin */
+    margin-left: auto;
+    margin-right: auto;
+    width: 1260px;
+}
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+h2{
+    text-align: center;
+    padding-top: 10px;
+}
+header{
+    height: 100px;
+    background-color: red;
+/* float: right; */
+}
+nav{
+    width: 60%;
+    float: left;
+    background-color: blue;
+}
+/* Keiciami tik 'nav' tecio 'li' elementai */
+nav li{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    /* arba */
+    /* display: inline; */
+    width: 25%;
+    background-color: green;
+}
+/* reiketu naudot po kiekvienu float funkcijos */
+.clearfloat{
+    clear: both;
+}
+.antraste{
+    width: 90%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/* Mygtukas Search */
+#search{
+    background-color: orange;
+    display: block;
+    float: right;
+    width: 40%;
+    height: 60%;
+    padding-top: 30px;
+}
+input{
+    width: 60%;
+    height: 50%;
+    border: none;
+    color: blue;
+}
+form{
+    display: inline;
+    /* padding-top: 30px; */
+}
+/* Mygtukas */
+main{
+    width: 75%;
+    float: left;
+    background-color: lime;
+}
+aside {
+    margin-left: 2%;
+    width: 20%;
+    /* float: right; */
+    background-color: yellow;
+    /* Automatiskai apsiskaiciuojantis aukstis */
+    /* Nepamirsti uzdeti: overflow:hidden */
+    /* ant kai kuriu narsykliu, itraukti 'width' */
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+
+section{
+    margin-top: 2%;
+    overflow: hidden;
+}
+.float-left{
+    float: left;
+}
+p{
+    text-align: justify;
+    padding: 10px;
+}
+a{
+    font-size: 15px;
+}
+.foot{
+    text-align: center;
+}
+footer{
+    background-color: grey;
+    height: 50px;
+}
+/* Medijos */
+@media (max-width: 1259){
+    body{
+        width: 100%;
+    }
+}

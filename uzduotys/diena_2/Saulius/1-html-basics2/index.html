@@ -1,79 +1,100 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <table>
-      <thead>
-        <tr>  <!-- tablerow -->
-          <th>Vardas</th>
-          <th>Pavarde</th>
-          <th>Amzius</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Antanas</td>
-          <td>Antanaitis</td>
-          <td>21</td>
-        </tr>
-        <tr>
-          <td>Jonas</td>
-          <td>Jonaitis</td>
-          <td>22</td>
-        </tr>
-        <tr>
-          <td>Gediminas</td>
-          <td>Gediminaitis</td>
-          <td>25</td>
-        </tr>
-        <tr>
-          <td>Juozas</td>
-          <td>Juozaitis</td>
-          <td>27</td>
-        </tr>
-        <tr>
-          <td>Vygis</td>
-          <td>Vigaitis</td>
-          <td>73*</td>
-        </tr>
 
-      </tbody>
-      <tfoot>
-        <tr>
-          <td colspan="3">*Juokingas senis</td>
-        </tr>
-      </tfoot>
-    </table>
+<head>
+  <meta charset="utf-8">
+  <title>Pagrindinis</title>
+</head>
 
-    <h3>Registracija</h3>
-    <form class="" action="#" method="get">
-      <label>Jusu vardas</label> <br>
-      <input type="text" name="vardas" value="" placeholder="siknyte" maxlength="40" minlength="2" required> <br>
+<body>
+  <h1>Pagrindinis</h1>
+  <!-- meniu -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="Contacts.html">Contacts</a></li>
+    </ul>
+    <ol>
+      <li>Home</li>
+      <li>About</li>
+      <li>Gallery</li>
+      <li>Contacts</li>
+      <li>Other</li>
+    </ol>
+  </nav>
 
-      <label>Slaptazodis</label> <br>
-      <input type="password" name="psw" value="" placeholder="min 5 simboliai" maxlength="60" minlength="5" required> <br>
+  <table>
+    <thead>
+      <tr>
+        <!-- tablerow -->
+        <th>Vardas</th>
+        <th>Pavarde</th>
+        <th>Amzius</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Antanas</td>
+        <td>Antanaitis</td>
+        <td>21</td>
+      </tr>
+      <tr>
+        <td>Jonas</td>
+        <td>Jonaitis</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>Gediminas</td>
+        <td>Gediminaitis</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>Juozas</td>
+        <td>Juozaitis</td>
+        <td>27</td>
+      </tr>
+      <tr>
+        <td>Vygis</td>
+        <td>Vigaitis</td>
+        <td>73*</td>
+      </tr>
 
-      <label>Atsiliepimai</label> <br>
-      <textarea name="straipsnis" rows="8" cols="80"></textarea> <br>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">*Juokingas senis</td>
+      </tr>
+    </tfoot>
+  </table>
 
-      <input type="email" name="email" value="@one.lt" required> <br>
+  <h3>Registracija</h3>
+  <form class="" action="#" method="get">
+    <label>Jusu vardas</label> <br>
+    <input type="text" name="vardas" value="" placeholder="siknyte" maxlength="40" minlength="2" required> <br>
 
-      <label for="">Pristatymo data</label>
-      <input type="date" name="" value=""> <br>
-      <h4>Lytis</h4>
-      <label for="">Vyras</label>
-      <input type="radio" name="aa" value=""> <br>
-      <label for="">Moteris</label>
-      <input type="radio" name="aa" value=""> <br>
-      <label for="">Other</label>
-      <input type="radio" name="aa" value=""> <br><br>
+    <label>Slaptazodis</label> <br>
+    <input type="password" name="psw" value="" placeholder="min 5 simboliai" maxlength="60" minlength="5" required> <br>
 
-      <h4>Kiti duomenys</h4>
-      <label>Masinos</label>
-      <select class="" name="cars">
+    <label>Atsiliepimai</label> <br>
+    <textarea name="straipsnis" rows="8" cols="80"></textarea> <br>
+
+    <input type="email" name="email" value="@one.lt" required> <br>
+
+    <label for="">Pristatymo data</label>
+    <input type="date" name="" value=""> <br>
+    <h4>Lytis</h4>
+    <label for="">Vyras</label>
+    <input type="radio" name="aa" value=""> <br>
+    <label for="">Moteris</label>
+    <input type="radio" name="aa" value=""> <br>
+    <label for="">Other</label>
+    <input type="radio" name="aa" value=""> <br><br>
+
+    <h4>Kiti duomenys</h4>
+    <label>Masinos</label>
+    <select class="" name="cars">
         <option value="audi">audi</option>
         <option value="bmw">bmw</option>
         <option value="mb">mb</option>
@@ -81,8 +102,8 @@
         <option value="tata">tata</option>
       </select> <br>
 
-      <label>Miestai</label>
-      <select class="" name="">
+    <label>Miestai</label>
+    <select class="" name="">
         <optgroup label="Kaunas">
           <option value="">Silainiai</option>
           <option value="">Kalnieciai</option>
@@ -99,12 +120,15 @@
         </optgroup>
 </select> <br>
 
-      <button type="submit" name="button">Registruotis</button>
-      <!-- tipas turi buti submit -->
-      <!-- arba -->
-      <input type="submit" name="" value="Okiukas">
+    <button type="submit" name="button">Registruotis</button>
+    <!-- tipas turi buti submit -->
+    <!-- arba -->
+    <input type="submit" name="" value="Okiukas">
 
-    </form>
+  </form>
 
-  </body>
+
+
+</body>
+
 </html>

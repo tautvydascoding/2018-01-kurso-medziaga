@@ -1,0 +1,32 @@
+h1 {
+  color: red;
+  /*
+  color: #b2b;
+  color: #425112;
+  color: rgb(0, 0, 125, 0.5); */
+}
+/* . - iesko class atributo */
+.ipatinga {
+    background-color: blue;
+}
+h2 {
+    background-color: green;
+}
+/* id nereiketu naudoti css dizainui */
+#unikalus {
+    font-size: 60px;
+}
+h2.ipatinga {
+    color: white;
+}
+h2 .ipatinga {
+    color: yellow;
+}
+main section nav {
+    color: red;
+}
+h1,
+h3,
+h5 {
+    color: orange;
+}

@@ -1,0 +1,139 @@
+body {
+    /* centravimas x asyje
+    1) butinas plotis
+    2) margin-left: auto;
+    3) margin-right: auto;
+     */
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: grey;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+    text-align: center;
+    font-family: 'Rammetto One', cursive;
+}
+
+h2 {
+    font-family: 'Rammetto One', cursive;
+}
+
+
+header {
+    height: 80px;
+    background: pink;
+}
+
+nav {
+    display: block;
+    width: 60%;
+    float: left;
+    height: 80px;     
+}
+
+ul {
+    padding: 0;
+}
+
+.clearfloat {
+    clear: both;
+}
+.navlist {
+    width: 25%;
+    float: left;
+    list-style: none;
+    padding-top: 12px;
+    font-size: 23px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* ---search--- */
+#search {
+    display: block;
+    width: 40%;
+    height: 80px;
+    float: left;
+}
+
+input {
+    width: 60%;
+    border: none;   
+    padding: 2%; 
+}
+
+form {
+    padding: 22px;
+}
+
+button {
+    width: 15%;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 2%; 
+}
+/* ================================ */
+
+/* ====ARTICLES AND RELATED */
+
+section {
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+main {
+    display: block;
+    width: 75%;
+    float: left;
+    background-color: white;
+    margin-right: 1%;
+    margin-top: 1%;
+    padding: 1%;
+}
+
+article:first-child h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+aside {
+    display: block;
+    width: 18%;
+    float: left;
+    min-height: 602px;
+    background-color: pink;
+    padding: 1% 1% 1% 3%;
+    margin-top: 1%;
+}
+
+aside li {
+    font-size: 20px;
+    line-height: 2em;
+}
+
+aside h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* ========================= */
+
+/* ==========FOOTER============ */
+footer {
+    background-color: white;
+    padding: 2% 1%;
+    margin-top: 1%;
+}
+/* ============================ */
+
+
+
+
+@media (max-width: 1199px) {
+    body {
+        width: 100%;
+    }
+}

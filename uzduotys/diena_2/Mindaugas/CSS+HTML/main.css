@@ -1,0 +1,25 @@
+h1 {
+    color: red;
+  font-family: monospace;
+}
+h2 {
+    background-color: green;
+}
+.reklama {
+    background-color: blue;
+}
+#brand {
+    font-family: verdana;
+    color: orange;
+    font-size: 30px;
+}
+h2.reklama {
+    color: white
+}
+h2 .reklama {
+    color: orange
+}
+main section nav {
+    color: red;
+}
+/*  */

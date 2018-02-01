@@ -1,0 +1,66 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    background-color: rgb(95, 180, 203);
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(177, 112, 69);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+header {
+    background-color: rgba(136, 212, 95, 0.75);
+}
+
+nav {
+    height: 60px;
+    width: 60%;
+    background-color: rgb(94, 98, 29);
+    float: left;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    padding-top: 2px;
+    font-size: 22px;
+    float: left;
+    width: 19%;
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.clear-float {
+    clear: both;
+}
+
+#Paieska {
+    display: block;
+    height: 60px;
+    width: 40%;
+    background-color: rgb(94, 98, 29);
+    float: right;
+}
+
+input {
+    width: 50%;
+    height: 20px;
+    border: none;
+}
+
+button {
+    height: 22px;
+    width: 20%;
+}
+
+form {
+    padding-left: 80px;
+    padding-top: 19px;
+}

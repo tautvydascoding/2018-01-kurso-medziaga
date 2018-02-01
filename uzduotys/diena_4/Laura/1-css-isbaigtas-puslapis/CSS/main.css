@@ -1,0 +1,141 @@
+html {
+    background-color: #a2a2a2;
+}
+
+body {
+    /* centravimas X-asyje
+    1) reik width=xxxpx;
+    2) margin-left: auto;
+    3) margin-right: auto;
+    */
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,h2,h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    /* kiek i apacia, desine, apacia, isblukimas */
+    text-shadow: 0px 0px 20px #000;
+    color: #fff;
+}
+
+p {
+text-align: justify;
+}
+
+header {
+    background-color: #FF80FF;
+    height: 80px;
+}
+
+nav {
+    height: 80px;
+    display: block;
+    width: 60%;
+    background-color: #FF80FF;
+    float: left;
+}
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    padding-top: 12px;
+    float: left; /* nepamirsti clear float uzdeti */
+    width: 25%;
+
+    font-size: 29px;
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* --------search----- */
+#paieska {
+    display: block;
+    width: 40%;
+    height: 80px;
+    background-color: #FF80FF;
+
+    float: right;
+}
+input {
+    width: 60%;
+    height: 26px;
+    border: none;
+    background-color: #b2b2b2;
+    color: #fff;
+}
+form {
+    padding-top: 30px;
+}
+
+main {
+    width: 76%;
+    background-color: #fff;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+section {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 2%;
+}
+
+aside {
+    width: 18%;
+    background-color: #FF80FF;
+    margin-left: 2%;
+    /* automatinis aukstis */
+    /* ! nepamirsti ant tecio deti overflow:hidden ir ploti (pvz 100%)*/
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+
+footer {
+    height: 80px;
+    background-color: white;
+    margin-top: 2%;
+}
+
+form button {
+    width: 28%;
+    /* min-witdh: 50px */
+    height: 28px;
+    border: none;
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 0 10px 0 10px;
+}
+ form input {
+     border-radius: 10px;
+ }
+
+input[title] {
+    background-color: red;
+}
+
+/* MANO klases. Pernaudojimas dar karta *//
+
+.clearfloat {
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+
+/* --------nuo 0 iki 1199px---------  */
+@media (max-width: 1199px) {
+    body {
+        width: 100%;
+    }
+
+}

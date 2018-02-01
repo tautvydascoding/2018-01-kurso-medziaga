@@ -1,0 +1,95 @@
+body {
+    /* Centravimas x asyje (automatinis)
+    1) butinas plotis (width)
+    2) reikia paleisti margin-left: auto; ir margin-right: auto;*/
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    background-color: rgb(185, 194, 217)
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    font-size: 40px;
+    color: rgb(152, 161, 166);
+    text-shadow: 2px 2px #000;
+}
+
+header {
+    background-color: rgb(255, 128, 255);
+}
+
+nav {
+    height: 80px;
+    width: 60%;
+    background-color: rgb(255, 128, 255);
+    float: left;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    padding-top: 6px;
+    font-size: 22px;
+    float: left;
+    width: 25%;
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000
+}
+
+.clear-float {
+    clear: both;
+}
+
+#paieska {
+    display: block;
+    height: 80px;
+    width: 40%;
+    background-color: rgb(255, 128, 255);
+    float: right;
+}
+
+/* =====search==== */
+
+input {
+    width: 60%;
+    height: 26px;
+    border: none;
+    color: #fff;
+    border: solid;
+    border-color: rgb(96, 21, 61);
+    border-radius: 25px;
+}
+
+button {
+    background-color: rgb(96, 21, 61);
+    height: 36px;
+    width: 25%;
+    color: white;
+    border-radius: 25px;
+    border-color: rgb(96, 21, 61);
+    text-transform: capitalize;
+}
+
+form {
+    padding-top: 22px;
+    padding-left: 80px;
+}
+
+/*--======================== Media ============================--*/
+
+@media (max-width: 1199px) {
+    body {
+        width: 100%;
+    }
+}

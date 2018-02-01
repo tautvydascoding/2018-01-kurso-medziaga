@@ -11,10 +11,16 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
+h1,
+h2,
+h3 {
+    font-family: 'Rammetto One', cursive;
+}
 h1 {
-    color: red;
     text-align: center;
+    /* desine apacia isblukimas spalva */
+    text-shadow: 0px 0px 20px #000;
+    color: #fff;
 }
 p {
     text-align: justify;
@@ -27,14 +33,38 @@ nav {
     height: 80px;
     display: block;
     width: 60%;
-    background-color: #ffc3e8;
     float: left;
 }
-ul {
+nav ul {
     padding: 0;
 }
-
-li {
+form button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 0 10px 0 10px;
+    width: 25%;
+    /* min-width: 50px; */
+    height: 28px;
+    margin-top: 2px;
+}
+form input {
+    border-radius: 10px;
+}
+a[title]:hover:after   {
+    border: #c0c0c0 1px dotted;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+    background: url(../images/status-info.png) #f0f0f0 no-repeat 100% 5%;
+    left: 0px;
+    margin: 10px;
+    width: 250px;
+    position: absolute;
+    top: 10px;
+    text-decoration: none
+}
+nav li {
     padding-top: 12px;
     float: left; /* nepamirsti clear float uzdeti */
     width: 25%;
@@ -50,7 +80,6 @@ li {
     display: block;
     width: 40%;
     height: 80px;
-    background-color: red;
 
     float: right;
 }
@@ -83,6 +112,7 @@ aside {
     padding-bottom: 9999px;
     margin-bottom: -9999px;
 }
+
 /* --- pernaudojamas---- */
 .float-left {
     float: left;

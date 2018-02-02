@@ -1,0 +1,2 @@
+u - uzdaviniai
+skaicius - uzdavinio numeris.

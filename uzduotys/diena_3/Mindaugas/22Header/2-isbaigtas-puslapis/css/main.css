@@ -1,0 +1,123 @@
+html {
+    background-color: #a2a2a2;
+}
+body {
+    /* centravimas X-asyje
+    1) reik width=xxxpx;
+    2) margin-left: auto;
+    3) margin-right: auto;
+    */
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h1, h2, h3 {
+    font-family: "Permanent Marker", sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px 3px black;
+
+}
+h2 {
+    text-align: center;
+
+}
+p {
+    text-align: justify;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+header {
+    background-color: #FF80FF;
+}
+nav {
+    height: 80px;
+    display: block;
+    width: 55%;
+
+    float: left;
+}
+nav ul {
+    padding: 0;
+}
+.clearfloat {
+    clear: both;
+}
+nav li {
+    padding-top: 12px;
+    float: left; /* nepamirsti clear float uzdeti */
+    width: 25%;
+
+    font-size: 29px;
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: -2px;
+}
+main {
+    width: 80%;
+    background-color: #fff;
+}
+aside {
+    width: 19%;
+    background-color: #ff4aff;
+    margin-left: 1%;
+padding-bottom: 100%;
+margin-bottom: -100%;
+/*  automatinis aside aukscio apskaiciavimas
+ir nepamirsti ant tecio uzdeti Overflow: hidden*/
+}
+
+
+section {
+    margin-top: 1%;
+    overflow: hidden;
+    width: 100%;
+}
+.float-left {
+    float: left;
+}
+
+footer {
+    height: 60px;
+    margin-top: 1%;
+    background-color: #fff;
+    padding-top: 22px;
+}
+/* --------search----- */
+#paieska {
+    display: block;
+    width: 40%;
+    height: 80px;
+    padding-left: 10px;
+    float: right;
+}
+input {
+    width: 60%;
+    height: 26px;
+    border: none;
+    background-color: #b2b2b2;
+    color: #fff;
+}
+button {
+    border: none;
+    width: 30%;
+    height: 26px;
+}
+form {
+    padding-top: 22px;
+}
+
+
+
+/* --------nuo 0 iki 1199px---------  */
+@media (max-width: 1199px) {
+    body {
+        width: 100%;
+    }
+
+}

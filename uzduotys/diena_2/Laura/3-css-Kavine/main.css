@@ -1,0 +1,101 @@
+/* remeliu iskaiciamas i elementu ploti */
+
+* {
+    box-sizing: border-box;
+}
+
+/* ----------PATAISYMAI */
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.preke-paskutine {
+    margin-right: 2.5%;
+}
+
+article {
+    background-color: #b2b2b2;
+    width: 30%;
+    border: solid 2px #000;
+    width: 30%;
+    float: left;
+    margin-left: 2.5%;
+}
+
+.float-fix {
+    clear: both;
+}
+
+h2 {
+    /*kaip elementa padeti ekrane:
+    1. paversti absoliuciu;
+    2. pradeda veikti komandos:left,right, top, bottom;
+    3.uzdeti reletive, elementui kuriame norite skraidyti */
+    position: absolute;
+    /*- left, bottom, ..veikia tik "position absolute arba relative" */
+    top: 0px;
+    right: 0px;
+    margin: 0px;
+    border-left: solid 2px #000;
+    border-bottom: solid 2px #000;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.preke1 {
+    background-color: #d06bc6;
+}
+
+.preke2 {
+    background-color: #d63351;
+}
+
+.preke3 {
+    background-color: #fcc14e;
+}
+
+article {
+    position: relative;
+    z-index: 9;
+    padding-top: 29px;
+}
+
+/*--------MEDIJOS  PLANASETEM. nuo 0 iki 768px */
+@media (max-width: 768px) {
+    article {
+        width: 46.25%;
+        }
+        .preke-paskutine {
+            width: 95%;
+            margin-top: 2.5%
+        }
+}  /*uzsidaro media */
+
+/*----for mobile (nuo 0 iki 425) */
+@media (max-width: 425px) {
+    article {
+        width: 95%;
+    }
+
+    /* pseudo selector. iesko pirmo straipsnio article. */
+    article:first-of-type {
+        margin-bottom: 2.5%
+    }
+
+}

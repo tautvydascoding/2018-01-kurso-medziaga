@@ -1,0 +1,28 @@
+.aukstis-100 {
+    min-height: 100px;
+    max-height: 200px;
+    overflow: hidden;
+
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-400 {
+    height: 400px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+.bm {
+    margin-bottom: 5px;
+}
+.lm {
+    margin-left: 5px;
+    margin-right: 0;
+}
+section {
+    overflow: hidden;
+}

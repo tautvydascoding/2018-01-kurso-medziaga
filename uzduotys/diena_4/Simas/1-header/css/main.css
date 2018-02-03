@@ -1,0 +1,167 @@
+html {
+    background: #a2a2a2
+}
+body {
+    /* centravimas x asyje
+    1) butinas plotis
+    2) margin-left: auto;
+    3) margin-right: auto;
+     */
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+    text-align: center;
+    font-family: 'Rammetto One', cursive;
+    text-shadow: 0px 0px 20px #000000;
+    /* pirmas kiek i desine, i desine, isblukimas, spalva */
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Rammetto One', cursive;
+}
+
+p {
+    text-align: justify;
+}
+
+
+header {
+    height: 80px;
+    background: pink;
+}
+
+nav {
+    display: block;
+    width: 60%;
+    float: left;
+    height: 80px;     
+}
+
+ul {
+    padding: 0;
+}
+
+
+.navlist {
+    width: 25%;
+    float: left;
+    list-style: none;
+    padding-top: 12px;
+    font-size: 23px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* ---search--- */
+#search {
+    display: block;
+    width: 40%;
+    height: 80px;
+    float: left;
+}
+
+input {
+    width: 60%;
+    border: none;   
+    padding: 2%; 
+}
+
+form {
+    padding: 22px;
+}
+
+button {
+    width: 23%;
+    border: none;
+    background-color: black;
+    color: rgb(240, 240, 240);
+    padding: 2%;
+    border: none;
+    border-radius: 0 10px 0 10px;
+     
+}
+/* ================================ */
+
+/* ====ARTICLES AND RELATED */
+
+section {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+main {
+    display: block;
+    width: 75%;
+    background-color: rgb(240, 240, 240);;
+    margin-right: 1%;
+    margin-top: 1%;
+    padding: 1%;
+}
+
+article:first-child h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+aside {
+    display: block;
+    width: 19%;
+    /* aukstis veikia iki tol kol pakeiciamas lango dydis */
+    /* min-height: 602px; */
+    background-color: pink;
+    margin-top: 1%;
+    padding-left: 3%;
+    /* automatinis aukstis */
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+    /* ant tecio uzdeti overflow: hidden; */
+    /* ir pvz width: 100% */
+    /* ====== */
+}
+
+aside li {
+    font-size: 20px;
+    line-height: 2em;
+
+}
+
+aside h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* ========================= */
+
+/* ==========FOOTER============ */
+footer {
+    background-color: white;
+    padding: 2% 1%;
+    margin-top: 1%;
+}
+/* ============================ */
+
+
+/* Reusable code */
+
+.clearfloat {
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+/* ============== */
+
+
+
+@media (max-width: 1199px) {
+    body {
+        width: 100%;
+    }
+}

@@ -1,0 +1,55 @@
+h1 {
+    color: red;
+}
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+h1:hover {
+    color: blue;
+    cursor: pointer;
+}
+img:hover {
+    opacity: 0.5;
+}
+a {
+    background: none;
+    color: black;
+    border: 2px solid black;
+    width: 100px;
+    padding: 10px;
+    display: block;
+}
+a:hover {
+    text-decoration: none;
+    background-color: red;
+    color: black;
+    /* background-color: rgb(113, 11, 8); */
+}
+a:active {
+    background-color: rgb(24, 1, 0);
+}
+input:focus {
+    background-color: rgb(212, 212, 212);
+}
+section :first-child {
+    color: red;
+}
+/* or */
+h2:first-of-type {
+    color: green;
+}
+h2:nth-of-type(2n+1) {
+    background-color: blue;
+}
+footer h2:not(.ypatingas) {
+    background-color: yellow;
+}

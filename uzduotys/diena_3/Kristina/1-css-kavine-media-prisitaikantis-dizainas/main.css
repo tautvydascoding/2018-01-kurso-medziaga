@@ -6,6 +6,7 @@
 body {
     margin: 0;
 }
+/* remeliu iskaiciavimas i elemento ploti */
 
 h1 {
     color: red;
@@ -24,6 +25,7 @@ article {
     float: left;
 
     margin-left: 2.5%;
+    /* kad desini pask elm vienodai atitraukt */
 
 }
 .float-fix {
@@ -63,4 +65,27 @@ h2 {
 } */
 p {
     margin: 0;
+}
+
+/* for tablet (nuo 0 iki 786px)*/
+/* uzsidaryti media, ty. dvigubi {skliaustai} */
+
+@media  (max-width: 768px) {
+    article {
+        width: 46.25%;
+    }
+    .preke-paskutine {
+        width: 95%;
+        margin-top: 2.5%;
+    }
+}
+/* for mobile (nuo iki 425px)*/
+
+@media (max-width: 425px) {
+    article {
+        width: 95%;
+    }
+    article:first-of-type {
+        margin-bottom: 2.5%;
+    }
 }

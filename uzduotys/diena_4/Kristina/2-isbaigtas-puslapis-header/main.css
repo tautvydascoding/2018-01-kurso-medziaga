@@ -1,0 +1,130 @@
+html {
+    background-color: rgb(173, 173, 173);
+}
+body {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    color: #fff;
+    text-shadow: 0 0 20px #000;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+header {
+    background-color: rgb(166, 70, 147);
+}
+nav {
+    width: 60%;
+    height: 60px;
+    float: left;
+}
+/* .float-fixer {
+    clear: both;
+} */
+nav li {
+    width: 20%;
+    height: 30px;
+    list-style: none;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    border: solid 2px black;
+    /* background-color: none; */
+    float: left;
+}
+nav li:hover {
+    background-color: #fff;
+    color: #000;
+}
+nav li:active {
+    background-color: #b9b9b9;
+    color: #000;
+}
+
+/*  */
+
+#search {
+    width: 40%;
+    height:50px;
+    padding-left: 50px;
+    float: right;
+}
+form {
+    padding-top: 20px;
+    /* padding-left: 50px; */
+}
+
+input {
+    width: 20%;
+    height: 23px;
+    background-color: rgb(189, 189, 189);
+    border: none;
+}
+form button {
+    width: 10%;
+    height: 25px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 0 20px 0 20px;
+}
+
+/*  */
+
+section {
+    margin-top: 1%;
+    /* width: 100%; */
+    overflow: hidden;
+}
+main {
+    width: 79%;
+    background-color: #fff;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    /* float: left; */
+}
+aside {
+    width: 19%;
+    background-color: #fff;
+    margin-left: 1%;
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+    /* float: left; */
+}
+footer {
+    background-color: #fff;
+    height: 50px;
+}
+footer section {
+    padding: 5px;
+}
+
+/*  */
+
+main form {
+margin: 10px
+}
+main input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main button {
+    margin-top: 10px;
+}
+/*  */
+.float-left {
+    float: left;
+}
+.float-fixer {
+    clear: both;
+}

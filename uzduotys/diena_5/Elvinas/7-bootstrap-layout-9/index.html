@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>7-bootstrap-layout-9</title>
+
+  <!-- !!! mano CSS failas vissada zemiau, nie kiti css failai -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.css">
+
+  <!-- !!idedame CSS faila, nes kitaip neveiks -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- NOTE: jeigu neveikia:
+            1) ar failo pavadinimas geras
+            2) ar kelias geras?   (ar "/" teisingi; direktorija ar gere )
+            3) ar   rel="stylesheet"
+            4) ar link uzdalete ">"
+         -->
+</head>
+
+<body>
+  <div class="container">
+    <header class="row mb-2">
+      <div class="col-12 bg-success aukstis-100">
+        Header
+      </div>
+    </header>
+    <!-- end row -->
+
+    <div class="row">
+      <section class="col-3 mr-2">
+        <div class="row mb-2 bg-success aukstis-200">
+          <nav class="col">
+            nav
+          </nav>
+        </div>
+        <div class="row bg-success aukstis-200">
+          <aside class="col">
+            ads
+          </aside>
+        </div>
+      </section>
+      <!-- end col -->
+
+      <section class="col">
+        <div class="row mb-2 bg-success aukstis-300">
+          <main class="col">
+            Article
+          </main>
+        </div>
+        <div class="row bg-success aukstis-100">
+          <footer class="col">
+            footer
+          </footer>
+        </div>
+      </section>
+
+
+    </div>
+  </div>
+
+</body>
+
+</html>

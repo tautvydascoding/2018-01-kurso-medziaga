@@ -1,0 +1,95 @@
+body {
+    /* vcentravimas x asyje:
+    1. width
+    2. margin-left:auto
+    3. margin-right:auto */
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    color: red;
+    text-align: center;
+}
+header {
+    background-color: #FF80FF;
+}
+nav {
+    height: 80px;
+    display: block;
+    width: 60%;
+    background-color: #ffc3e8;
+    float: left;
+}
+ul {
+    padding: 0;
+}
+.clearfloat {
+    clear: both;
+}
+li {
+    padding-top: 10px;
+    float: left;
+
+    width: 25%;
+    font-size: 29px;
+    list-style: none; /* nueme rutuliukus */
+    text-transform: uppercase;
+    text-align: center;
+}
+/* search */
+#paieska {
+    display: block;
+    width: 40%;
+    height: 80px;
+    background-color: #ffc3e8;
+    float: right;
+}
+input {
+    width: 60%;
+    height: 26px;
+    border: none;
+    background-color: #white;
+    color: #fff;
+}
+button {
+    width: 60px;
+    height: 28px;
+    color: white;
+    background-color: black;
+}
+form {
+    padding-left: 90px;
+    padding-top: 28px;
+}
+/* ---------nuo 0 iki 1199px---- */
+@media (max-width: 1199px) {
+    body {
+        width: 100%;
+    }
+}
+main {
+    background-color: yellow;
+    width: 69%;
+    height: 80%;
+    padding: 10px;
+    position: relative;
+    float: left;
+}
+.float-fix {
+    clear: both;
+}
+aside {
+    background-color: green;
+    width: 27.65%;
+    height: 420px;
+    padding: 10px;
+    position: relative;
+    float: left;
+}
+.float-fix {
+    clear: both;
+}
+h2, h3 {
+    text-align: center;
+}

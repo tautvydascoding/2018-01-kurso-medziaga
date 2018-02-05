@@ -1,0 +1,43 @@
+/* h1 {
+    color: red;
+} */
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+
+/* vaiku keitimas */
+.raudona {
+    background-color: red;
+}
+/* h2.raudona {
+    background-color: red;
+} */
+/* kai taskas be tarpo iesko vaiko */
+
+
+section.raudona {
+    background-color: yellow;
+}
+/* svoriai */
+.melyna {
+    background-color: blue;
+}
+h2 {
+    background-color: green;
+}
+/* css svoriai naudojant teva (sumuojant)  */
+h1 {
+    color: purple;
+}
+div h1 {
+    color: yellow;
+}

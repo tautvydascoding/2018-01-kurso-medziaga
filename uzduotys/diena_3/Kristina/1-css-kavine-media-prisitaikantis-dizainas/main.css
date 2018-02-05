@@ -1,0 +1,91 @@
+/* remeliu iskaiciavimas i elemento ploti */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+/* remeliu iskaiciavimas i elemento ploti */
+
+h1 {
+    color: red;
+    text-align: center;
+}
+.preke-paskutine {
+    margin-right: 2.5%;
+}
+article {
+    background-color: #b2b2b2;
+    width: 30%;
+    border: solid 2px #000;
+    position: relative;
+    padding: 10px;
+    padding-top: 40px;
+    float: left;
+
+    margin-left: 2.5%;
+    /* kad desini pask elm vienodai atitraukt */
+
+}
+.float-fix {
+    clear: both;
+}
+/*paverciam garais, gali vaiksciot bet kaip
+kaip elementa padeti bet kur
+1. elm. paversti absoliuciu
+2. pradeda veikti: left, right, top, bottom
+3. uzdeti relative tam elm kurio ribose nori skraidyti
+ */
+h2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 0;
+    border-bottom: solid 2px #000;
+    border-left: solid 2px #000;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.preke1 {
+    background-color: #db76ab;
+}
+.preke2 {
+    color: white;
+    background-color: #584ed2;
+}
+.preke3 {
+    background-color: #07e709;
+}
+/* article {
+    position: relative;
+    padding-top: 29px;
+} */
+p {
+    margin: 0;
+}
+
+/* for tablet (nuo 0 iki 786px)*/
+/* uzsidaryti media, ty. dvigubi {skliaustai} */
+
+@media  (max-width: 768px) {
+    article {
+        width: 46.25%;
+    }
+    .preke-paskutine {
+        width: 95%;
+        margin-top: 2.5%;
+    }
+}
+/* for mobile (nuo iki 425px)*/
+
+@media (max-width: 425px) {
+    article {
+        width: 95%;
+    }
+    article:first-of-type {
+        margin-bottom: 2.5%;
+    }
+}

@@ -4,7 +4,7 @@
 
 // teo:
 //  typeof( k ); f-ja kuri isveda kintamojo tipa
- 
+
 
 //  2 UZDUOTIS
 // sukurti funkcija "printVardasPavardeAmzius()" , kuri atspausdina i konsole pirmos uzduoties kintamuosius
@@ -19,7 +19,7 @@
 // A) sukurti kintamuosius:  salis, miestas, adresas, pastoKodas
 // B) sukurti f-ja "printAddressData()",  kuri atspausdina i konsole visus siuos kintamuosius
 
-// ---- advance----- 
+// ---- advance-----
 
 //  5 UZDUOTIS
 // sukurti funkcija "printTekstas(x)" ,
@@ -34,11 +34,4 @@
 // F-ja kuri paskaiciuoja trikampio ilgaja krastine (Pitagoro teorema)
 // pitagoroTeorema(x, y)      x*x + y*y
 
-//==========================KOMANDINE (3-4h) Bootstrap && GIT=================
-// ant lentos
-
-
-
-
-
-
+//==========================  Bootstrap  =================

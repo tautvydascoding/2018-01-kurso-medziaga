@@ -1,0 +1,9 @@
+pasikartoti IF
+
+sukurti js zaidima, popierius , akmuo, zirkles : 
+https://www.codecademy.com/courses/javascript-beginner-en-Bthev-mskY8/0/1 
+
+
+// pasikartoti antradieni
+// parasyti f-ja "getPelnas(pajamos, mokesciai, mokesciai2)", kuri apskaiciuoja pelna is  paduotu pajamu atimdama paduotus mokescius, ir poto vel atimdama mokescius2
+// pajamos 1500, mokesciai 2.5%, mokesciai2  1.5%

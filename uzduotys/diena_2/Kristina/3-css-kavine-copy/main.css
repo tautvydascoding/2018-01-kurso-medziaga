@@ -12,14 +12,13 @@ article {
     clear: both;
 }
 /*paverciam garais, gali vaiksciot bet kaip */
-h2 {
+/* h2 {
     position: absolute;
     right: 50px;
 }
 article {
     position: relative;
-    z-index: 9
-}
+} */
 /*  */
 span {
     padding: 5px;

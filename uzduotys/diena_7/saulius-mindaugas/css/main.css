@@ -1,11 +1,9 @@
-
 .aukstis-500 {
     height: 500px;
 }
 
 .bg-image {
     background-image: url("../img/bg.jpg");
-    background-attachment: fixed;
     background-size: cover;
     width: 100%;
     position: relative;
@@ -14,30 +12,48 @@
 .ad {
     color: rgb(195, 187, 210);
 }
+
 .bg-top {
-    background-color: rgb(245, 226, 230);
+    background-color: rgb(199, 197, 196);
 }
+
 ul {
     list-style-type: none;
-  }
+}
 
-  .stocklogo {
-      width: 80px;
-      height: 80px;
-  }
-  .stocklogo2 {
-      width: 150px;
-      height: 150px;
-  }
-  .padding-0 {
-      padding: 0;
-  }
-  .text-justified {
-      text-align: justify;
-  }
-  .baltas {
-      color: white;
-  }
-  .padding-10 {
-      padding: 10%;
-  }
+.stocklogo {
+    width: 80px;
+    height: 80px;
+}
+
+.stocklogo2 {
+    width: 150px;
+    height: 150px;
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+.text-justified {
+    text-align: justify;
+}
+
+.baltas {
+    color: white;
+}
+
+.padding-10 {
+    padding: 10%;
+}
+
+.apskritims {
+    border-radius: 100%;
+    min-height: 20rem;
+}
+.kubas {
+    border: solid;
+    border-width: 3px;
+    border-color: rgb(127, 130, 128);
+    border-radius: 30px;
+}

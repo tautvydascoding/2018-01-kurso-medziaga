@@ -90,9 +90,19 @@ p{
 /* Plansetems */
 @media (max-width: 768px){      /* atsidaro media */
 article{                        /* atsidaro */
-    width: 46.25%;
+    width: 44.25%;
 }    /* uzsidaro */
 .third{
     width: 95%;
-}
+    margin-top: 2.5%;
+    }
 }     /* uzsidaro media */
+/* mobiliesiems telefonams */
+@media (max-width: 425px){
+    article{
+        width: 95%;
+    }
+    article:first-of-type{
+        margin-bottom: 2.5%;
+    }
+}

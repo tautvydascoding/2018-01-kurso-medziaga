@@ -1,0 +1,98 @@
+/* remeliu iskaiciavimas i elemento ploti */
+* {
+     box-sizing: border-box;
+ }
+/* ----------- */
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+.preke-paskutine {
+    margin-right: 2.5%;
+
+}
+article {
+    background-color: #b2b2b2;
+    border: solid 2px #000;
+    padding-top: 29px;
+
+    /* i viena eilute elmemtu dejimas:
+        1) elementai turi "width"
+        2) VISI elementai turi "float" (kurie norite kad butu vienoje eil.)
+        3) baigus naudoti float, ji isjungti:
+            sukurti elementa ir paleisti "clear: both;"
+     */
+    width: 30%;
+    float: left;
+
+    margin-left: 2.5%;
+}
+.float-fix {
+    clear: both;
+}
+
+h2 {
+    /*
+    kaip elementa padeti bet kur ekrane
+    1) elm. paversti absoliuciu
+    2) pradeda veikti: left, right, top, bottom
+    3) ~ uzdeti position: reletive elmentui, kuriame jus norite skraidyti
+    */
+
+    /* paverciam "garais" */
+    position: absolute;
+    /* left, bottom, ... veikia tik "position: absolute; arba reletive"  */
+    top: 0px;
+    right: 0px;
+    margin: 0;
+    border-left: solid 2px #000;
+    border-bottom: solid 2px #000;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.preke1 {
+    background-color: #feaa71;
+}
+.preke2 {
+    background-color: #cfaff9;
+}
+.preke3 {
+    background-color: #e2fc8d;
+}
+article {
+    position: relative;
+}
+
+@media (max-width: 768px) {
+
+  article {
+    width: 46.25%;
+
+  }
+
+  .preke-paskutine {
+    width: 95%;
+    margin-top: 2.5%;
+}
+
+}
+/* uzsidaro media */
+
+/* for  mobile (nuo 0 iki 425) */
+@media (max-width: 425px) {
+  article {
+    width: 95%; }
+
+    article:first-of-type {
+      margin-bottom: 2.5%;
+
+    }
+
+}

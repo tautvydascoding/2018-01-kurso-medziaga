@@ -4,7 +4,7 @@
 
 // teo:
 //  typeof( k ); f-ja kuri isveda kintamojo tipa
- 
+
 
 //  2 UZDUOTIS
 // sukurti funkcija "printVardasPavardeAmzius()" , kuri atspausdina i konsole pirmos uzduoties kintamuosius
@@ -19,8 +19,7 @@
 // A) sukurti kintamuosius:  salis, miestas, adresas, pastoKodas
 // B) sukurti f-ja "printAddressData()",  kuri atspausdina i konsole visus siuos kintamuosius
 
-// ---- advance----- 
-
+// ---- advance-----
 //  5 UZDUOTIS
 // sukurti funkcija "printTekstas(x)" ,
 //  kuri atspausdina i konsole "x" reiksmes
@@ -36,9 +35,3 @@
 
 //==========================KOMANDINE (3-4h) Bootstrap && GIT=================
 // ant lentos
-
-
-
-
-
-

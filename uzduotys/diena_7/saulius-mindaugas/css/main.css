@@ -13,3 +13,24 @@ h1 {
 .aukstis-500 {
     height: 500px;
 }
+a {
+    color: black;
+    font-size: 2rem;
+}
+#logo {
+    height: 1.8rem;
+}
+
+.loglog {
+    height: 200px;
+}
+.bgim {
+    background: url('../images/2.jpg');
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    
+
+
+
+}

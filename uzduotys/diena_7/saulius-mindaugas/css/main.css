@@ -1,7 +1,9 @@
 .aukstis-500 {
     height: 500px;
 }
-
+.aukstis-300 {
+    height: 300px;
+}
 .bg-image {
     background-image: url("../img/bg.jpg");
     background-size: cover;
@@ -73,7 +75,7 @@ a {
     background-size: cover;
     background-position: center center;
     width: 100%;
-    
+
 
 
 

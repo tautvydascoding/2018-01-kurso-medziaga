@@ -1,19 +1,51 @@
 body {background-color: rgba(221, 209, 205, 0.44)}
 
-img {width: 100px;
-    height: 100px;
 
 }
 main {
-    background-image: image(Pictures/fonas.jpg);
+
+}
+
+
+.registracija {position: absolute;
+
+
+}
+
+.kaire {background-color: rgb(220, 207, 221);
+
 }
 .vidurys { justify-content: center;
+        background-color: rgb(220, 207, 221);
 
 }
 .desine {justify-content: flex-end;
+        background-color: rgb(220, 207, 221);
 
 }
-.auto {width: 100px;
-        height: 100px;
+header {position: relative;
 
+}
+.pav {position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+
+}
+a {font-style: oblique;
+    font-weight: bold;
+
+}
+
+nav {background-color: rgb(6, 178, 184);
+    height: 100px;
+
+}
+.fonas { height: 500px;
+        width: inherit;
+
+}
+.logo {width: 120px;
+        height: 30px;
 }

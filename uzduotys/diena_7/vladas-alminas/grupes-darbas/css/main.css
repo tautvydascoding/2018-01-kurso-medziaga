@@ -1,15 +1,19 @@
-h1 {
-    color: red;
-}
-.aukstis-100 {
+body {background-color: rgba(221, 209, 205, 0.44)}
+
+img {width: 100px;
     height: 100px;
+
 }
-.aukstis-200 {
-    height: 200px;
+main {
+    background-image: image(Pictures/fonas.jpg);
 }
-.aukstis-300 {
-    height: 300px;
+.vidurys { justify-content: center;
+
 }
-.aukstis-500 {
-    height: 500px;
+.desine {justify-content: flex-end;
+
+}
+.auto {width: 100px;
+        height: 100px;
+
 }

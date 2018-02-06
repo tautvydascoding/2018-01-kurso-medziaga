@@ -32,6 +32,11 @@ top: 0;
     height: 50px;
     width: 50px;
 }
+
+.navi { margin-bottom: 30px;
+    justify-content: space-between;
+
+}
 .nav{
     margin-top: 20%;
 
@@ -50,8 +55,16 @@ main {
 
 }
 
+.buton {position: relative;
 
+}
 .registracija {position: absolute;
+                top: 50%;
+                right: 50%;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 7px;
+                padding-bottom: 7px;
 
 
 }

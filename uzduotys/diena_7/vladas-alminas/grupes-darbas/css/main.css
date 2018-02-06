@@ -1,8 +1,51 @@
-body {background-color: rgba(221, 209, 205, 0.44)}
+.img-circle{
+    width: 100%;
+    border-radius: 50%;;
+}
+.photo{
+    margin-top: 5%;
+    width: 80%;
+}
+.center{
+    text-align: center;
+    margin-top: 10%;
+    padding: 2%;
+
+}
+.bg{
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.straipsnis{
+    text-align: center;
+    margin-top: 5%;
+}
+.last_photo{
+    width: 100%;
+position: absolute;
+left: 0;
+top: 0;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.nav{
+    margin-top: 20%;
+
+
+
+=======
+
 
 
 }
 main {
+
+}
+.fonas { height: 500px;
+        width: inherit;
 
 }
 
@@ -36,16 +79,4 @@ header {position: relative;
 a {font-style: oblique;
     font-weight: bold;
 
-}
-
-nav {background-color: rgb(6, 178, 184);
-    height: 100px;
-
-}
-.fonas { height: 500px;
-        width: inherit;
-
-}
-.logo {width: 120px;
-        height: 30px;
 }

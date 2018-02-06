@@ -1,15 +1,83 @@
-h1 {
-    color: red;
+
+.img-circle{
+    width: 100%;
+    border-radius: 50%;;
 }
-.aukstis-100 {
+.photo{
+    margin-top: 5%;
+    width: 80%;
+}
+.center{
+    text-align: center;
+    margin-top: 10%;
+    padding: 2%;
+
+}
+.bg{
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.straipsnis{
+    text-align: center;
+    margin-top: 5%;
+}
+.last_photo{
+    width: 100%;
+position: absolute;
+left: 0;
+top: 0;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.nav{
+    margin-top: 20%;
+
+
+
+=======
+
+
+
+}
+main {
+
+}
+.fonas { height: 500px;
+        width: inherit;
+
+}
+
+
+.registracija {position: absolute;
+
+
+}
+
+.kaire {background-color: rgb(220, 207, 221);
+
+}
+.vidurys { justify-content: center;
+        background-color: rgb(220, 207, 221);
+
+}
+.desine {justify-content: flex-end;
+        background-color: rgb(220, 207, 221);
+
+}
+header {position: relative;
+
+}
+.pav {position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
     height: 100px;
+
 }
-.aukstis-200 {
-    height: 200px;
-}
-.aukstis-300 {
-    height: 300px;
-}
-.aukstis-500 {
-    height: 500px;
+a {font-style: oblique;
+    font-weight: bold;
+
 }

@@ -1,0 +1,72 @@
+h1 {
+    color: yellow;
+}
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+
+
+/* NAUJAS */
+
+h1:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+
+/* MYGTUKASSSS */
+a {
+    background-color: red;
+    width: auto;
+    /* auto veikia tik su inline */
+    padding: 30px;
+    display: inline-block;
+    /* arba display: block; */
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #2d2f2b;
+}
+
+a:active {
+    background-color: #090005;
+}
+
+input:focus {
+    background-color: #ee3a50;
+}
+
+section :first-child {
+    color: red;
+}
+
+h2:first-of-type {
+    color: green;
+}
+
+/* nusidazo kas antra eilute */
+h2:nth-last-of-type(2n) {
+    background-color: blue;
+}
+
+footer h2:not(.ypatingas) {
+    background-color: yellow;
+}
+
+.alert {
+    color: blue
+}

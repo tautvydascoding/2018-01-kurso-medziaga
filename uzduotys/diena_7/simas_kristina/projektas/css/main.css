@@ -57,3 +57,7 @@ body {
 .padding-0 {
     padding: 0;
 }
+
+.text-justified {
+    text-align: justify;
+}

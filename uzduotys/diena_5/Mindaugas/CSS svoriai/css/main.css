@@ -1,0 +1,68 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+/* h1::after {
+    background-color: red;
+    width: 100px;
+    height: 20px;
+    content: "   ";
+    display: inline-block;
+}
+h1::before {
+    background-color: red;
+    width: 100px;
+    height: 20px;
+    content: "   ";
+    display: inline-block;
+} */
+h2::before {
+    background: url('../2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 250px;
+    content: " ";
+    display:inline-block;
+}
+h1::first-letter {
+    font-size: 70px;
+}
+img:hover {
+    opacity: 0.2;
+
+
+}
+a {
+    background-color: red;
+    width: auto;
+    padding: 30px;
+    color: white;
+    display: block;
+    align-items: center;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: black;
+}
+a:active {
+
+    background-color: blue;
+}
+p[class] {
+    color: darkcyan;
+}

@@ -38,23 +38,46 @@ top: 0;
 
 
 =======
-/* body {background-color: rgba(221, 209, 205, 0.44)} */
 
-img {width: 100px;
-    height: 100px;
+
 
 }
 main {
-    background-image: image(Pictures/fonas.jpg);
+
+}
+.fonas { height: 500px;
+        width: inherit;
+
+}
+
+
+.registracija {position: absolute;
+
+
+}
+
+.kaire {background-color: rgb(220, 207, 221);
+
 }
 .vidurys { justify-content: center;
+        background-color: rgb(220, 207, 221);
 
 }
 .desine {justify-content: flex-end;
+        background-color: rgb(220, 207, 221);
 
 }
-.auto {width: 100px;
-        height: 100px;
+header {position: relative;
 
->>>>>>> 4ff6fdfc5b5fef0819bca1c37f7963c39ce11c82
+}
+.pav {position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+
+}
+a {font-style: oblique;
+    font-weight: bold;
+
 }

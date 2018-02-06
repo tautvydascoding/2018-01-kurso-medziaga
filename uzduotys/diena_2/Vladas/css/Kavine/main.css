@@ -1,10 +1,13 @@
 h1 {color: red;
+    text-align: center;
+    font-style: italic;
 }
 .pagr {color: black; text-align: center; w }
 article {background-color: grey;
-        width: 30%;
+        width: 31%;
         border: solid 2px #000;
         float: left;
+
         }
 .float-fix {clear: both; }
 
@@ -12,7 +15,18 @@ article {background-color: grey;
 1 kad elementai turetu ploti
 2 visiems elementams uzdeti float rigt arba left.    */
 h2 {position: absolute;
-    right: 50px;
-    font-size: 90px; }
+    right: -2px;
+    font-size: 20px;
+    background-color: pink;
+    top: -14px;
+    border: solid 2px #000;
+    padding-right: 10px;
+    
+     }
 article {position: relative;
-        z-index: 9; }
+    top: 35px;
+    margin: 1%;
+         }
+.green {background-color: red;
+        color: white; }
+.blue {background-color: yellow; }

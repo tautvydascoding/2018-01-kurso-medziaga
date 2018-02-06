@@ -1,0 +1,72 @@
+body{
+    /* Centravimas X asyje */
+    /* 1) butinas plotis
+        2) margin */
+    margin-left: auto;
+    margin-right: auto;
+    width: 1260px;
+}
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+header{
+    height: 100px;
+    background-color: red;
+/* float: right; */
+}
+nav{
+    width: 60%;
+    float: left;
+    background-color: blue;
+}
+li{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    /* arba */
+    /* display: inline; */
+    width: 25%;
+    background-color: green;
+}
+/* reiketu naudot po kiekvienu float funkcijos */
+.clearfloat{
+    clear: both;
+}
+/* Mygtukas Search */
+#search{
+    background-color: orange;
+    display: block;
+    float: right;
+    width: 40%;
+    height: 60%;
+    padding-top: 30px;
+}
+input{
+    width: 60%;
+    height: 50%;
+    border: none;
+    color: blue;
+}
+form{
+    display: inline;
+    /* padding-top: 30px; */
+}
+/* Mygtukas */
+aside{
+    float: right;
+}
+main{
+    float: left;
+}
+
+/* Medijos */
+@media (max-width: 1259){
+    body{
+        width: 100%;
+    }
+}

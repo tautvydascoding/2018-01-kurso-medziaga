@@ -1,0 +1,62 @@
+
+body {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+header {
+    background: #FF80FF;
+}
+
+nav {
+    width: 60%;
+    background: red;
+    height: 80px;
+    display: block;
+    float: left;
+}
+
+nav li {
+    float: left;
+    width: 25%;
+    list-style: none;
+    padding-top: 12px;
+    font-size: 29px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#paieska {
+    width: 40%;
+    height: 80px;
+    display: block;
+    float: right;
+    background-color: green;
+}
+
+input {
+    width: 60%;
+    height: 26px;
+    border: none;
+    background-color: #b2b2b2;
+    color: white;
+}
+
+form {
+    padding-top: 22px;
+}
+
+
+/* IDEA: MEDIA */
+
+@@media (max-width: 1199px) {
+    body {
+        width: 100%;
+    }
+}

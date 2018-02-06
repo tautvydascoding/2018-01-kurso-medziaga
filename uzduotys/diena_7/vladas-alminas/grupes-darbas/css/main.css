@@ -1,17 +1,21 @@
-body{
-}
 .img-circle{
     width: 100%;
     border-radius: 50%;;
 }
 .photo{
+    margin-top: 5%;
     width: 80%;
 }
 .center{
     text-align: center;
     margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 2%;
+
+}
+.bg{
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .straipsnis{
     text-align: center;
@@ -23,6 +27,33 @@ position: absolute;
 left: 0;
 top: 0;
 }
+.logo{
+    height: 50px;
+    width: 50px;
+}
 .nav{
     margin-top: 20%;
+
+
+
+=======
+/* body {background-color: rgba(221, 209, 205, 0.44)} */
+
+img {width: 100px;
+    height: 100px;
+
+}
+main {
+    background-image: image(Pictures/fonas.jpg);
+}
+.vidurys { justify-content: center;
+
+}
+.desine {justify-content: flex-end;
+
+}
+.auto {width: 100px;
+        height: 100px;
+
+>>>>>>> 4ff6fdfc5b5fef0819bca1c37f7963c39ce11c82
 }

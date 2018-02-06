@@ -1,0 +1,13 @@
+li{
+    display: inline;
+    background-color: blue;
+
+    justify-content:center;
+}
+ul{
+        text-align:right;
+        margin-top: 50px;
+}
+body{
+    background-image: "./images/GoodBook.jpg";
+}

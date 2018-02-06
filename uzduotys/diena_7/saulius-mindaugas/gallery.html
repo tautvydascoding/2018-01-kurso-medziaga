@@ -1,47 +1,109 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Gallery</title>
 
-        <!-- !!! mano CSS failas vissada zemiau, nie kiti css failai -->
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-        <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.css">
+<head>
+    <meta charset="utf-8">
+    <title>Gallery</title>
 
-        <!-- !!idedame CSS faila, nes kitaip neveiks -->
-        <link rel="stylesheet" href="./css/main.css">
-        <!-- NOTE: jeigu neveikia:
+    <!-- !!! mano CSS failas vissada zemiau, nie kiti css failai -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.css">
+
+    <!-- !!idedame CSS faila, nes kitaip neveiks -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- NOTE: jeigu neveikia:
             1) ar failo pavadinimas geras
             2) ar kelias geras?   (ar "/" teisingi; direktorija ar gere )
             3) ar   rel="stylesheet"
             4) ar link uzdalete ">"
          -->
-    </head>
-    <body>
+</head>
 
-<div class="container">
-    <section class="row-12">
-<div class="col">
-    
-</div>
-<div class="col">
+<body class="bg-top">
 
-</div>
-<div class="col">
+    <section class="container ">
+        <div class="row">
+            <div class="col-4 offset-4">
+                <img class="rounded-circle mx-auto d-block img-fluid" src="./img/stock1.jpg" alt="stock1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img class="rounded-circle mx-auto d-block img-fluid" src="./img/stock2.jpg" alt="stock2">
+            </div>
+            <div class="col-4 offset-4">
+                <img class="rounded-circle mx-auto d-block img-fluid" src="./img/stock3.jpg" alt="stock3">
 
-</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4 offset-4">
+                <img class="rounded-circle mx-auto d-block img-fluid" src="./img/stock4.jpg" alt="stock4">
+            </div>
+        </div>
+
     </section>
-
-</div>
-
+    <!-- IDEA: end container -->
 
 
 
-        <!-- js puslapio apacioje -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <!-- !!! mano js failas - VISADA pats zemiausias -->
-        <script type="text/javascript" src="js/main.js">     </script>
-    </body>
+    <div class="container-fluid bg-image">
+        <section class="row">
+            <div class="col-lg-6 col-sm-12 padding-10 d-flex align-items-center">
+                <img class="mx-auto d-block img-fluid" src="./img/stock5.jpg" alt="child">
+            </div>
+            <div class="col-lg-6 sm-12 padding-10 align-self-center">
+                <h2 class="d-flex justify-content-center baltas">antraste</h2>
+                <p class="text-justified baltas">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </section>
+    </div>
+    <!-- IDEA: end container -->
+
+
+    <div class="container">
+        <div class="row">
+            <div class="padding-10 col-12 align-self-center">
+                <h2 class="d-flex justify-content-center">
+                    antraste
+                </h2>
+                <p class="text-justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </div>
+    <!-- IDEA: end container -->
+
+
+    <!-- IDEA: Footeris -->
+    <footer class="container">
+        <div class="row">
+            <div class="col-6">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><img src="./img/stock-logo.jpg" alt="stocklogo" class="stocklogo"></li>
+                </ul>
+            </div>
+            <div class="col-6 d-flex justify-content-end padding-0">
+                <img src="./img/stocklogo2.jpg" alt="stocklogo2" class="stocklogo2">
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+    <!-- js puslapio apacioje -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- !!! mano js failas - VISADA pats zemiausias -->
+    <script type="text/javascript" src="js/main.js">
+    </script>
+</body>
+
 </html>

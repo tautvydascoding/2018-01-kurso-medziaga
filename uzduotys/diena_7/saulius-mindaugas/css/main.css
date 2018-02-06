@@ -1,15 +1,43 @@
-h1 {
-    color: red;
-}
-.aukstis-100 {
-    height: 100px;
-}
-.aukstis-200 {
-    height: 200px;
-}
-.aukstis-300 {
-    height: 300px;
-}
+
 .aukstis-500 {
     height: 500px;
 }
+
+.bg-image {
+    background-image: url("../img/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+.ad {
+    color: rgb(195, 187, 210);
+}
+.bg-top {
+    background-color: rgb(245, 226, 230);
+}
+ul {
+    list-style-type: none;
+  }
+
+  .stocklogo {
+      width: 80px;
+      height: 80px;
+  }
+  .stocklogo2 {
+      width: 150px;
+      height: 150px;
+  }
+  .padding-0 {
+      padding: 0;
+  }
+  .text-justified {
+      text-align: justify;
+  }
+  .baltas {
+      color: white;
+  }
+  .padding-10 {
+      padding: 10%;
+  }

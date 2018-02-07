@@ -49,9 +49,9 @@ ul {
     padding: 10%;
 }
 
-.apskritims {
-    border-radius: 100%;
-    min-height: 20rem;
+.rounded-circle {
+    /* border-radius: 100%; */
+    /* min-height: 20rem; */
 }
 .kubas {
     border: solid;

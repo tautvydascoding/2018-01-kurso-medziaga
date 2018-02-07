@@ -1,0 +1,76 @@
+h1 {
+    color: red;
+}
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+h1::after {
+    background-color: green;
+    width: 100px;
+    height: 20px;
+    content: " ";
+    display: inline-block;
+}
+h1::before {
+    background-color: green;
+    width: 100px;
+    height: 20px;
+    content: " ";
+    display: inline-block;
+}
+
+/* IDEA: photo idejimui */
+/* h2::before {
+    background: url('../2.jpg') no-repeat;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    content: " ";
+    background-size: cover; */
+}
+    h1:hover {
+    color: blue;
+    cursor: pointer;
+
+    }
+    img:hover {
+        opacity: 0.5;
+    }
+
+a:hover {
+    text-decoration: none;
+    background-color: rgb(125, 11, 11);
+    }
+    a:active {
+        background-color: rgb(59, 6, 6);
+    }
+
+a {background-color: red;
+    max-width: 150px;
+    display: block;
+    padding: 10px;
+}
+input:focus {
+    background-color: rgb(213, 235, 226);
+}
+h2 {color: red;}
+section :first-child {color: green;}
+h2:first-of-type {color: blue;}
+
+/* h2:nth-last-of-type(1n+2) {background-color: yellow;} */
+
+footer h2:not(.ypatingas) {background-color: orange;}
+
+/* h1::first-letter {
+    font-size: 200%;
+    color: green;
+} */

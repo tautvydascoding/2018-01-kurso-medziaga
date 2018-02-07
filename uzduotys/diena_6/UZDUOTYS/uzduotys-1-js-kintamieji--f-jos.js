@@ -20,7 +20,6 @@
 // B) sukurti f-ja "printAddressData()",  kuri atspausdina i konsole visus siuos kintamuosius
 
 // ---- advance-----
-
 //  5 UZDUOTIS
 // sukurti funkcija "printTekstas(x)" ,
 //  kuri atspausdina i konsole "x" reiksmes
@@ -34,4 +33,5 @@
 // F-ja kuri paskaiciuoja trikampio ilgaja krastine (Pitagoro teorema)
 // pitagoroTeorema(x, y)      x*x + y*y
 
-//==========================  Bootstrap  =================
+//==========================KOMANDINE (3-4h) Bootstrap && GIT=================
+// ant lentos

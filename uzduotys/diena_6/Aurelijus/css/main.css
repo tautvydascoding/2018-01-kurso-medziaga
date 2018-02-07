@@ -1,0 +1,48 @@
+.aukstis-100{
+    height: 100px;
+    /* max-height: 200px; */
+}
+.aukstis-200{
+    height: 200px;
+}
+.aukstis-300{
+    height: 300px;
+}
+.aukstis-400{
+    height: 400px;
+}
+.aukstis-500{
+    height: 500px;
+}
+.no-padding{
+    padding-left: 0px;
+}
+.minusine-stuma{
+    margin-bottom: -8px;
+}
+.auto-aukstis{
+    height: 100vh;
+}
+/* vaiku keitimas */
+.raudona{
+    background-color: red;
+}
+h2 .raudona{
+    background-color: orange;
+}
+/* end */
+
+.melyna{    /* IDEA: melyna laimes, nes klases yra 10 kartu stipresnes */
+    background-color: blue;
+}
+h1{
+    background-color: green;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+/* body{
+    background-image:
+    img src="./images/GoodBook.jpg";
+} */

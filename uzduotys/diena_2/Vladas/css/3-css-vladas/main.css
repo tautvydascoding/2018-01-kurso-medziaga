@@ -1,0 +1,54 @@
+* {box-sizing: border-box; }
+body {margin: 0; }
+
+
+h1 {
+    color: red;
+    text-align: center;
+}
+article {
+    background-color: #b2b2b2;
+    border: solid 2px;
+
+    /* i viena eilute elmemtu dejimas:
+        1) elementai turi "width"
+        2) VISI elementai turi "float" (kurie norite kad butu vienoje eil.)
+        3) baigus naudoti float, ji isjungti:
+            sukurti elementa ir paleisti "clear: both;"
+     */
+    width: 30%;
+    float: left;
+}
+.float-fix {
+    clear: both;
+}
+
+h2 {
+    /* paverciam "garais" skraido bet kur puslapyje */
+    position: absolute;
+    right: 0px;
+    top: 0;
+    background-color: rgb(161, 151, 27);
+    margin: 0;
+    border-bottom: solid 2px;
+    border-left: solid 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+    .nr1 {background-color: rgb(14, 214, 212);}
+    .nr2 {background-color: rgb(13, 231, 8);}
+
+
+
+article {
+    /* skraido tam tikro bloko viduje */
+    position: relative;
+    z-index: 9;
+    margin-left: 2.5%;
+    padding-top: 27px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.last {margin-right: 2.5;}

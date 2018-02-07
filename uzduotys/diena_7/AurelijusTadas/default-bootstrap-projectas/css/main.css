@@ -1,0 +1,85 @@
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+nav{
+    /* border: solid; */
+    background-color: orange;
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.Pav{
+    width: 100px;
+    height: 100px;
+}
+ul{
+    /* border: dotted; */
+    float: left;
+    margin-top: 10px;
+}
+li{
+    /* border: dashed; */
+    display: inline;
+}
+h1 {
+    color: red;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu1{
+border: solid;
+margin-top: 5px;
+background-color: orange;
+}
+.menu2{
+    border: solid;
+    margin-top: 5px;
+    background-color: green;
+}
+.menu3{
+    border: solid;
+    margin-top: 5px;
+    background-color: red;
+}
+button{
+    height: 50px;
+    width: 200px;
+    margin-top: 75px;
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    background-image: url("../WebPaveiksliukai/BestTypeOfCoding.jpg");
+}
+footer{
+    background-color: grey;
+}
+.indexHeader{
+    border: double;
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+}
+header{
+
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}

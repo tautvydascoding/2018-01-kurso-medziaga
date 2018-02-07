@@ -1,0 +1,60 @@
+
+body {width: 1200px;
+    /* centravimas x asyje:
+    reik widht: xxx
+    margin-left: auto;
+    margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+h1 {text-align: center;
+}
+h2 {text-align: center;
+}
+section {width: 70%;
+}
+nav {width: 70%;
+    background-color: rgb(230, 108, 40);
+    height: 60px;
+    }
+
+.clearfloat {clear: both;}
+
+li {float: left;
+    width: 25%;
+    list-style: none;
+    padding-top: 20px;
+}
+
+#search {display: block;
+        width: 30%;
+        height: 60px;
+        background-color: red;
+        float: right;
+
+}
+
+header {background-color: rgb(178, 146, 214);
+        float: left;
+        width: 100%;
+
+}
+main {background-color: rgb(238, 168, 174);
+}
+aside {background-color: rgb(108, 222, 119);
+}
+button {float: left;
+        width: 10%;
+}
+
+
+
+
+/* !!!!! Medijos */
+@media (max-widht: 1199px) {
+    body {width: 100%; }
+
+}

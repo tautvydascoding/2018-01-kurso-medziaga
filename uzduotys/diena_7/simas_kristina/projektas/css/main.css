@@ -11,7 +11,7 @@ body {
     position: absolute;
     right: 0;
 }
-.bttn {
+.mygtukas {
     color: #000;
     font-weight: bold;
     padding-top: 10px;
@@ -25,18 +25,18 @@ body {
     background-image: url("../img/knyga1.jpg");
     background-size: cover;
 }
-.mygtukas {
+.registracija {
     border: solid 4px #000;
     padding: 10px;
     color: #000;
     font-weight: bold;
 }
-.bttn:hover {
+.mygtukas:hover {
     color: rgb(161, 93, 0);
     text-decoration: none;
     border: none;
 }
-.mygtukas:hover {
+.registracija:hover {
     color: rgb(161, 93, 0);
     text-decoration: none;
     border: solid 4px rgb(161, 93, 0);

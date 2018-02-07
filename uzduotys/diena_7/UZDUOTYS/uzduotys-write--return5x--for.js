@@ -51,12 +51,17 @@
 // patikrinti ar veikia f-ja
 
 // 3 UZDUOTIS
+<<<<<<< HEAD
+// parasyti f-ja "getVardasPavarde()", kuri turi "return" zodeli ir grazina varda ir pavarde i iskveitimo vieta.
+// sukurti kintamaji   "pavarde" Tomauskas, vardas - Antanas
+=======
 // parasyti f-ja "getVardasPavarde()", kuri turi "return" zodeli ir grazina varda ir pavarde i iskveitimo vieta. 
 // sukurti kintamaji   "pavarde" Tomauskas
+>>>>>>> 755038eb4d318acc5345a8a3d877560bb0106aab
 // patikrinti ar veikia f-ja
 
 // 4 UZDUOTIS
-// A) sukurti h1 su tekstu viduje
+// A) sukurti h1 su tekstu viduje  (HTML faile)
 // B) sukurti f-ja "getH1ElementoAukstis(), kuri su "return" grazina surenderinto h1 elemento auksti
 // C) su CSS pakeisti h1 auksti, ir paziureti ar jusu f-ja veikia
  
@@ -67,6 +72,22 @@
  
 
 // =================FOR intro  ======================
+<<<<<<< HEAD
+// 1 UZDUOTIS
+// naudojant FOR cikla, atspausdinti  "#" tiek, kad gautusi trikampio vaizdas
+#
+##
+###
+####
+#####
+######
+
+//=========== =KOMANDINE (3-4h) Bootstrap && GIT=================
+// ant lentos
+
+//======= local/global or SCSS or IF or Bootstrap Layout or Frog/Garden ====
+=======
 
 
 //================ local/global or SCSS or IF or Bootstrap Layout or Frog/Garden ======================
+>>>>>>> 755038eb4d318acc5345a8a3d877560bb0106aab

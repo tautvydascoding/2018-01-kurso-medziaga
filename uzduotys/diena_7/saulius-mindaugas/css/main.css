@@ -49,9 +49,9 @@ ul {
     padding: 10%;
 }
 
-.apskritims {
-    border-radius: 100%;
-    min-height: 20rem;
+.rounded-circle {
+    /* border-radius: 100%; */
+    /* min-height: 20rem; */
 }
 .kubas {
     border: solid;
@@ -69,14 +69,14 @@ a {
 
 .loglog {
     height: 200px;
+    
 }
 .bgim {
     background: url('../images/2.jpg');
     background-size: cover;
     background-position: center center;
     width: 100%;
-
-
-
-
+}
+article {
+    text-align: justify;
 }

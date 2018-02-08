@@ -5,21 +5,7 @@ console.log("labas");
 var arr1 = ['a', 'b', 'c'];  // Becomes arr1 = ['a', 'b', 'c']
 var arr2a = arr1.slice(0);   // Becomes arr2a = ['a', 'b', 'c'] - deep copy
 var arr2b = arr1.concat();   // Becomes arr2b = ['a', 'b', 'c'] - deep copy
-// ================= ========= ======== ======== 
-
-
-// =================svarbus patarimai===================:
-// ARRAY: jeigu naudoji FOR || while cikla, tai negalvojant masyve naudoti "i" (pvz.: myArray[i])
-// FOR:   "for (i = 0; i < x; i++) {"  - nesusijusi su uzdaviniu (skirtas apeit masyva/ ivykdyti daug kartu kazka)
-// matricas  - visada nusipiesti ant popieriaus eskiza su testiniais duomenimis
-// matrica narys paimamas: myMatrica[x][y]   x- stulpelis; y - eilute
-// matrica - pasitikritni ar nereik x ir y sukeisti vietomis (ar nesuklydai kuris stulpelis ir kuris eilute )
-// matricos ilgis daznai skiriasi nuo plocio.
-//  pvz.:
- // for ( i < eiluciuSkaicius)
- //    for ( k < stulpeliuSkaicius)
- // =================// =================// =================
-
+// ================= ========= ======== ========
 
 
 
@@ -28,6 +14,7 @@ var arr2b = arr1.concat();   // Becomes arr2b = ['a', 'b', 'c'] - deep copy
 // UZDUOTIS
 // 1A) surasti vardu masyve, kelintas zmogus yra "Rico" (surasti pirmaji; sunkes- surasti visus riko)
 // 1B) papildyti ^: jeigu tokio vardo neranda, isvesti pranesima "Nepavyko rasti...Bandykite kita zodi"
+
 // uzduotis:--------------------------
 // 2) parasyti funkcija, kuriai davus iekoma zodi , ji suranda jo vieta masyve (stalciaus numeri) ir si   numeri grazina
 // uzduots:----------------------------

@@ -18,13 +18,13 @@ https://www.codecademy.com/courses/javascript-beginner-en-Bthev-mskY8/0/1
 
 // itvirtinti f-jas
 
-// UZDUOTIS
+// UZDUOTIS =======ismokti f-jas 50x===============
 // A) sukurti kintamaji "vardas" Tomas
 // B) sukurti 50 f-ju.
 // nelyginiu (1,3,5,...) funkciju pavadinimai getVardas1(), getVardas3(), ...
 // nelygines f-jos turi "return" ir iskvietus turi grazinti varda ir jo skaiciu salia pvz: "Tomas1"
 // lyginiu (2,4,6,8...) funkciju pavadinimai setVardas2(name), setVardas4(name), ...
-// lygines f-jos turi pakeisti varda ir uzdeti skiaciu salia
+// lygines f-jos turi pakeisti varda ir uzdeti skaiciu salia
 // NOTE: visas f-jas iskviesti
 // pvz.:
 var vardas = "Tomas";

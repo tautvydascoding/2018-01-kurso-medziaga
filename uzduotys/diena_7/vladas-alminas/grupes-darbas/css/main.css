@@ -69,15 +69,15 @@ main {
 
 }
 
-.kaire {background-color: rgb(220, 207, 221);
+.kaire {background-color: rgb(204, 219, 222);
 
 }
 .vidurys { justify-content: center;
-        background-color: rgb(220, 207, 221);
+        background-color: rgb(204, 219, 222);
 
 }
 .desine {justify-content: flex-end;
-        background-color: rgb(220, 207, 221);
+        background-color: rgb(204, 219, 222);
 
 }
 header {position: relative;
@@ -92,5 +92,9 @@ header {position: relative;
 }
 a {font-style: oblique;
     font-weight: bold;
+
+}
+body {overflow-x: hidden;
+
 
 }

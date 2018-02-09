@@ -4,8 +4,10 @@
     border-radius: 50%;;
 }
 .photo{
-    margin-top: 5%;
     width: 80%;
+    position: absolute;
+    top: 5%;
+    left: 10%;
 }
 .center{
     text-align: center;

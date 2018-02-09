@@ -1,0 +1,58 @@
+
+a {
+    color: #000409;
+    text-decoration: none;
+    text-style: Arial;
+}
+
+a:hover {
+    color: #FF00FF;
+}
+
+
+li {
+    display: inline;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+header {
+    width: 1200px;
+    height: 200px;
+    background-color: pink;
+    display: inline;
+
+}
+
+img {
+    width: 42px;
+    margin-left: 10px;
+}
+
+nav{
+    width: 10%;
+    display: inline;
+    list-style: none;
+}
+
+.desine {
+    float: right;
+    width: 100px;
+}
+.virsutinis {
+    padding: 0;
+    background-color: #FF4D68;
+}
+
+.aukstis-300 {
+    height: 500px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+
+.platus {
+    position: relative;
+    background-image: url("../candy.jpg");
+    height: 500px;
+}

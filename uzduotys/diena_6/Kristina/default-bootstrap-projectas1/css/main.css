@@ -1,0 +1,21 @@
+body  {
+    background-image: url("../cristina-gottardi-259243.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    color: red;
+}
+nav {
+    background-color: rgb(55, 55, 55);
+
+}
+nav a {
+    color: rgb(185, 184, 184);
+}
+}
+nav a:hover {
+    text-decoration: none;
+    background-color: none;
+    color: rgb(255, 255, 255);
+}

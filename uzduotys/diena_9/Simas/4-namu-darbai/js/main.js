@@ -27,17 +27,24 @@ var sujungtos = vardai.concat(kopija);
 
 
 
-// 6. sukurti su masyvus (skirtingus)
+// 6. sukurti du masyvus (skirtingus)
 var merginos = ["Onute", "Gretute", "Bronyte", "Danute"];
 var vaikinai = ["Petras", "Jonas", "Antanas", "Zigmas"];
 // naudojant for cikla sujungti juos, kasnatra elementa
 // [pirmo mazyvo, antro masyvo, pirmo masyvo, antro masyvo , ...]
-var poros = merginos.slice(0);
-// poros.splice(1, 0, vaikinai[0]);
-// poros.splice(3, 0, vaikinai[1]);
-// poros.splice(5, 0, vaikinai[2]);
-for (i = 1, j = 0; i < 8; i+=2, j++) {
-    poros.splice(i, 0, vaikinai[j]);
+
+// var poros = merginos.slice(0);
+// // poros.splice(1, 0, vaikinai[0]);
+// // poros.splice(3, 0, vaikinai[1]);
+// // poros.splice(5, 0, vaikinai[2]);
+// for (i = 1, j = 0; i < 8; i+=2, j++) {
+//     poros.splice(i, 0, vaikinai[j]);
+// }
+
+var poros2 = [];
+for (var i = 0; i < 3; i++) {
+    poros2.push(merginos[i];
+    poros2.push(vaikinai[i]);
 }
 
 // sunkesnis

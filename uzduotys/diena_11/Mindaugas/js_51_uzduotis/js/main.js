@@ -40,7 +40,7 @@ for (var i = 0; i < masyvasCopy.length; i++) {
 console.log(masyvasCopy, y);
 // 4 UZDUOTIS:
 // surasti geriausia darbuotoja
-console.log(Math.max.apply(null, masyvasCopy));
+console.log(masyvasCopy.indexOf(Math.max.apply(null, masyvasCopy)), Math.max.apply(null, masyvasCopy));
 // 5 UZDUOTIS:
 //surasti blogiausia darbuotoja
-console.log(Math.min.apply(null, masyvasCopy));
+console.log(masyvasCopy.indexOf(Math.min.apply(null, masyvasCopy)), Math.min.apply(null, masyvasCopy));

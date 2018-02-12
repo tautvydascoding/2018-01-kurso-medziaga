@@ -1,4 +1,21 @@
-console.log(" Labas ");
+function chicken() { return egg();
+}
+function egg() {
+return "kiausinis"; }
+console.log(chicken() + " came first.");
+
+var kvadratu = function(x) {
+    return x*x;
+}
+console.log(kvadratu(12));
+
+function kvadratu(x) {
+    return x*x;
+}
+console.log(kvadratu(12));
+
+
+
 // =================if  teorija====================
 
 // if (salyga) {

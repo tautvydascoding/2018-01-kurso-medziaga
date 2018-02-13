@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>1-PHP-Basics</title>
 
         <!-- !!! mano CSS failas vissada zemiau, nie kiti css failai -->
         <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
@@ -21,32 +21,25 @@
 
         <h1>Isijunk konsole</h1>
         <?php
-
         $vardas = "Povilas";
         $amzius = 21;
-
         print( "labas");
         echo "labas";
-
-
         echo "Labas $vardas <br>"; // tik " " dvigubose kabutese
-        // viengubose kabutese neveikia kintamieji
-
+        echo 'Labas $vardas <br>'; // viengubose kabutese neveikia kintamieji
         // string jungimas php su "." js su "+"
         echo " Labas" .  $vardas . " viso <br><br>"; // "Labas povilas viso"
-
         //---------------local---------------
         $vardas = "Tomas";
-        function <manoFunkcija></manoFunkcija>( $x ) { // $x (local)- naujas issigalvotas laikinas kintamamasis
+        function manoFunkcija( $x ) { // $x (local)- naujas issigalvotas laikinas kintamamasis
             echo "1. x pries pakeiciant:" .  $x . "<br>";
             $x = "Karolis Didysis";
         }
         manoFunkcija( $vardas );
-
         echo $vardas . "<br>";
         // pasikartojimas return
         // -------------return---------------
-        function <getSkaicius></getSkaicius>() {
+        function getSkaicius() {
             return 10;
         }
         echo "Mano skaicius: " . getSkaicius();
@@ -58,7 +51,6 @@
         }
         $naujas =  getManoFunkcija($vardas);
         echo $naujas . "<br>";
-
         //------& naudojant RAM adresa---------------
         $pavarde = "Patris";
         function setManoFunkcija( &$x ) {
@@ -68,9 +60,8 @@
          setManoFunkcija( $pavarde );
          echo "Pavarde (po pakeitimo) yra: $pavarde <br>";
 
-
-         define( 'SLAPTAZODIS', 'XDAka152a.');
-         echo SLAPTAZODIS . "<br />";
+         define("SLAPTAZODIS", "XDAka152a." );
+         echo SLAPTAZODIS. "<br />";
         ?>
 
         <!-- js puslapio apacioje -->

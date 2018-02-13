@@ -1,5 +1,5 @@
 
- 
+
 
 // ====================Scope====================
 //   UZDUOTIS  A
@@ -9,8 +9,10 @@
 // iskviesti f-ja
 
 //   UZDUOTIS  B
-//  pabandykite i konsole atspausdinti kintamaji "vardas"
+//  dabar, pabandykite po f-ja (uz jos ribu) i konsole atspausdinti kintamaji "vardas"
 //  console.log( vardas) ;
+// NOTE: gausite klaida ""is not defined""
+
 
 
 //================local && global=========
@@ -25,9 +27,31 @@
 //testLocalVar();
 //console.log("x", x);
 //console.log("z", z);
-//console.log("y", y);  // error
+//console.log("y", y);  // error - 1)   nes sukurtas f-jos viduje 2) sukurtas su "var"
 
+//------
+ // UZDUOTIS
+ // A) sukurti kintamaji var kakis = "juodas"
+ // B) sukurti f-ja
+ // C) sukurti f-jos viduje kintamaji var kakis = "baltas"
+ // D) atspauzdinti abu f-jos viduje
+ // E) atspauzdinti  uz f-jos
+ // var kakis = "juodas";
+ // function testLocalVar() {
+ //     var kakis = "baltas";
+ //    console.log("kakis:", kakis);
+ //    console.log("this.kakis - f-jos viduje: ",  this.kakis);    // this - pasiekia ~global kintamuosius (tavo tecio kintamuosius)
+ // }
+ // testLocalVar();
+ // console.log("kakis:", kakis);  // error - 1)   nes sukurtas f-jos viduje 2) sukurtas su "var"
 
+ //======================
+ // var vardas = "Jonas";   // global - kintamasis
+ // function myName ( vardas ) { //  vardas - local kintamasis
+ //     console.log( " vardas" + vardas);
+ //     console.log("this.vardas - f-jos viduje: ",  this.vardas);    // this - pasiekia ~global kintamuosius (tavo tecio kintamuosius)
+ // }
+ // myName("PETRAS");
 //======================TEKSTO ISVEDIMAS===============
 
 

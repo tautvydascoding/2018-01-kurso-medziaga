@@ -1,0 +1,36 @@
+
+body {
+    background-color: rgb(212, 246, 227);
+}
+.logo {
+    width: 200px;
+    height: 100px;
+}
+.logo2 {
+    width: 150px;
+    height: 50px;
+}
+.col {
+    height: 800px;
+}
+#navigacija {
+    overflow: hidden;
+    background-color: rgb(66, 195, 119);
+    width: 100%;
+
+}
+.pav {
+    justify-content: space-between;
+}
+.fone1 {
+    padding-top: 150px;
+}
+.fone2 {
+    margin-top: 150px;
+}
+.fone {
+    margin-top: 15px;
+}
+li {
+    justify-content: space-between;
+}

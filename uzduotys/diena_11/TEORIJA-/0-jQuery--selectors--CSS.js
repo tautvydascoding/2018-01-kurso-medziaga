@@ -31,11 +31,11 @@ $( "article > p" ).css( myCSS );
 // 		return parseFloat( value ) * 1.2;
 //   }
 // });
-//=============selectors kaip CSS=========
+// //=============selectors kaip CSS=========
 
 // keliu elementu select'as (select h1 and h2 elements)
-// $( "h1, h2" ).css( "background", "black" );
-// $( "h1" ).css().add( "h2" ).css( "background", "yellow" );
+$( "h1, h2" ).css( "background", "black" );
+$( "h1" ).css().add( "h2" ).css( "background", "yellow" );
 
 // paveiks paskutini is li elementu
 $( "li" ).last().css( "background", "yellow" );
@@ -57,10 +57,10 @@ $( "p:even" )
 // note: $("input[type='email']").attr('value') // will return value from DOM/HTML.
 
 // brolius ir seses Isskyrus h2 pati
-//$("h2").siblings().css({"color": "red", "border": "2px solid red"});
+// $("h2").siblings().css({"color": "red", "border": "2px solid red"});
 // h2 brolius kurie yra "p", bet nera h2 ar kiti
-//$("h2").siblings("p").css({"color": "orange", "border": "2px solid red"});
+// $("h2").siblings("p").css({"color": "orange", "border": "2px solid red"});
 // sekanti brolini elementa
-//$("h2").next().css({"color": "red", "border": "2px solid red"});
+// $("h2").next().css({"color": "red", "border": "2px solid red"});
 // $("h2").nextAll();
-//$("h2").nextUntil("h6");
+// $("h2").nextUntil("h6");

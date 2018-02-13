@@ -14,8 +14,8 @@ var oHTML = $("h1").html();
 //---- get only first h1 text------
 var elm = $("h1").eq(0);   // eq -  return the jquery selector
 var elm2 = $("h1")[0];     // [0] - return the DOM element
-console.log("eq(): " ,  elm) ;
-console.log("[0]: " ,  elm2) ;
+console.log("eq(): " ,  elm);
+console.log("[0]: " ,  elm2);
 
 console.log( elm.text());         // WORKS !!!
 // console.log( elm2[0].text();    // ERROR: [0] return the DOM element

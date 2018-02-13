@@ -4,7 +4,7 @@ console.log("labas");
 // NOTE: var arr2 =  arr1; // !!! Blogi  - sukurs susietaja kopija ir redaguojant keisis abu masyvai
 var arr1 = ['a', 'b', 'c'];  // Becomes arr1 = ['a', 'b', 'c']
 var arr2a = arr1.slice(0);   // Becomes arr2a = ['a', 'b', 'c'] - deep copy
-var arr2b = arr1.concat();   // Becomes arr2b = ['a', 'b', 'c'] - deep copy
+var arr2b = arr1.concat(  );   // Becomes arr2b = ['a', 'b', 'c'] - deep copy
 // ================= ========= ======== ========
 
 
@@ -13,19 +13,22 @@ var arr2b = arr1.concat();   // Becomes arr2b = ['a', 'b', 'c'] - deep copy
 
 // UZDUOTIS
 // 1A) surasti vardu masyve, kelintas zmogus yra "Rico" (surasti pirmaji; sunkes- surasti visus riko)
-// 1B) papildyti ^: jeigu tokio vardo neranda, isvesti pranesima "Nepavyko rasti...Bandykite kita zodi"
+// 1B) papildyti ^: jeigu tokio vardo neranda, isvesti VIENĄ pranesima "Nepavyko rasti...Bandykite kita zodi"
 
-// uzduotis:--------------------------
-// 2) parasyti funkcija, kuriai davus iekoma zodi , ji suranda jo vieta masyve (stalciaus numeri) ir si   numeri grazina
+
+// 2 UZDUOTIS (f-ja iekom stalciaus)
+// parasyti funkcija, kuriai davus iekoma zodi , ji suranda jo vieta masyve (stalciaus numeri) ir si   numeri grazina
+// eg: getStalciausNumeris( ieskomasTekstas)
+
 // uzduots:----------------------------
 // 3) rasti pavarde masyve esancio  zmogaus vardu "Freida" (pirmojo)
 // 4) rasti visu zmoniu vardu "Rico" pavardes
 // 5) Turime masyva su zmoniu nr.  ieskomiZmones = [2, 16, 17, 18, 19, 25];  isvesti ju pavardes ir vardus
 
-var a = Math.random(); // 0 - 1
-if ( a <= 0.1) {
-    console.log("laimejai");
-}
+// var a = Math.random(); // 0 - 1
+// if ( a <= 0.1) {
+//     console.log("laimejai");
+// }
 
 ieskomiZmones = [2, 16, 17, 18, 19, 25];
 

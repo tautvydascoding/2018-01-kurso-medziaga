@@ -2,7 +2,7 @@ console.log(" Labas ");
 console.log(window);
 var x = 10;
 console.log(window.x);
-
+l
 // ====================Scope====================
 //   UZDUOTIS  A
 // sukurti funkcija "printDuomenys()" ,

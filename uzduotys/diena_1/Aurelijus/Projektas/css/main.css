@@ -14,8 +14,11 @@
 .aukstis-500{
     height: 500px;
 }
+.aukstis-600{
+    height: 600px;
+}
 .no-padding{
-    padding-left: 0px;
+    padding-left: 0;
 }
 .minusine-stuma{
     margin-bottom: -8px;
@@ -23,52 +26,92 @@
 .auto-aukstis{
     height: 100vh;
 }
+img{
+    border-radius: 25px;
+    background-color: white;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: white;
+    border-radius: 25px;
+}
+input{
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    /* padding-left: 30px; */
+}
+button{
+    margin-top: 10px;
+    position: relative;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    float: left;
+}
 ul{
     position: relative;
     bottom: -60px;
     text-align: right;
     /* margin-right: 20px; */
     background-color: orange;
+    float: right;
 }
 li{
     display: inline;
     margin-left: 20px;
 }
-.search{
-    float: right;
+a{
+    color: black;
 }
-button{
-    position: relative;
-    height: 30px;
-    width: 100px;
-    border-radius: 10px;
-    
+footer{
+    margin-top: 10px;
+    border: solid;
+    background-color: grey;
 }
 nav{
     position: absolute;
     width: 1100px;
-    float: right;
+    /* float: right; */
     border-radius: 25px;
     background-color: green;
     margin-left: 35px;
+    display: inline-block; */
+    /* display: flex;
+    justify-content: center; */
 }
-.logo{
-    width: 100px;
-    height: 100px;
-    float: left;
-    background-color: red;
-    border-radius: 25px;
+.antraste{
+display: flex;
+justify-content: center;
 }
-img{
-    border-radius: 25px;
-    background-color: blue;
-}
-a{
-    color: black;
-}
-video{
-    background-color: orange;
+.reklamos{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
 }
 main{
     display: inline;
+    background-color: orange;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+aside{
+    background-color: rgba(0, 0, 255, 0.5);
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.pirmaKnyga{
+    border: solid;
+    border-radius: 10px;
+}
+.antraKnyga{
+    border: solid;
+    border-radius: 10px;
+}
+.treciaKnyga{
+    border: solid;
+    border-radius: 10px;
 }

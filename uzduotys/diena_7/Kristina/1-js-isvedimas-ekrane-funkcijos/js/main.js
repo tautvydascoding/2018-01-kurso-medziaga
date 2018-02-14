@@ -114,7 +114,15 @@ console.log("aukstis", x);
 
 // 4.1 UZDUOTIS
 // parasyti f-ja, kuri turi "return" zodeli.
-// "getPazymiuVidurkis2(x1, x2, x3, x4, x5)"  f-ja apskaiciuoja vidurki is paduotu 5 menesiu pazymiu (ir grazina atsakyma i iskvietimo vieta! "return atskymas;")
+// "getPazymiuVidurkis2(x1, x2, x3, x4, x5)"  f-ja apskaiciuoja vidurki is paduotu 5 menesiu pazymiu 
+//(ir grazina atsakyma i iskvietimo vieta! "return atskymas;")
+
+function getPazymiuVidurkis2(x1, x2, x3, x4, x5) {
+    var vidurkis = (x1 + x2 + x3 + x4 + x5) / 5;
+     return vidurkis;
+}
+var x = getPazymiuVidurkis2(3, 5, 7, 9, 1);
+console.log("vidurkis:", getPazymiuVidurkis2());
 
 
 // =================FOR intro  ======================

@@ -1,4 +1,4 @@
-==========musu puslapis uzimtu visu monitoriaus auksti =========
+﻿==========musu puslapis uzimtu visu monitoriaus auksti =========
 body, html {
     height: 100%;
 }

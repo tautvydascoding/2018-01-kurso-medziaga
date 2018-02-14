@@ -116,3 +116,45 @@ console.log("pasto kodas", pastoKodas, "aa" );
 
 pastoKodas = 1000;
 console.log("pasto kodas", pastoKodas, "aa" );
+
+// ===================pasikartoti  F-jas===================ND----------
+//  01 UZDUOTIS
+// sukurti 3 Globalius kintamuosius:  vardas , pavarde, klase   (ir jiems priskirti reiksmes):
+// atspausdinti visus kintamuosius
+
+var vardas = "alma";
+var pavarde = "petryte";
+var klase = 5;
+console.log(vardas, pavarde, klase);
+
+//  02 UZDUOTIS
+// sukurti funkcijas:
+// printName()  printLName(), printClass() ,
+// kurios atspausdina i konsole pirmos uzduoties kintamuosius
+ 
+function printName() {
+console.log(vardas, pavarde, klase);
+ }
+ printName();
+
+function printLName() {
+console.log(vardas, pavarde, klase);
+ }
+ printLName();
+
+function printClass() {
+console.log(vardas, pavarde, klase);
+ }
+ printClass();
+
+//  03 UZDUOTIS
+// parasyti f-ja printVardasPavardeKlase(name, lname, klase)
+// kuria iskviesti 3 kartus su skirtingais zmoniu vardasi ir pavardem
+
+function printVardasPavardeKlase(name, lname, klase) {
+    console.log("vardas:", name, "pavarde:", lname, "klase:", klase);
+
+}
+printVardasPavardeKlase("jonas", "jonaitis", 6);
+printVardasPavardeKlase("rita", "ritute", 8);
+printVardasPavardeKlase("juozas", "juozutis", 5);

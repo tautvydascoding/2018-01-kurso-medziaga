@@ -103,14 +103,25 @@
         $prekes = [];
         $prekes[0] = ["Dviratis", "1.jpg",  99.99,  "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  " ];
         $prekes[1] = ["Paspirtukas", "2.jpg",  199.99,  "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  " ];
-        $prekes[3] = ["Rieduciai", "3.jpg",  250,  "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  " ];
-        $prekes[4] = ["Slides", "4.jpg",  50,  "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  " ];
+        $prekes[2] = ["Rieduciai", "3.jpg",  250,  "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  " ];
+        $prekes[3] = ["Slides", "4.jpg",  50,  "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  " ];
 
-        print_r( $prekes );
+        // print_r( $prekes );
 
-        // for ($i=0; $i < ; $i++) { 
-        //     # code...
-        // }
+        for ($i=0; $i < count($prekes); $i++) {
+            echo $prekes[$i][0] . " <br>";
+            echo $prekes[$i][2] . " <br>";
+            ?>
+
+            <article class="col-4 bg-info">
+                <h2> Antraste </h2>
+                <img src="" alt="">
+                <p>loren</p>
+                <a href="#" class="btn btn-lg btn-warning"> 99 </a>
+            </article>
+
+            <?php
+        }
 
            // 3 budai
             // printf("<img src='./img/" . $visosPrekes[$i][1] . "' width='200px;' alt=''  />");

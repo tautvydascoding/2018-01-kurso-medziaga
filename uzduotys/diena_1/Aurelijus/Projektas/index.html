@@ -2,138 +2,180 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <a href="https://www.bigbuckbunny.org/" target="_blank"></a><!--  Filmikas-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./css/libraries/css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/libraries/css/bootstrap.css">
         <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
         <!-- Itraukiamas JavaScript failas -->
         <script type="text/javascript" src="./js/main.js"></script>
         <title>Gera knyga</title>
     </head>
     <body>
         <div class="container">
-            <header class="row aukstis-100 ">
+            <header class="row aukstis-200 ">
                 <div class="logo">
 <!-- IDEA: klaida --><img  src="./images/owllogo2.jpg" width="100px" height="100px"alt="">
                 </div>
                 <nav class="col-10 ">
                     <!--  Paieskos langelis-->
-                    <input type="text" name="" value="" required placeholder="iveskite paieska" title="Nerandate?">
+                    <input type="text" class="paieska" name="" value="" required placeholder="iveskite paieska" title="Nerandate?">
                     <button type="submit" name="Paieska" class="search">Paieska</button>
-                    <ul>
-                        <li><a href="#">Pagrindinis</a></li>
-                        <li><a href="#">Registracija</a></li>
-                        <li><a href="#">Pageidavimai</a></li>
+                    <ul class="virsus">
+                        <li class="virs"><a href="#">Pagrindinis</a></li>
+                        <li class="virs"><a href="#">Prisijungti</a></li>
+                        <li class="virs"><a href="#">Pageidavimai</a></li>
                     </ul>
                 </nav>
             </header>
-            <div class="antraste">
+            <!-- <div class="antraste">
                     <h2>Populiariausios</h2>
-            </div>
+
+            </div> -->
+
+
             <div class="section row">
-                <main class="col-12 aukstis-600">
-                    <div class="row aukstis-200">
-                        <div class="col-4 pirmaKnyga">
+                <main class="col-12 aukstis-700">
+                    <div class="row aukstis-200 Kategorijos">
+
+                        <div class="col-3 pirmaKnyga">
+                            <div class="antraste">
+                                <h5>Moksline</h5>
+                            </div>
+                        </div>
+                        <div class="col-3 antraKnyga">
+                            <div class="antraste">
+                                <h5>Drama</h5>
+                            </div>
+                        </div>
+                        <div class="col-3 treciaKnyga">
+                            <div class="antraste">
+                                <h5>Edukacine</h5>
+                            </div>
+                        </div>
+<!-- reg -->
+
+                            <div class="col registracija slenka">
+                            <h4> <a href="#" class="RegistracijosAntraste">Registracija</a></h4>
+                            <input class="vardas" type="text" name="userFirstName" value="" placeholder="Jusu vardas">
+                            <input type="email" name="userEmail" value="" placeholder="Jusu el. pastas">
+                            <input type="password" name="userPassword" value="" placeholder="Jusu slaptazodis">
+                            <button type="submit" name="button1" class="mygtukas">Registruotis</button>
+                            </div>
+
+<!--  reg-->
+
+                    </div>
+                    <div class="row aukstis-200 Kategorijos">
+                        <div class="col-3 pirmaKnyga2">
 
                         </div>
-                        <div class="col-4 antraKnyga">
+                        <div class="col-3 antraKnyga2">
 
                         </div>
-                        <div class="col-4 treciaKnyga">
+                        <div class="col-3 treciaKnyga2">
 
                         </div>
                     </div>
-                    <div class="row aukstis-200">
-                        <div class="col-4 pirmaKnyga">
+                    <div class="row aukstis-200 Kategorijos">
+                        <div class="col-3 pirmaKnyga3">
 
                         </div>
-                        <div class="col-4 antraKnyga">
+                        <div class="col-3 antraKnyga3">
 
                         </div>
-                        <div class="col-4 treciaKnyga">
+                        <div class="col-3 treciaKnyga3">
 
                         </div>
+
                     </div>
-                    <div class="row aukstis-200">
-                        <div class="col-4 pirmaKnyga">
 
-                        </div>
-                        <div class="col-4 antraKnyga">
-
-                        </div>
-                        <div class="col-4 treciaKnyga">
-
-                        </div>
-                    </div>
                 </main>
 
             </div>
+        <!--  pirmo section pabaiga-->
+
         <!--  antras section-->
-<div class="antraste">
-    <h2>Kategorijos</h2>
-</div>
+
 
             <div class="section row">
-                <main class="col-10 aukstis-600">
-                    <div class="row aukstis-200">
-                        <div class="col-4 pirmaKnyga">
-
-                        </div>
-                        <div class="col-4 antraKnyga">
-
-                        </div>
-                        <div class="col-4 treciaKnyga">
-
-                        </div>
-                    </div>
-                    <div class="row aukstis-200">
-                        <div class="col-4 pirmaKnyga">
-
-                        </div>
-                        <div class="col-4 antraKnyga">
-
-                        </div>
-                        <div class="col-4 treciaKnyga">
-
-                        </div>
-                    </div>
-                    <div class="row aukstis-200">
-                        <div class="col-4 pirmaKnyga">
-
-                        </div>
-                        <div class="col-4 antraKnyga">
-
-                        </div>
-                        <div class="col-4 treciaKnyga">
-
-                        </div>
-                    </div>
-                </main>
                 <div class="reklamos">
 
                     <aside class="col aukstis-400">
-                            <h4>Arkliu prieziuros prekes</h4>
+                            <h4>Reklama</h4>
+                                <div class="container">
+                                  <div class="carousel">
+                                    <div class="item a">A</div>
+                                    <div class="item b">B</div>
+                                    <div class="item c">C</div>
+                                    <div class="item d">D</div>
+                                    <div class="item e">E</div>
+                                    <div class="item f">F</div>
+                                  </div>
+                                </div>
+                                <div class="next">Next</div>
+                                <div class="prev">Prev</div>
                     </aside>
                     <aside class=" col aukstis-200">
-
+                            <h4>Reklama</h4>
                     </aside>
                 </div>
+                <main class="col-10 aukstis-700 antraDalis">
+                    <div class="row aukstis-200 vienas mt-3">
+                        <div class="col-3 pirmaKnyga">
+
+                        </div>
+                        <div class="col-3 antraKnyga">
+
+                        </div>
+                        <div class="col-3 treciaKnyga">
+
+                        </div>
+                    </div>
+                    <div class="row aukstis-200 du mt-4">
+                        <div class="col-3 pirmaKnyga">
+
+                        </div>
+                        <div class="col-3 antraKnyga">
+
+                        </div>
+                        <div class="col-3 treciaKnyga">
+
+                        </div>
+                    </div>
+                    <div class="row aukstis-200 trys mt-4">
+                        <div class="col-3 pirmaKnyga">
+
+                        </div>
+                        <div class="col-3 antraKnyga">
+
+                        </div>
+                        <div class="col-3 treciaKnyga">
+
+                        </div>
+                    </div>
+                </main>
+
             </div>
-            <footer class="container aukstis-300 ">
+            <footer class="container aukstis-400 ">
                 <div class="row">
-                    <div class="col-lg-4 md-col-6  col-sm-6 bg-info ">
-                        <h4>kaire</h4> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                    <div class="col-lg-4 md-col-6 col-sm-6 bg-warning ">
-                        vidurys <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                    <div class="col-lg-4 md-col-12 bg-danger ">
-                        desine <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="col-lg-4 md-col-6  col-sm-6  ">
+                        <h3>Kontaktai</h3>
+                        <ul>
+                            <li><a href="#">Vadovas</a></li>
+                            <li><a href="#">Administracija</a></li>
+                            <li><a href="#">Pageidavimai</a></li>
+                        </ul>
+                     </div>
+                    <div class="col-lg-8 md-col-6 col-sm-6 ">
+                        <!-- Contact (with google maps) -->
+                            <!-- <div class="w3-center" id="googleMap" style="width:100%;height:600px;">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4584.105829808073!2d23.88575363318281!3d54.93708988034307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e71f30d8cd391b%3A0x68680dce2fbdcf65!2zS3VyxaFpxbMgZy4gNywgS2F1bmFzIDQ4MTA5!5e0!3m2!1slt!2slt!4v1509725289799"
+                                        width="100%" height="393" frameborder="0" allowfullscreen></iframe>
+                            </div> -->
                     </div>
                 </div>
-
             </footer>
-
         </div>
                     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

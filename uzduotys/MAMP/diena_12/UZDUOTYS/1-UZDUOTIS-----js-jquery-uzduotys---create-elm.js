@@ -1,9 +1,11 @@
-console.log("Labas");
+console.log("Labas222");
 
 // visas uzduotis atlikti naudojant js (arba jquery jeigu destytojas leidzia - sisiklausti)
 
 // 1 uzduotis
 // su js sukurti <img elementa 200x200 dydzio
+// pasitikrinti su console
+
 
 // 1.1
 // su js sukurti <header> ir <footer>
@@ -29,11 +31,12 @@ console.log("Labas");
 //  ideti 1.6 <article> elementa (kuris laiko savyne <h2> ir <p>)  i <main> elementa
 
 // 1.8
-// perkelti LOGO i kita vieta naudojant js
-
+// perkelti LOGOTIPA i kita vieta naudojant js
+// A) perkelti i footer
+// B) perkelti i article ( tarp h2 ir p)
 //
 // ---------------------------------
-// 1.9 daugiau uzduotiu su perkelimu elementu append, prepend, after, before, appendTo
+// 1.9 daugiau uzduociu su perkelimu elementu append, prepend, after, before, appendTo
 // ---------------------------------
 
 

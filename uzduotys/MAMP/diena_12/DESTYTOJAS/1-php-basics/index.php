@@ -30,14 +30,14 @@
 
 
         echo "Labas $vardas <br>"; // tik " " dvigubose kabutese
-        echo 'Labas $vardas <br>'; // viengubose kabutese neveikia kintamieji
+        // viengubose kabutese neveikia kintamieji
 
         // string jungimas php su "." js su "+"
         echo " Labas" .  $vardas . " viso <br><br>"; // "Labas povilas viso"
 
         //---------------local---------------
         $vardas = "Tomas";
-        function manoFunkcija( $x ) { // $x (local)- naujas issigalvotas laikinas kintamamasis
+        function <manoFunkcija></manoFunkcija>( $x ) { // $x (local)- naujas issigalvotas laikinas kintamamasis
             echo "1. x pries pakeiciant:" .  $x . "<br>";
             $x = "Karolis Didysis";
         }
@@ -46,7 +46,7 @@
         echo $vardas . "<br>";
         // pasikartojimas return
         // -------------return---------------
-        function getSkaicius() {
+        function <getSkaicius></getSkaicius>() {
             return 10;
         }
         echo "Mano skaicius: " . getSkaicius();
@@ -68,6 +68,9 @@
          setManoFunkcija( $pavarde );
          echo "Pavarde (po pakeitimo) yra: $pavarde <br>";
 
+
+         define( 'SLAPTAZODIS', 'XDAka152a.');
+         echo SLAPTAZODIS . "<br />";
         ?>
 
         <!-- js puslapio apacioje -->

@@ -1,0 +1,83 @@
+console.log(" Labas ");
+
+
+// visas uzduotis atlikti naudojant js (arba jquery jeigu destytojas leidzia - sisiklausti)
+
+// 1 uzduotis
+// su js sukurti <img elementa 200x200 dydzio
+var paveiksliukas = $("<img/>");
+paveiksliukas.attr( {
+  "width" : "200px",
+  "height" : "200px",
+  "src" : "../1-PHP-Arrays/img/1.jpg"
+} );
+
+
+console.log(paveiksliukas);
+
+
+// 1.1
+// su js sukurti <header> ir <footer>
+// ir ideti juos i body
+//  sukurimas
+var virsus = $("<header></header>");
+var apacia  = $("<footer></footer>")
+// idejimas i body
+$("body").prepend(virsus); //preppend ideda kaip vaika i virsu
+$("body").append(apacia);
+
+virsus.html("Menu");
+apacia.html("Apacia");
+// arba
+
+// $("body").prepend("<header> Antraste </header>");
+
+
+// 1.2
+// i <header> ir <footer> ideti <img> elementa
+
+    $("header, footer").append(paveiksliukas);
+// 1.3
+// css faile aprasyti .logo klase:
+//      dydis 100x100, seselis i visas puses per 10px
+
+$("header img").toggleClass('logo');
+
+// 1.4
+// <img> elementui, kuris yra <header> elemente,  uzdeti klase "logo"
+
+// 1.5
+// sukurti <main> elementa po <header> elementu  (<header></header>  <main>text</main>   <footer></footer>)
+var manoMain = $("<main></main>").html("Mano tekstas");
+$("header").after(manoMain); // po header elem. idedame main elem.
+
+// 1.6
+// sukurti <article> elementa su viduje <h2> ir <p> elementais (irasyti ir teksto i abu)
+var straipsnis = $("<article></article>");
+var manoH2 = $("<h2></h2>").html("Antraste");
+var aprasymas = $("<p></p>").html("lorem lorem lorem");
+
+straipsnis.append(manoH2);
+straipsnis.append(aprasymas);
+
+$("main").append(straipsnis);
+$("main").append(manoH2);
+// 1.7
+//  ideti 1.6 <article> elementa (kuris laiko savyne <h2> ir <p>)  i <main> elementa
+
+// 1.8
+// perkelti LOGO i kita vieta naudojant js
+$(".logo").appendTo("footer");
+
+//
+// ---------------------------------
+// 1.9 daugiau uzduotiu su perkelimu elementu append, prepend, after, before, appendTo
+// ---------------------------------
+
+
+// =================click=========
+// 1.9.1
+// paspaudus ant logo ji suanimuoti jQuery
+// LOGO keliauja i desine ir virsu ekrano puse
+// tampa permatomas 0.5
+//

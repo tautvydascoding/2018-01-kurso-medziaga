@@ -1,5 +1,5 @@
 var objektas = new objektas (name, age) {
-    this.name = name,
+    this.name = name;
     this.age = age;
 };
 

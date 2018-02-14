@@ -13,3 +13,7 @@ h1 {
 .aukstis-500 {
     height: 500px;
 }
+img {
+    width: 20%;
+    display: inline-block;
+}

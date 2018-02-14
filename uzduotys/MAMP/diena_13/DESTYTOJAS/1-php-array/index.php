@@ -67,6 +67,9 @@
                   ?>
               </ul>
           </nav>
+
+
+
         <?php
         // uzduotis 2
         // A. susirasti 6 nuotraukas
@@ -74,15 +77,40 @@
         // C. atspausdinti visas nuotraukas su ciklu, po 3-ris i eilute
         // <img src='./img/1.jpg' alt=''  />
 
+        // ----sprendimas---
+        // 1) pasitesintit ar HMLT img veikai - atvaizduojama
+        // <img src="./img/1.jpg" alt="">
+        $manoFoto = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
+        // print_r(  $manoFoto ); // 2)  tik pasitestinom
+        for ($i=0; $i < count($manoFoto) ; $i++) { //
+            // pasitestuojame ar veikia
+             // echo "<img src='./img/1.jpg' alt=''>";
+             echo "<img src='./img/" . $manoFoto[$i] .  "' alt=''>";
+             if ( ($i + 1) % 3 === 0) {
+                 echo "<br>";
+             }
+        }
 
 
         // uzduotis 3
         // sukurti matrica, kurioje bus saugoma kiekvienos prekes info:
-        //  Antraste, img pavadinimas, prekes aprasymas, kaina
+        //  Antraste, img pavadinimas, kaina, prekes aprasymas
         // A. sukurti masyva preke: Antraste, img pavadinimas, prekes aprasymas, kaina
         // B. i masyva visosPrekes, ideti "preke" masyva
         // C. atvaizduodi kiekvienoje eiluteje po 3 prekes (naudojant for arba foreach)
 
+        // sprendimas
+        $prekes = [];
+        $prekes[0] = ["Dviratis", "1.jpg",  99.99,  "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  " ];
+        $prekes[1] = ["Paspirtukas", "2.jpg",  199.99,  "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  " ];
+        $prekes[3] = ["Rieduciai", "3.jpg",  250,  "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  " ];
+        $prekes[4] = ["Slides", "4.jpg",  50,  "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  " ];
+
+        print_r( $prekes );
+
+        // for ($i=0; $i < ; $i++) { 
+        //     # code...
+        // }
 
            // 3 budai
             // printf("<img src='./img/" . $visosPrekes[$i][1] . "' width='200px;' alt=''  />");

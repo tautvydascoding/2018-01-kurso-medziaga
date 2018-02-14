@@ -30,7 +30,7 @@
 
 
         echo "Labas $vardas <br>"; // tik " " dvigubose kabutese
-        echo 'Labas $vardas <br>'; // viengubose kabutese neveikia kintamieji
+        // viengubose kabutese neveikia kintamieji
 
         // string jungimas php su "." js su "+"
         echo " Labas" .  $vardas . " viso <br><br>"; // "Labas povilas viso"

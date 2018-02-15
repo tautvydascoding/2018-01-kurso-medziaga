@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Individuali knyga</title>
+    </head>
+    <body>
+
+        <!-- SlideShow begin-->
+           <div class="margins w3-display-bottomright w3-container">
+            &lt;!&ndash;
+            <div class="margins w3-display-topright w3-container">&ndash;&gt;
+               <div class="slideshow-container">
+
+                   <div class="mySlides fade">
+                       <div class="numbertext">1 / 6</div>
+                       <img src="images/Jai.jpg" height="300" width="400"/>
+
+                       <div class="text">Nori sushi</div>
+                   </div>
+
+                   <div class="mySlides fade">
+                       <div class="numbertext">2 / 6</div>
+                       <img src="images/Jam.jpg" height="300" width="400"/>
+
+                       <div class="text">Ura maki</div>
+                   </div>
+
+                   <div class="mySlides fade">
+                       <div class="numbertext">3 / 6</div>
+                       <img src="images/Library.jpg" height="300" width="400"/>
+
+                       <div class="text">Kepti sushi</div>
+                   </div>
+
+                   <div class="mySlides fade">
+                       <div class="numbertext">4 / 6</div>
+                       <img src="images/Nature.jpg" height="300" width="400"/>
+
+                       <div class="text">Nigiri sushi</div>
+                   </div>
+
+                   <div class="mySlides fade">
+                       <div class="numbertext">5 / 6</div>
+                       <img src="images/Rankdarbiai.jpg" height="300" width="400"/>
+
+                       <div class="text">Desertas</div>
+                   </div>
+
+                   <div class="mySlides fade">
+                       <div class="numbertext">6 / 6</div>
+                       <img src="images/Kulinarija.jpg" height="300" width="400"/>
+                       
+                       <div class="text">Kiniškas meniu</div>
+                   </div>
+               </div>
+               <br>
+
+               <div style="text-align:center">
+                   <span class="dot"></span>
+                   <span class="dot"></span>
+                   <span class="dot"></span>
+                   <span class="dot"></span>
+                   <span class="dot"></span>
+                   <span class="dot"></span>
+               </div>
+
+               <script>
+                   var slideIndex = 0;
+                   showSlides();
+
+                   function showSlides() {
+                       var i;
+                       var slides = document.getElementsByClassName("mySlides");
+                       var dots = document.getElementsByClassName("dot");
+                       for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                       }
+                       slideIndex++;
+                       if (slideIndex > slides.length) {slideIndex = 1}
+                       for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                       }
+                       slides[slideIndex-1].style.display = "block";
+                       dots[slideIndex-1].className += " active";
+                       setTimeout(showSlides, 1000); // Change image every 1 seconds
+                    }
+               </script>
+            </div>
+           <!--End of first Slideshow -->
+</div>
+
+    </body>
+</html>

@@ -17,6 +17,9 @@
 .aukstis-600{
     height: 600px;
 }
+.aukstis-700{
+    height: 700px;
+}
 .no-padding{
     padding-left: 0;
 }
@@ -26,6 +29,9 @@
 .auto-aukstis{
     height: 100vh;
 }
+.container{
+    background-color: #F9F7F1;
+}
 img{
     border-radius: 25px;
     background-color: white;
@@ -34,7 +40,7 @@ img{
     width: 100px;
     height: 100px;
     float: left;
-    background-color: white;
+    background-color:#F9F7F1;
     border-radius: 25px;
 }
 input{
@@ -43,49 +49,81 @@ input{
     text-align: center;
     /* padding-left: 30px; */
 }
+
 button{
     margin-top: 10px;
+    margin-left: 12px;
     position: relative;
     height: 30px;
     width: 100px;
     border-radius: 10px;
     float: left;
+    background-color: rgba(245, 245, 245, 0.8);
 }
-ul{
+ul.virsus{
     position: relative;
-    bottom: -60px;
-    text-align: right;
+    bottom: -3px;
+    text-align: center;
     /* margin-right: 20px; */
-    background-color: orange;
+    /* background-color: grey; */
+    background-color: rgba(220, 220, 220, 0.1);
     float: right;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
 }
-li{
+.RegistracijosAntraste{
+    margin-left: 35px;
+}
+.registracija{
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+}
+.ieskoti{
+    position: absolute;
+    width: 300px;
+}
+
+.centravimas{
+    position: absolute;
+    display: flex;
+    align-items: center;
+
+}
+
+.mygtukas{
+    display: flex;
+    align-self: center;
+    width: 100px;
+    height: 50px;
+}
+li.virs{
     display: inline;
     margin-left: 20px;
+    font-family: 'Tangerine', serif;
+    font-size: 22px;
+    margin-right: 35px;
 }
 a{
-    color: black;
-}
-footer{
-    margin-top: 10px;
-    border: solid;
-    background-color: grey;
+    color: #895644;
 }
 nav{
     position: absolute;
     width: 1100px;
     /* float: right; */
     border-radius: 25px;
-    background-color: green;
+    background-color: rgba(200, 200, 200, 0.3);
+    background-image: url("../images/HeaderioBack.jpg");
     margin-left: 35px;
-    display: inline-block; */
+    /* display: inline-block; */
     /* display: flex;
     justify-content: center; */
 }
-.antraste{
+/* .antraste{
 display: flex;
 justify-content: center;
-}
+} */
 .reklamos{
     width: 150px;
     display: flex;
@@ -93,25 +131,197 @@ justify-content: center;
 }
 main{
     display: inline;
-    background-color: orange;
+    background-color: rgba(210, 210, 210, 0.5);
     margin-top: 10px;
     border-radius: 10px;
 }
+body{
+    background-color: #E7E2C9;
+}
 aside{
-    background-color: rgba(0, 0, 255, 0.5);
+    background-color: rgba(200, 200, 200, 0.5);
     margin-top: 10px;
-    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 10px;
+}
+.antraDalis{
+    margin-left: 25px;
+
 }
 .pirmaKnyga{
     border: solid;
     border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("../images/Moksline.jpg");
+    background-size: 285px 200px;
 }
 .antraKnyga{
     border: solid;
     border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("../images/Atostogu.jpg");
+    background-size: 285px 200px;
 }
 .treciaKnyga{
     border: solid;
     border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("../images/vaikuEdukaciniai.jpg");
+    background-size: 285px 200px;
 }
+/* antra kategoriju eile */
+.pirmaKnyga2{
+    border: solid;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("../images/Jai.jpg");
+    background-size: 285px 200px;
+}
+.antraKnyga2{
+    border: solid;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("../images/Jam.jpg");
+    background-size: 285px 200px;
+}
+.treciaKnyga2{
+    border: solid;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("../images/Rankdarbiai.jpg");
+    background-size: 285px 200px;
+}
+.pirmaKnyga3{
+    border: solid;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("../images/comics.jpg");
+    background-size: 285px 200px;
+}
+.antraKnyga3{
+    border: solid;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("../images/Scifi2.jpg");
+    background-size: 285px 200px;
+}
+.treciaKnyga3{
+    border: solid;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("../images/Kulinarija.jpg");
+    background-size: 285px 200px;
+}
+.Kategorijos{
+    margin-top: 30px;
+}
+.section{
+    background-color: #E9E2C9;
+}
+footer{
+    margin-top: 10px;
+    border: solid;
+    background-color: grey;
+    background-image: url("../images/curvyLibrary.jpg");
+}
+header{
+    background-color: #E9E2C9;
+}
+.vienas{
+    display: flex;
+    justify-content: space-around;
+}
+.du{
+    display: flex;
+    justify-content: space-around;
+}
+.trys{
+    display: flex;
+    justify-content: space-around;
+}
+/* kubo pradzia */
+
+
+.container2 {
+  margin: 0 ;
+  width: 50px;
+  height: 200px;
+  position: relative;
+  perspective: 100px;
+}
+
+.carousel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.item {
+  display: block;
+  position: absolute;
+  background: #000;
+  width: 150px;
+  height: 300px;
+  line-height: 200px;
+  font-size: 5em;
+  text-align: center;
+  color: #FFF;
+  opacity: 0.95;
+  border-radius: 10px;
+}
+
+.a {
+  transform: rotateY(0deg) translateZ(250px);
+  background: #ed1c24;
+}
+.b {
+  transform: rotateY(60deg) translateZ(250px);
+  background: #0072bc;
+}
+.c {
+  transform: rotateY(120deg) translateZ(250px);
+  background: #39b54a;
+}
+.d {
+  transform: rotateY(180deg) translateZ(250px);
+  background: #f26522;
+}
+.e {
+  transform: rotateY(240deg) translateZ(250px);
+  background: #630460;
+}
+.f {
+  transform: rotateY(300deg) translateZ(250px);
+  background: #8c6239;
+}
+
+.next, .prev {
+  color: #444;
+  position: absolute;
+  top: 5px;
+  padding: 1em 2em;
+  cursor: pointer;
+  background: #CCC;
+  border-radius: 5px;
+  border-top: 1px solid #FFF;
+  box-shadow: 0 5px 0 #999;
+  transition: box-shadow 0.1s, top 0.1s;
+}
+.next:hover, .prev:hover { color: #020; }
+.next:active, .prev:active {
+  top: 4px;
+  box-shadow: 0 1px 0 #999;
+}
+.next { right: 5em; }
+.prev { left: 5em; }

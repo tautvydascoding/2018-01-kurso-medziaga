@@ -21,7 +21,55 @@ function rotate(e){
 
 
 
+
+// ryskumas
 $('.slenka').click(function() {
-     $('div.registracija').addClass('centravimas');
-     
+    $('body').animate({
+        opacity: '0.9',
+        });
+    $('.registracija').addClass('centravimas');
+            $('.vardas').animate({
+                left:'250px',
+                opacity: '1',
+                width: '200px',
+                height: '50px'
+                });
+                $('.mailas').animate({
+                    left:'250px',
+                    opacity: '1',
+                    width: '200px',
+                    height: '50px'
+                    });
+                    $('.slaptazodis').animate({
+                        left:'250px',
+                        opacity: '1',
+                        width: '200px',
+                        height: '50px'
+                        });
+});
+$('.ieskoti').click(function() {
+    $('.paieska').addClass('centravimas');
+    $('.paieska').animate({
+        // position: 'absolute',
+        left: '250px',
+        height: '100px',
+        width: '350px',
+        top: '50px',
+        opacity:'0.9'
+    })
+});
+
+$('.logo').hover(function() {
+    $('.loganas').animate({
+        width:'150px',
+        height: '200px',
+        shadow: '5px 5px 5px blue'
+
+    })
+}, function() {
+    $('.loganas').animate({
+        width: '100px',
+        height: '100px',
+        shadow: '2px 2px 2px red'
+    })
 });

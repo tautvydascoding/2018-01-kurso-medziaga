@@ -49,6 +49,7 @@ input{
     text-align: center;
     /* padding-left: 30px; */
 }
+
 button{
     margin-top: 10px;
     margin-left: 12px;
@@ -57,7 +58,7 @@ button{
     width: 100px;
     border-radius: 10px;
     float: left;
-    background-color: rgba(245, 245, 245, 0.3);
+    background-color: rgba(245, 245, 245, 0.8);
 }
 ul.virsus{
     position: relative;
@@ -77,18 +78,25 @@ ul.virsus{
 .registracija{
     display: flex;
     flex-direction: column;
+    z-index: 5;
 }
+.ieskoti{
+    position: absolute;
+    width: 300px;
+}
+
 .centravimas{
     position: absolute;
-    width: 200px;
-    height: 100px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+
 }
 
 .mygtukas{
     display: flex;
     align-self: center;
+    width: 100px;
+    height: 50px;
 }
 li.virs{
     display: inline;
@@ -245,10 +253,10 @@ header{
 
 .container2 {
   margin: 0 ;
-  width: 250px;
+  width: 50px;
   height: 200px;
   position: relative;
-  perspective: 1000px;
+  perspective: 100px;
 }
 
 .carousel {

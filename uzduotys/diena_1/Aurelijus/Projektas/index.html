@@ -8,19 +8,21 @@
         <link rel="stylesheet" href="./css/main.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
         <!-- Itraukiamas JavaScript failas -->
-        <script type="text/javascript" src="./js/main.js"></script>
+        <!-- <script type="text/javascript" src="./js/main.js"></script> -->
         <title>Gera knyga</title>
     </head>
-    <body>
+    <body class="bodis">
         <div class="container">
             <header class="row aukstis-200 ">
                 <div class="logo">
-<!-- IDEA: klaida --><img  src="./images/owllogo2.jpg" width="100px" height="100px"alt="">
+<!-- IDEA: klaida --><img  src="./images/owllogo2.jpg" class="loganas" width="100px" height="100px"alt="">
                 </div>
                 <nav class="col-10 ">
                     <!--  Paieskos langelis-->
+                    <div class="ieskoti trauktisCentran">
                     <input type="text" class="paieska" name="" value="" required placeholder="iveskite paieska" title="Nerandate?">
                     <button type="submit" name="Paieska" class="search">Paieska</button>
+                    </div>
                     <ul class="virsus">
                         <li class="virs"><a href="#">Pagrindinis</a></li>
                         <li class="virs"><a href="#">Prisijungti</a></li>
@@ -58,8 +60,8 @@
                             <div class="col registracija slenka">
                             <h4> <a href="#" class="RegistracijosAntraste">Registracija</a></h4>
                             <input class="vardas" type="text" name="userFirstName" value="" placeholder="Jusu vardas">
-                            <input type="email" name="userEmail" value="" placeholder="Jusu el. pastas">
-                            <input type="password" name="userPassword" value="" placeholder="Jusu slaptazodis">
+                            <input class="mailas" type="email" name="userEmail" value="" placeholder="Jusu el. pastas">
+                            <input class="slaptazodis" type="password" name="userPassword" value="" placeholder="Jusu slaptazodis">
                             <button type="submit" name="button1" class="mygtukas">Registruotis</button>
                             </div>
 
@@ -177,7 +179,8 @@
                 </div>
             </footer>
         </div>
-                    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+                    <script src="http://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
                     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                     <script type="text/javascript" src="./js/main.js">     </script>

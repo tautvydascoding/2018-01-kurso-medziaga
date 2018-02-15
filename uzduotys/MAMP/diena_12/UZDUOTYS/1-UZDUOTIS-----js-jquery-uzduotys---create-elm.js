@@ -33,7 +33,7 @@ console.log("Labas");
 
 //
 // ---------------------------------
-// 1.9 daugiau uzduotiu su perkelimu elementu append, prepend, after, before, appendTo
+// 1.9 daugiau uzduociu su perkelimu elementu append, prepend, after, before, appendTo
 // ---------------------------------
 
 

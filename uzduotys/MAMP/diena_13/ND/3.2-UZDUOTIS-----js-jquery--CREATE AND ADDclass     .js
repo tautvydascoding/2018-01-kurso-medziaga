@@ -10,6 +10,8 @@ console.log("Labas");
 // su js sukurti menu naudojant <ul> <li> :
 // Home, Gallery, About, contacts
 
+ 
+
 // 2.2
 // suprogramuoti, kad paspaudus ant bet kurio menu punkto (li) jam uzsidetu klase "active
 // 2.2.2 paspausti ant visu <li> elementu

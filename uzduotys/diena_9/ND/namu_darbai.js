@@ -11,14 +11,14 @@
 
 
 
-// 6. sukurti su masyvus (skirtingus)
-// naudojant for cikla sujungti juos, kasnatra elementa
-// [pirmo mazyvo, antro masyvo, pirmo masyvo, antro masyvo , ...]
+// 6. sukurti du masyvus (skirtingus)
+// naudojant for cikla sujungti juos, kas antra elementa
+// [pirmo masyvo, antro masyvo, pirmo masyvo, antro masyvo , ...]
 
 // sunkesnis
 // susikurti masyva su prekiu pavadinimais
 // naudojant FOR  parasykite/pergrupuokite ji atvirksciai
-
+// ! nenaudojant "reverse"
 
 
 //

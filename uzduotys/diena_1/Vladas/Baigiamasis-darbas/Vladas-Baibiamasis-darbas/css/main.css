@@ -5,6 +5,8 @@ body {
 .logo {
     width: 200px;
     height: 100px;
+
+
 }
 .logo2 {
     width: 150px;
@@ -13,24 +15,33 @@ body {
 .col {
     height: 800px;
 }
-#navigacija {
+header {
     overflow: hidden;
     background-color: rgb(66, 195, 119);
     width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
 
 }
-.pav {
-    justify-content: space-between;
+li {
+    padding-left: 20px;
 }
+
+a.nav-link {
+    font-style: oblique;
+    font-size: 25px;
+}
+.pagrindinis {
+    overflow-x: hidden;
+}
+
 .fone1 {
-    padding-top: 150px;
+    margin-top: 150px;
 }
 .fone2 {
     margin-top: 150px;
 }
 .fone {
     margin-top: 15px;
-}
-li {
-    justify-content: space-between;
 }

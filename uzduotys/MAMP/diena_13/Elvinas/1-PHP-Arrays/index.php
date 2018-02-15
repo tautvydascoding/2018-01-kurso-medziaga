@@ -22,7 +22,6 @@
         <h1>Isijunk konsole</h1>
 
         <?php
-
         // uzduotis 1
         // A. susikurti meniu masyva: home, about, gallery, contact, blog
         // B. atspausdinti visus meniu punktus i HTML (su html tag'ais)
@@ -76,7 +75,6 @@
         // B. susikurti nuotrauku pavadinimu masyva
         // C. atspausdinti visas nuotraukas su ciklu, po 3-ris i eilute
         // <img src='./img/1.jpg' alt=''  />
-
         // ----sprendimas---
         // 1) pasitesintit ar HMLT img veikai - atvaizduojama
         // <img src="./img/1.jpg" alt="">
@@ -90,44 +88,36 @@
                  echo "<br>";
              }
         }
-
-
         // uzduotis 3
         // sukurti matrica, kurioje bus saugoma kiekvienos prekes info:
         //  Antraste, img pavadinimas, kaina, prekes aprasymas
         // A. sukurti masyva preke: Antraste, img pavadinimas, prekes aprasymas, kaina
         // B. i masyva visosPrekes, ideti "preke" masyva
         // C. atvaizduodi kiekvienoje eiluteje po 3 prekes (naudojant for arba foreach)
-
         // sprendimas
         $prekes = [];
         $prekes[0] = ["Dviratis", "1.jpg",  99.99,  "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  " ];
         $prekes[1] = ["Paspirtukas", "2.jpg",  199.99,  "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  " ];
         $prekes[2] = ["Rieduciai", "3.jpg",  250,  "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  " ];
         $prekes[3] = ["Slides", "4.jpg",  50,  "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  " ];
-
         // print_r( $prekes );
-        echo "<section class='row'> ";
         for ($i=0; $i < count($prekes); $i++) {
+            echo $prekes[$i][0] . " <br>";
+            echo $prekes[$i][2] . " <br>";
             ?>
-            <article class="col-4 bg-info card">
-                <h2> <?php echo $prekes[$i][0]; ?>  </h2>
-                <img src="./img/<?php echo $prekes[$i][1]; ?>" alt="">
-                <p> <?php echo $prekes[$i][3]; ?> </p>
-                <a href="#" class="btn btn-lg btn-warning"> <?php echo $prekes[$i][2]; ?> </a>
+
+            <article class="col-4 bg-info">
+                <h2> <?php echo $prekes[$i][0]; ?> </h2>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="#" class="btn btn-lg btn-warning"> 99 </a>
             </article>
 
             <?php
         }
-        echo "</section>";
-
            // 3 budai
             // printf("<img src='./img/" . $visosPrekes[$i][1] . "' width='200px;' alt=''  />");
             // printf("<img src='./img/%s' width='200px;' alt=''  />", $visosPrekes[$i][1]);
-
-
-             
-
          ?>
 
 

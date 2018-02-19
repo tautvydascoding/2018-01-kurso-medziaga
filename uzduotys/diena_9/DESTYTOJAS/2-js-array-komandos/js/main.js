@@ -15,7 +15,7 @@ console.log( tekstas2 );
 
 // delete last element
 phones.pop();
-console.log( phones.join(" ; ") );
+document.write( phones.join(" ; ") );
 
 phones.push("Huawei"); // idejimas i gala
 phones.push("Panasonic"); // idejimas i gala

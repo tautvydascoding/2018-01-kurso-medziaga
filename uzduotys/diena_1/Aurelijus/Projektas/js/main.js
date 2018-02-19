@@ -20,8 +20,6 @@ function rotate(e){
 }
 
 
-
-
 // ryskumas
 $('.slenka').click(function() {
     $('body').animate({

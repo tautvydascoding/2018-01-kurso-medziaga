@@ -1,0 +1,1 @@
+isvesti daktaro info: vardas , pavarda, nr

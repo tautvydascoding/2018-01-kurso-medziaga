@@ -9,7 +9,6 @@ body {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 h1, h2, h3 {font-family: 'Indie Flower', cursive;
@@ -42,7 +41,6 @@ nav li {
     padding-top: 12px;
     float: left; /* nepamirsti clear float uzdeti */
     width: 25%;
-
     font-size: 29px;
     list-style: none;
     text-transform: uppercase;
@@ -59,7 +57,6 @@ padding-top: 9px;}
     width: 40%;
     height: 80px;
     background-color: #FF80FF;
-
     float: right;
 }
 input {
@@ -110,7 +107,6 @@ aside {width: 18%;
 
 
 .sone {text-align: center;
-
 }
 
 .float-left {float: left;

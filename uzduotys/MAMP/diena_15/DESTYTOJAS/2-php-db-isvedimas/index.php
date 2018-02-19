@@ -18,11 +18,28 @@
          -->
     </head>
     <body>
+         <div class="container">
+                <h1> GYdytoju sarasa</h1>
 
-        <h1>Isijunk konsole</h1>
+                <?php
+                    require('./libs/doctors_db.php');
+                    $gydytojas = getDoctor(1); // masyvas
+                 ?>
 
-
-
+                 <article class="row">
+                     <?php $gydytojas = getDoctor(1); // masyvas ?>
+                     <div class="col-6 bg-info text-center p-2">
+                         <h2>
+                             <?php    echo $gydytojas['name'];     ?>
+                         </h2>
+                     </div>
+                     <div class="col bg-success text-center p-2">
+                         <h2>
+                             <?php    echo $gydytojas['lname'];     ?>
+                         </h2>
+                     </div>
+                 </article>
+         </div>  <!-- end container -->
 
         <!-- js puslapio apacioje -->
         <script src="http://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

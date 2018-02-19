@@ -42,11 +42,26 @@ function getPrisijungimas() {
 
  //===========
  function getDoctor($nr) {
-     // global $connnection;
-     $manoSQL = "SELECT * FROM doctors WHERE id=2;";
-     $resultai = mysqli_query(    getPrisijungimas()  , $manoSQL); // mysqli_query - ivykdo uzduota SQL teksta
+     $manoSQL = "SELECT * FROM doctors WHERE id='$nr';";
+     // mysqli_query - grazina duomenis MYSQL objekte
+     $resultatai = mysqli_query(    getPrisijungimas(), $manoSQL); // mysqli_query - ivykdo uzduota SQL teksta
 
+     if( !$resultatai  ) {
+         echo "Ieskomo gydyotjo nera. nr: " . $nr . " <br> ";
+         return NULL;
+     } else {
+         // MYSQL objekta verciam i masyvas
+         $resultatu_masyvas = mysqli_fetch_assoc(   $resultatai   );
+         return $resultatu_masyvas;
+         // mysqli_fetch_assoc - pavercia i associatyvu masyva
+         // mysqli_fetch_array - pavercia i associatyvu ir paprasta masyva
+         // mysqli_fetch_row - ~~ pavercia i  paprasta masyva
+     }
  }
- $gydytojas = getDoctor(2); // masyvas
-
+ $gydytojas = getDoctor(1); // masyvas
+ if( $gydytojas != NULL) {
+     echo $gydytojas['name'] . " " ;
+     echo $gydytojas['lname'] . " " ;
+     echo $gydytojas['id'] . "<br>" ;
+ }
 //

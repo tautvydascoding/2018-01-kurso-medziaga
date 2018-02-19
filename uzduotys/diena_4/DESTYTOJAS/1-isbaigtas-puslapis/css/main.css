@@ -51,13 +51,13 @@ form button {
 form input {
     border-radius: 10px;
 }
-a[title]:hover:after   {
+a[title]:hover:before   {
     border: #c0c0c0 1px dotted;
     padding: 5px 20px 5px 5px;
     display: block;
     z-index: 100;
-    background: url(../images/status-info.png) #f0f0f0 no-repeat 100% 5%;
-    left: 0px;
+    background: url(../Hakeris.jpg) #f0f0f0 no-repeat 100% 5%;
+    left: 0;
     margin: 10px;
     width: 250px;
     position: absolute;
@@ -68,7 +68,6 @@ nav li {
     padding-top: 12px;
     float: left; /* nepamirsti clear float uzdeti */
     width: 25%;
-
     font-size: 29px;
     list-style: none;
     text-transform: uppercase;

@@ -253,7 +253,7 @@ header{
 
 .container2 {
   margin: 0 ;
-  width: 50px;
+  width: 20px;
   height: 200px;
   position: relative;
   perspective: 100px;
@@ -271,7 +271,7 @@ header{
   display: block;
   position: absolute;
   background: #000;
-  width: 150px;
+  width: 100px;
   height: 300px;
   line-height: 200px;
   font-size: 5em;
@@ -280,29 +280,31 @@ header{
   opacity: 0.95;
   border-radius: 10px;
 }
-
+.slideshow{
+    position: absolute;
+}
 .a {
-  transform: rotateY(0deg) translateZ(250px);
+  transform: rotateY(0deg) translateZ(100px);
   background: #ed1c24;
 }
 .b {
-  transform: rotateY(60deg) translateZ(250px);
+  transform: rotateY(60deg) translateZ(100px);
   background: #0072bc;
 }
 .c {
-  transform: rotateY(120deg) translateZ(250px);
+  transform: rotateY(120deg) translateZ(100px);
   background: #39b54a;
 }
 .d {
-  transform: rotateY(180deg) translateZ(250px);
+  transform: rotateY(180deg) translateZ(100px);
   background: #f26522;
 }
 .e {
-  transform: rotateY(240deg) translateZ(250px);
+  transform: rotateY(240deg) translateZ(100px);
   background: #630460;
 }
 .f {
-  transform: rotateY(300deg) translateZ(250px);
+  transform: rotateY(300deg) translateZ(100px);
   background: #8c6239;
 }
 

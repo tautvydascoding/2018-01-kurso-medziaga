@@ -76,9 +76,15 @@ function piestiEilute (ilgis) {
     }
     document.querySelector('h1').innerHTML += "<br>";
 }
+function piestiStulpeli(){
+document.write("|", "|");
+document.querySelector('h1').innerHTML += "|";
+}
 piestiEilute (50);
-piestiEilute (10);
-piestiEilute (30);
+piestiStulpeli();
+
+piestiEilute (50);
+
 
 
 // advance

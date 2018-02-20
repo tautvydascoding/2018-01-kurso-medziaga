@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <?php
+        error_reporting(E_ALL);
+        ini_set('display_errors', 'on');
+        ?>
+        <!-- !!! mano CSS failas vissada zemiau, nie kiti css failai -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.css">
+
+        <!-- !!idedame CSS faila, nes kitaip neveiks -->
+        <link rel="stylesheet" href="./css/main.css">
+        <!-- NOTE: jeigu neveikia:
+            1) ar failo pavadinimas geras
+            2) ar kelias geras?   (ar "/" teisingi; direktorija ar gere )
+            3) ar   rel="stylesheet"
+            4) ar link uzdalete ">"
+         -->
+    </head>
+    <body>
+
+        <div class="container">
+
+
+        <?php include('./libs/hospital1_DB.php');
+
+        for ($i=1; $i < 6 ; $i++) {
+
+        $gydytojas = getDoctor($i);
+
+         ?>
+                    <div class="row text-center mt-2">
+                         <span class="col"><?php echo $gydytojas['id'] ?></span>
+                    </div>
+                    <article class="row text-center justify-content-center mt-2">
+                        <div class="col-4 bg-dark text-light">
+                            <h2> <?php echo $gydytojas['name'] ?> </h2>
+                        </div>
+                        <div class="col-4 bg-light">
+                            <h2> <?php echo $gydytojas['lname'] ?> </h2>
+                        </div>
+                    </article>
+        <?php
+        }
+        ?>
+        </div>      <!-- end Container -->
+
+
+
+
+        <!-- js puslapio apacioje -->
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- !!! mano js failas - VISADA pats zemiausias -->
+        <script type="text/javascript" src="js/main.js">     </script>
+    </body>
+</html>

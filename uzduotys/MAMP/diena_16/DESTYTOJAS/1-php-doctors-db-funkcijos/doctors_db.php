@@ -94,6 +94,61 @@ function createDoctor222($vardas, $pavarde) {
     }
 }
 
-createDoctor222("veronika", 'verotaite');
+// createDoctor222("veronika", 'verotaite');
+
+// gydytojo trinimas is DB
+function deleteDoctor( $nr ) {
+    $manoSQL = " DELETE FROM doctors WHERE id='$nr'; ";
+    mysqli_query( getPrisijungimas(), $manoSQL);
+}
+// deleteDoctor( 11 );
+
+// gydytojo redagavimas
+function updateDoctor($nr, $vardas, $pavarde) {
+    // SAUGUMAS:  uzkoduoja spec. simbolius "  ' \n \t < >
+    $vardas = mysqli_real_escape_string( getPrisijungimas(), $vardas);
+    $pavarde = mysqli_real_escape_string( getPrisijungimas(), $pavarde);
+
+    $manoSQL = "UPDATE doctors SET   name='$vardas', lname='$pavarde'
+                               WHERE id='$nr';
+                    ";
+    mysqli_query( getPrisijungimas(),  $manoSQL );
+}
+// updateDoctor(7, "Onute", 'Onutaite');
+
+// visu gydytoju paemimias
+function getDoctors() {
+    $manoSQL = "SELECT * FROM doctors; ";
+    $visi_gydytojai =  mysqli_query( getPrisijungimas() , $manoSQL);
+
+    if($visi_gydytojai  ){
+        return $visi_gydytojai;
+    } else {
+        echo "ERRROR: neradom gydytoju: " . mysqli_error( getPrisijungimas() );
+        return NULL;
+    }
+}
+$all_doctors = getDoctors();
+// print_r(  $all_doctors );
+// var_dump(  $all_doctors );
+
+// mysqli_fetch_assoc - is MYSQL objekto paima pirma "eilute" ir ja pavercia i masyva
+$gydytojas = mysqli_fetch_assoc( $all_doctors);
+
+while( $gydytojas ) {
+    echo  $gydytojas['lname']  . '<br>';               // xxx <br>
+    echo  " vardas: " . $gydytojas['name'] . '<br>';  // vardas: xxx <br>
+
+    $gydytojas = mysqli_fetch_assoc( $all_doctors); // imame sekancia eilute/ sekanti gydytoja
+}
+
+
+// ARBA TRUMPIAU
+// while( $gydytojas = mysqli_fetch_assoc( $all_doctors)) {
+//     echo  $gydytojas['lname']  . '<br>';               // xxx <br>
+//     echo  " vardas: " . $gydytojas['name'] . '<br>';  // vardas: xxx <br>
+// }
+
+
 
 //

@@ -4,7 +4,7 @@
 <div class="container">
     <article class="row p-5">
         <?php
-            $gydytojas = getDoctor(5); //  Array ( [id] => 5 [name] => Koris [lname] => Pita )
+            $gydytojas = getDoctor(9); //  Array ( [id] => 5 [name] => Koris [lname] => Pita )
         ?>
         <div class="col-6 bg-info ">
             <h2>
@@ -17,6 +17,6 @@
                 <?php echo $gydytojas['lname']; ?>
             </h2>
         </div>
-        <a href="delete_doctor.php" class="btn btn-danger "> DELETE </a>
+        <a href="delete_doctor.php?numeris=<?php   echo $gydytojas['id']; ?>" class="btn btn-danger "> DELETE </a>
     </article>
 </div>

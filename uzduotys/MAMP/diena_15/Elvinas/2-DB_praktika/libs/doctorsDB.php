@@ -34,7 +34,7 @@ function getPrisijungimas() {
      // global $connnection;
      $manoSQL = "SELECT * FROM doctors WHERE id='$nr';"; // mysqli_query - grazina duomenis mysql objekte
      $resultatai = mysqli_query(    getPrisijungimas()  , $manoSQL); // mysqli_query - ivykdo uzduota SQL teksta
-     if ($resultatai) {
+     if (!$resultatai) {
        echo "Ieskomo gydytojo nera. nr" . $nr. "<br>";
        return NULL;
      } else {

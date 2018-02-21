@@ -28,19 +28,19 @@ if (vardas1 == "Tomas") {
 // B.2)
 // Papildomai patikrinti uzdavini A.
 // Jeigu vardas1 yra "Tomas" - Netikrinti ar vardai sutampa ar nesutampa
-vardas1 = "Tomas";
-if (vardas1 == "Tomas"){
-    console.log("labas tamai");
-} else if ( vardas1 == vardas2 ) {
-    console.log("vardai tikrai vienodi ");
-} else if (vardas1 != vardas2) {
-    console.log(" vardai tikrai skirtingi ");
-}
+//vardas1 = "Tomas";
+//if (vardas1 == "Tomas"){
+//    console.log("labas tamai");
+//} else if ( vardas1 == vardas2 ) {
+//    console.log("vardai tikrai vienodi ");
+//} else if (vardas1 != vardas2) {
+  //  console.log(" vardai tikrai skirtingi ");
+//}
 
 // C)
 // Patikrinti ar varda1 yra "Tomas", IR butinai vardas2  yra "Karolis"
-vardas1 = "Tomas";
-vardas2 = "Karolis";
+//vardas1 = "Tomas";
+//vardas2 = "Karolis";
 
 // D)
 // Patikrinti ar bent vienas is vardu "Tomas"
@@ -75,15 +75,15 @@ vardas2 = "Karolis";
 // iki 7 metu ir nuo 65 metu papildomai isvesti "Sokoladiniai zuikuciai 20% nuolaida"
 var age = 6;
 // jeigu amzius mazesnis nei 7 metai
-if (age < 7 ) {
-    console.log( "Pliusines varles");
+//if (age < 7 ) {
+//    console.log( "Pliusines varles");
 
     // ar amzius nuo 7 iki 14
-} else if ( age >= 7 &&  age < 14) {
-    console.log(  "Mini telefonai");
-} else if (true) {
+//} else if ( age >= 7 &&  age < 14) {
+//    console.log(  "Mini telefonai");
+//} else if (true) {
 
-}
+//}
 
 
 // 2 UZDUOTIS
@@ -91,3 +91,25 @@ if (age < 7 ) {
 // kai "if"-ui padauodame Toma - isvesti "Masinoms 10% nuolaida"
 // kai "if"-ui padauodame Pauliu - isvesti "Buitinei technikai  30% nuolaida"
 // kai "if"-ui padauodame bet ka kita - isvesti "5% nuolaida kelionems"
+
+function VardasLygus(vardas1){
+var vardas1;
+
+if( vardas1=="Tomas"){
+document.write("vardas ", vardas1);
+}
+ else if( vardas1 =="Paulius"){
+document.write("vardas 2 ", vardas1);
+}
+ else if(vardas1=="Algirdas"){
+document.write("vardas 3 ", vardas1);
+}
+
+return vardas1;
+	
+}
+
+VardasLygus("Paulius");
+
+
+

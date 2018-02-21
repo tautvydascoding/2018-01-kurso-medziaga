@@ -76,11 +76,11 @@ console.log( y );    // arba console.log( getVardasPavarde() );
 // B) sukurti f-ja "getH1ElementoAukstis(), kuri su "return" grazina surenderinto h1 elemento auksti
 // C) su CSS pakeisti h1 auksti, ir paziureti ar jusu f-ja veikia
 function getH1ElementoAukstis() {
-    // var h1Elementas = document.querySelector('h1'); // ieskome h1
-    // console.log( x ); // testuoju ar radome h1
-    // var aukstis = h1Elementas.offsetHeight;
+     var h1Elementas = document.querySelector('h2'); // ieskome h1
+     console.log( h1Elementas ); // testuoju ar radome h1
+    var aukstis = h1Elementas.offsetHeight;
     // arba
-    var aukstis = document.querySelector('h1').offsetHeight;
+    //var aukstis = document.querySelector('h1').offsetHeight;
     return aukstis;
 }
 var x = getH1ElementoAukstis( );

@@ -3,7 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title></title>
-
+        <?php
+        error_reporting(E_ALL);
+        ini_set('display_errors', 'on');
+        ?>
         <!-- !!! mano CSS failas vissada zemiau, nie kiti css failai -->
         <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
         <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.css">
@@ -19,7 +22,31 @@
     </head>
     <body>
 
-        <h1>Isijunk konsole</h1>
+        <div class="container">
+
+
+        <?php include('./libs/hospital1_DB.php');
+
+        for ($i=1; $i < 6 ; $i++) {
+
+        $gydytojas = getDoctor($i);
+
+         ?>
+                    <div class="row text-center mt-2">
+                         <span class="col"><?php echo $gydytojas['id'] ?></span>
+                    </div>
+                    <article class="row text-center justify-content-center mt-2">
+                        <div class="col-4 bg-dark text-light">
+                            <h2> <?php echo $gydytojas['name'] ?> </h2>
+                        </div>
+                        <div class="col-4 bg-light">
+                            <h2> <?php echo $gydytojas['lname'] ?> </h2>
+                        </div>
+                    </article>
+        <?php
+        }
+        ?>
+        </div>      <!-- end Container -->
 
 
 

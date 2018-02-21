@@ -1,0 +1,12 @@
+susiskirtote po 2 zmones
+1) pirmas zmogus kurs Front-end
+2) antras zmogus kurs Back-end
+
+1)
+A)susirasti .jpg puslapio dizaina
+B) sukurti su CSS ir HTML toki dizaina
+
+2)
+A) sukurti DB su lentele
+B) uzpildyti DB lentele
+C) isvesti DB zuomenis i HTML, po to i draugo dizaino lapa

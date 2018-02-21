@@ -1,4 +1,5 @@
 <?php
+// https://myaccount.google.com/lesssecureapps?pli=1
 
 echo "pries email siuntima";
 // print_r( $_GET ); // pasitrikrinti
@@ -32,8 +33,8 @@ try {
     $mail->isSMTP();                                      // Set mailer to use SMTP
 
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'testascoding@gmail.com';                 // SMTP username
-    $mail->Password = 'slaptazodis';                           // SMTP password
+    $mail->Username = 'xxx@gmail.com';                 // SMTP username
+    $mail->Password = 'xxx-xxx';                           // SMTP password
 
 
     //Recipients
@@ -54,7 +55,9 @@ try {
 
 
     if( $mail->send() ) {
-        createDoctor($vard, $klaus, $pastas);
+        // code... createDoctor($vard, $klaus, $pastas);
+    } else {
+        // code...
     }
 
     echo 'O taip, email issiustas sekmingai';

@@ -34,6 +34,10 @@ class Gyvunas {
 
         echo $this->kuoMinta; // "mesa" , privatus kintamieji pasiekiami visoej Class'eje
     }
+    public function spausdinuKintamuosius() {
+        echo $this->spalva . "<br>";    // public  Class kintamasis
+        echo $this->kuoMinta  . "<br>"; // private  Class kintamasis
+    }
 
     // privataus kintamojo paemimas
     public function getKuoMinta() {
@@ -53,10 +57,28 @@ $x = $lape->getKuoMinta();
 echo "<br> lape minta:" . $x . "<br>";   // "mesa"
 
 // PAKEISTI LAPES MITYBA I "ZOLELES"
-// $lape->kuoMinta = "zoleles"; // ERORORE
+// $lape->kuoMinta = "zoleles"; // ERROR
 
 $lape->setMityba( "zoleles" );
 $x = $lape->getKuoMinta();
 echo "<br> lape minta:" . $x . "<br>";   // "zoleles"
 
-//
+// UZDUOTIS
+// A) sukurti 3 objektus Class Gyvunas: vilkas, lape, kiskis
+// B) pakeisti visu mityba: vilkas eda "lape"; lape eda "kiskiai"; kisksi eda "zoleles"
+
+// A)
+$vilkas = new Gyvunas();
+$lape = new Gyvunas();
+$kiskis = new Gyvunas();
+// B)
+$vilkas->setMityba( "lapes" );
+$lape->setMityba( "kiskiai" );
+$kiskis->setMityba( "zoleles" );
+
+echo "ka valgo VIlkas:";
+$vilkas->spausdinuKintamuosius();
+echo "ka valgo Lape:";
+$lape->spausdinuKintamuosius();
+echo "ka valgo Kiskis:";
+$kiskis->spausdinuKintamuosius();

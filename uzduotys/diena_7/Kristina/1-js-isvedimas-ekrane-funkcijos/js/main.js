@@ -60,7 +60,7 @@ pazymiuVidurkis();
 // suskaiciuoti pazymiu vidurki, 5, 10 , 8 , 6 , 8  (ir atspausdintu vidurki)
 
 function pazymiuVidurkis1(x1, x2, x3, x4, x5) {
-    // console.log( "vidurkis", (x1 + x2 + x3 + x4 + x5) / 5);
+    console.log( "vidurkis", (x1 + x2 + x3 + x4 + x5) / 5);
     var vidurkis = (x1 + x2 + x3 + x4 + x5) / 5;
     // document.querySelector("h1").innerHtml = "<b>vidurkis</b>"; // neveikia
     document.write("vidurkis: " + vidurkis + "<br>");
@@ -91,9 +91,10 @@ function getVardasPavarde() {
     var pavarde = "Tomauskas";
     return vardas + pavarde; // + sujungia tekstus
 }
-var x = getVardasPavarde();
+var x = getVardasPavarde(); // spausdina konsolej ir be sito 
 // console.log("mano draugas", x);
-console.log("mano draugas", getVardasPavarde());
+console.log("mano draugas", getVardasPavarde()); // spausdina konsolej
+document.write(getVardasPavarde()); // spausdina ekrane
 
 // 4 UZDUOTIS
 // A) sukurti h1 su tekstu viduje

@@ -124,11 +124,11 @@ $gydytojas = mysqli_fetch_assoc( $allDoctors);
 
 // var_dump($gydytojas);
 // print_r($gydytojas);
-while ($gydytojas) {
-    echo "Pavarde " . $gydytojas['lname'] . "<br>";
-    echo "Vardas " . $gydytojas['name'] . "<br>";
-    $gydytojas = mysqli_fetch_assoc( $allDoctors);
-}
+// while ($gydytojas) {
+//     echo "Pavarde " . $gydytojas['lname'] . "<br>";
+//     echo "Vardas " . $gydytojas['name'] . "<br>";
+//     $gydytojas = mysqli_fetch_assoc( $allDoctors);
+// }
 
 
 

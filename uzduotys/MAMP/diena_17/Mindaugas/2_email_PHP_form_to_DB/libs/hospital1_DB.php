@@ -62,9 +62,11 @@ vardas kuriamo gydytojo vardas
 function createDoctor($vardas, $pavarde) {
 
     $manoBBB = "INSERT INTO doctors VALUES ('', '$vardas', '$pavarde');";
-    $result = mysqli_query(getPrisijungimas(), $manoBBB);
+    mysqli_query(getPrisijungimas(), $manoBBB);
 
 }
+
+
 function createDoctor2($vardas, $pavarde) {
     $vardas = mysqli_real_escape_string(getPrisijungimas(), $vardas); //uzkoduoja simbolius <,> del saugumo
     $pavarde = mysqli_real_escape_string(getPrisijungimas(), $pavarde); //uzkoduoja simbolius
@@ -78,7 +80,7 @@ function createDoctor2($vardas, $pavarde) {
 
 }
 // createDoctor2('Veroni;>$ka', 'Voveraite');
-// createDoctor('Tomaš', 'Pietškauskas');
+createDoctor('Tomaš', 'Pietškauskas');
 // createDoctor('Marius', 'Zilinauskas');
 // createDoctor('Paulina', 'Ovia');
 //

@@ -19,12 +19,12 @@ echo $zmogus1->name;   // tomas
 $zmogus1->name = 'Jurgis';
 echo $zmogus1->name;  // Jurgis
 
-
+$a = '1';
 // ------------------------kitamuju naudojism klaseje-------------
 // pirvaciu keitimas
 class Gyvunas {
-    private $kuoMinta = "mesa";
-    public $spalva = "rudas";
+    private $kuoMinta = "";
+    public $spalva = "";
 
     public function spausdinu() {
         // echo $spalva; // EROR: localus
@@ -46,6 +46,11 @@ class Gyvunas {
     // keicia privatu kintamamaji
     public function setMityba( $x ) { // $x - localus isgalvotas naujas laikinas kintamasis
         $this->kuoMinta = $x;
+    }
+    // __construct - tai f-ja kuri visada slapta bus iskviesta, kai naudosi "new Gyvunas()"
+    function __construct ($x= "", $y= "") {
+          $this->kuoMinta = $x;
+          $this->spalva =  $y;
     }
 }
 $lape = new Gyvunas();
@@ -70,7 +75,7 @@ echo "<br> lape minta:" . $x . "<br>";   // "zoleles"
 // A)
 $vilkas = new Gyvunas();
 $lape = new Gyvunas();
-$kiskis = new Gyvunas();
+$kiskis = new Gyvunas("pienes", "juoda");
 // B)
 $vilkas->setMityba( "lapes" );
 $lape->setMityba( "kiskiai" );

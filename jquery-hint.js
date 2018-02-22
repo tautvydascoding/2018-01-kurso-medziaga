@@ -1,7 +1,7 @@
     // viduje esantis kodas veiks tik uzsikrovus visam puslapiui
 $(document).ready(function(){
 
-}
+});
 	
 
 

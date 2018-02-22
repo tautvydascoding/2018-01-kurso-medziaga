@@ -4,7 +4,7 @@ console.log(" Labas ");
 var tekstas = $("h1").text(); // nes jei be var tekstas = tada paselektins bet isgaruos
 console.log(tekstas);
 $("h1").text(tekstas + " pakeistas");
-$("h1").html(tekstas + " <strong> pakeistas </strong>");
+$("h1").html(" <strong> pakeistas </strong>");
 
 var a = $("h1")[0]; // grazina tiesiog html elm (dom)
 var b = $("h1").eq(0); // cia jquery OBJEKTAS, issirenki numeriu kuri nori, veiks visos komandos, grazina su visokiausiais kintamaisiais

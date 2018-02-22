@@ -32,7 +32,7 @@ $( "article > p" ).css( myCSS );
 // 		return parseFloat( value ) * 1.2;
 //   }
 // });
-//=============selectors kaip CSS=========
+// //=============selectors kaip CSS=========
 
 // keliu elementu select'as (select h1 and h2 elements)
 $( "h1, h2" ).css( "background", "black" );
@@ -58,6 +58,15 @@ $( "header" ).css( "color", "red" ).find( "h1" ).css( "color", "green" );  // no
 // note: $("input[type='email']").attr('value') // will return value from DOM/HTML.
 
 // brolius ir seses Isskyrus h2 pati
+<<<<<<< HEAD
+// $("h2").siblings().css({"color": "red", "border": "2px solid red"});
+// h2 brolius kurie yra "p", bet nera h2 ar kiti
+// $("h2").siblings("p").css({"color": "orange", "border": "2px solid red"});
+// sekanti brolini elementa
+// $("h2").next().css({"color": "red", "border": "2px solid red"});
+// $("h2").nextAll();
+// $("h2").nextUntil("h6");
+=======
 $("body h2").siblings().css({"color": "red", "border": "2px solid red"});
 h2 brolius kurie yra "p", bet nera h2 ar kiti
 $("h2").siblings("p").css({"color": "orange", "border": "2px solid red"});
@@ -65,3 +74,4 @@ sekanti brolini elementa
 $("h2").next().css({"color": "red", "border": "2px solid red"});
 $("h2").nextAll();
 $("h2").nextUntil("h6"); // !!! tik su elementais, su class neveiks
+>>>>>>> ce904a4588b5a82c0174855900c70b67b2c240e6

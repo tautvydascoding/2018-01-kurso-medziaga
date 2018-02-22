@@ -1,0 +1,92 @@
+
+body {
+    overflow-x: hidden;
+
+}
+.logo {
+    width: 200px;
+    height: 100px;
+
+
+}
+.bg {
+    height: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.logo2 {
+    width: 150px;
+    height: 50px;
+}
+.col {
+    height: 800px;
+}
+header {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(247, 245, 47);
+
+}
+li {
+    padding-left: 20px;
+    color: white;
+}
+ul {
+
+}
+a.nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-style: oblique;
+    font-size: 25px;
+}
+.pagrindinis {
+    overflow-x: hidden;
+    color: rgb(4, 30, 107);
+}
+
+.fone1 {
+    margin-top: 150px;
+}
+.fone2 {
+    margin-top: 150px;
+}
+.fone {
+    margin-top: 15px;
+}
+button {
+    border-radius: 5px;
+    width: 100px;
+
+
+}
+.map {
+    position: relative;
+    left: 20%;
+    margin-top: 30px;
+    border: 2px;
+    border-color: rgb(106, 205, 16);
+}
+.ask {
+    width: 400px;
+    height: 90px;
+    background-color: rgb(244, 186, 139);
+    border-radius: 5px;
+}
+.epastas {
+    width: 400px;
+    background-color: rgb(244, 186, 139);
+    border-radius: 5px;
+}
+.vardas {
+    width: 400px;
+    background-color: rgb(244, 186, 139);
+    border-radius: 5px;
+}

@@ -128,19 +128,19 @@ function getDoctors() {
         return NULL;
     }
 }
-// $all_doctors = getDoctors();
+$all_doctors = getDoctors();
 // print_r(  $all_doctors );
 // var_dump(  $all_doctors );
 
 // mysqli_fetch_assoc - is MYSQL objekto paima pirma "eilute" ir ja pavercia i masyva
-// $gydytojas = mysqli_fetch_assoc( $all_doctors );
+$gydytojas = mysqli_fetch_assoc( $all_doctors );
 
-// while( $gydytojas ) {
-//     echo  $gydytojas['lname']  . '<br>';               // xxx <br>
-//     echo  " vardas: " . $gydytojas['name'] . '<br>';  // vardas: xxx <br>
-//
-//     $gydytojas = mysqli_fetch_assoc( $all_doctors); // imame sekancia eilute/ sekanti gydytoja
-// }
+while( $gydytojas ) {
+    echo  $gydytojas['lname']  . '<br>';               // xxx <br>
+    echo  " vardas: " . $gydytojas['name'] . '<br>';  // vardas: xxx <br>
+
+    $gydytojas = mysqli_fetch_assoc( $all_doctors); // imame sekancia eilute/ sekanti gydytoja
+}
 
 
 // ARBA TRUMPIAU

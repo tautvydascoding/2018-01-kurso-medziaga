@@ -114,3 +114,35 @@ if (age < 7) {
 // kai "if"-ui padauodame Toma - isvesti "Masinoms 10% nuolaida"
 // kai "if"-ui padauodame Pauliu - isvesti "Buitinei technikai  30% nuolaida"
 // kai "if"-ui padauodame bet ka kita - isvesti "5% nuolaida kelionems"
+
+// var vardas1 = "tomas", "paulius";
+// if ("tomas") {
+//     console.log("masinoms 10% nuolaida");
+// } else if ("paulius"); {
+//     console.log("buitinei technikai");
+// } else {
+//     console.log("5%");
+// }
+
+function vardai(x, y, z) {
+    var vardas = x, y, z;
+    if (vardas == "tomas") {
+        console.log("masinos");
+    } else if (vardas == "paulius") {
+        console.log("buitine");
+    } else {
+        console.log("bilekas");
+    }
+}
+var v = vardai("paulius");
+
+// function vardas() {
+//     var vardas = "paulius";
+//     if (vardas == "tomas") {
+//         console.log("masinos");
+//     } else if (vardas == "paulius") {
+//         console.log("buitine");
+//     } else {
+//         console.log("bilekas");
+//     }
+// }

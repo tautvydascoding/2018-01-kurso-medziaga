@@ -24,7 +24,7 @@ var nezinau;
 // teo:
 //  typeof( k ); f-ja kuri isveda kintamojo tipa
 
-console.log( typeof(nezinau));
+console.log(typeof(nezinau));
 
 //  2 UZDUOTIS
 // sukurti funkcija "printVardasPavardeAmzius()" , kuri atspausdina i konsole pirmos uzduoties kintamuosius

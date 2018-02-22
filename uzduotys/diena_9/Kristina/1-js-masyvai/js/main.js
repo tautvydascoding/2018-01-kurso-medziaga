@@ -63,9 +63,9 @@ prekiautojai[50] = "cia market";
 // console.log("prekybos centrai", prekiautojai);
 
 function sukeistiMasyvus2elementus(x,y) {
-    var x = prekiautojai[x];
+    var z = prekiautojai[x];
     prekiautojai[x] = prekiautojai[y];
-    prekiautojai[y] = x;
+    prekiautojai[y] = z;
 }
 sukeistiMasyvus2elementus(1, 4);
 console.log("sukeiciam 1 ir 4", prekiautojai);

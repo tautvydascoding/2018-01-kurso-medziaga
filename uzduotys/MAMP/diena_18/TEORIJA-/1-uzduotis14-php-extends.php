@@ -27,5 +27,5 @@
      // A) issivesti username,
      // B) pakeisti username
      // C) issivesti username
-     // 5)  panaudoti login funkcija
+    // 5)  panaudoti login funkcija
      // A) panaudoti login funkcija , pakeitus username

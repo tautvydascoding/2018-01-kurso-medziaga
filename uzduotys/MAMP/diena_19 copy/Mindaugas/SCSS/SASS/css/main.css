@@ -1,0 +1,20 @@
+body h1 {
+  color: #8b9c0c; }
+
+section h1 {
+  color: #8b9c0c;
+  font-size: 30px;
+  font-weight: 600; }
+
+section p {
+  font-size: 16px;
+  font-weight: 300; }
+
+aside h1 {
+  color: #8b9c0c;
+  font-size: 30px;
+  font-weight: 300; }
+
+aside p {
+  font-size: 16px;
+  font-weight: 600; }

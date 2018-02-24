@@ -32,10 +32,10 @@
         <form class="" action="send_email.php" method="get">
 
 
-        <input type="text" name="vardas" value="<?php echo $vard; ?>" placeholder="Jusu vardas" maxlength="30"> <br>
-        <textarea name="klausimas" rows="8" cols="80" placeholder="Jusu klausimas" required></textarea> <br>
-        <input type="email" autocomplete="" name="pastas" value="" required placeholder="El. pastas" maxlength="40"> <br>
-        <input type="submit" name="" value="Klausti">
+            <input type="text" name="vardas" value="<?php echo $vard; ?>" placeholder="Jusu vardas" maxlength="30"> <br>
+            <textarea name="klausimas" rows="8" cols="80" placeholder="Jusu klausimas" required></textarea> <br>
+            <input type="email" autocomplete="" name="pastas" value="" required placeholder="El. pastas" maxlength="40"> <br>
+            <input type="submit" name="" value="Klausti">
 
         </form>
 

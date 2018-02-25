@@ -1,0 +1,49 @@
+$spalva: #8b9c0c; //kintamasis
+$storis1: 300;
+$storis2: 600;
+$size1: 30px;
+$size2: 16px;
+
+
+
+
+body {
+    h1 {
+        color: $spalva;
+    }
+
+}
+
+section {
+    h1 {
+        color: $spalva;
+        font: {
+            size: $size1;
+            weight: $storis2;
+        }
+    }
+    p {
+        font: {
+            size: $size2;
+            weight: $storis1;
+    }
+
+}
+}
+
+aside {
+    h1 {
+        color: $spalva;
+        font: {
+            size: $size1;
+            weight: $storis1;
+        }
+    }
+    p {
+        font: {
+            size: $size2;
+            weight: $storis2;
+    }
+
+}
+}

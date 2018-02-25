@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,27 +18,18 @@
             4) ar link uzdalete ">"
          -->
     </head>
-    <body>
+    <body class="container">
+        <div class="row">
+            <section class="col-6">
+                <h1>Antraste</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </section>
+            <aside class="col-6">
+                <h1>Antraste</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </aside>
+        </div>
 
-        <?php
-        $vard = $_GET['vardas'];
-        $klau = $_GET['klausimas'];
-        $mail = $_GET['pastas'];
-
-        echo $vard . $klau . $mail;
-
-         ?>
-
-
-        <form class="" action="send_email.php" method="get">
-
-
-            <input type="text" name="vardas" value="<?php echo $vard; ?>" placeholder="Jusu vardas" maxlength="30"> <br>
-            <textarea name="klausimas" rows="8" cols="80" placeholder="Jusu klausimas" required></textarea> <br>
-            <input type="email" autocomplete="" name="pastas" value="" required placeholder="El. pastas" maxlength="40"> <br>
-            <input type="submit" name="" value="Klausti">
-
-        </form>
 
 
 
@@ -49,8 +41,5 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <!-- !!! mano js failas - VISADA pats zemiausias -->
         <script type="text/javascript" src="js/main.js">     </script>
-        <script type="text/javascript">
-            // $('input[name="pastas"]').val('tekstas ivestas');
-        </script>
     </body>
 </html>

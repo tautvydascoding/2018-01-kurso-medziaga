@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>SASS</title>
 
         <!-- !!! mano CSS failas vissada zemiau, nie kiti css failai -->
         <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
@@ -19,25 +19,21 @@
     </head>
     <body>
 
-        <?php
-        $vard = $_GET['vardas'];
-        $klau = $_GET['klausimas'];
-        $mail = $_GET['pastas'];
-
-        echo $vard . $klau . $mail;
-
-         ?>
 
 
-        <form class="" action="send_email.php" method="get">
+        <section>
+
+          <h1>Antraste</h1>
 
 
-            <input type="text" name="vardas" value="<?php echo $vard; ?>" placeholder="Jusu vardas" maxlength="30"> <br>
-            <textarea name="klausimas" rows="8" cols="80" placeholder="Jusu klausimas" required></textarea> <br>
-            <input type="email" autocomplete="" name="pastas" value="" required placeholder="El. pastas" maxlength="40"> <br>
-            <input type="submit" name="" value="Klausti">
+          <div class="sidebar">
+            <h2>Antraste</h2>
 
-        </form>
+  </div>
+        </section>
+
+
+
 
 
 
@@ -49,8 +45,5 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <!-- !!! mano js failas - VISADA pats zemiausias -->
         <script type="text/javascript" src="js/main.js">     </script>
-        <script type="text/javascript">
-            // $('input[name="pastas"]').val('tekstas ivestas');
-        </script>
     </body>
 </html>

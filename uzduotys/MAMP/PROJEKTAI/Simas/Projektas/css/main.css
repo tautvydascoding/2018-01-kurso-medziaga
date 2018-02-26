@@ -1,0 +1,267 @@
+body {
+    background: #eee;
+    border-radius: 0 !important;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.font1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3em;
+}
+
+p {
+    color: rgb(163, 162, 163)
+}
+
+h2 {
+    color: rgb(47, 47, 47);
+    text-transform: uppercase;
+}
+
+.background-1 {
+    background: url("../img/barbell.jpg");
+    /* bg position 50% means it will show the middle of the image */
+    background-position: 50%;
+    padding: 20% 10%;
+}
+
+.background-2 {
+    background: url("../img/bg-2.jpg");
+    /* bg position 50% means it will show the middle of the image */
+    background-position: 50%;
+    padding: 15% 10%;
+    color: rgb(163, 162, 163);
+}
+
+.background-3 {
+    background: url("../img/bg-3.jpg");
+    /* bg position 50% means it will show the middle of the image */
+    background-position: 50%;
+    padding: 15% 10%;
+    color: rgb(163, 162, 163);
+}
+
+.background-contacts {
+    background: url("../img/bg-contacts.jpg");
+    /* bg position 50% means it will show the middle of the image */
+    background-position: 50%;
+    min-height: 5%;
+    padding: 9% 10% 1% 10%;
+    color: rgb(163, 162, 163);
+}
+
+.bg-white {
+    background-color: #fff;
+}
+.bg-grey {
+    background-color: rgb(163, 162, 163);
+}
+
+.bg-white-opa {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.bg-orange {
+    background-color: rgb(236, 76, 20);
+    /* bg position 50% means it will show the middle of the image */
+    padding: 5% 5%;
+}
+
+.bg-contacts {
+    background-color: rgb(255, 255, 255);
+}
+
+a.nav-link {
+    color: rgb(47, 47, 47);
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+/* custom classes */
+
+.line-h {
+    line-height: 2.5em;
+}
+
+.padding-4 {
+    padding: 4%;
+}
+.padding-2 {
+    padding: 2%;
+}
+
+.padding-b-4 {
+    padding-bottom: 4%;
+}
+
+.no-padding-right {
+    padding-right: 0;
+}
+
+.no-padding-left {
+    padding-left: 0;
+}
+
+.padding-l-r-15 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.padding-left {
+    padding-left: 3%;
+}
+
+
+.white-text {
+    color: #eee;
+    text-shadow: 2px 2px 10px rgb(47, 47, 47);
+    text-transform: uppercase;
+}
+.grey-text {
+    color: rgb(47, 47, 47);
+}
+
+.grey-border {
+    border: 2px solid rgb(47, 47, 47);
+}
+
+.min-height-475 {
+    min-height: 475px;
+}
+.min-width {
+    min-width: 320px;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.margin-t-10 {
+    margin-top: 10px;
+}
+
+.footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(51, 51, 51);
+    color: #eee;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+/* end custom classes */
+
+/* buttons */
+
+.button-orange {
+    text-decoration: none;
+    border: 2px solid rgb(236, 76, 20);
+    background-color: rgb(236, 76, 20);
+    height: 48px;
+    width: 180px;
+    cursor: pointer;
+    color: #eee;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+.button-orange:hover {
+    background-color: #eee;
+    color: rgb(236, 76, 20);
+}
+
+.button-white {
+    text-decoration: none;
+    border: 2px solid rgb(236, 76, 20);
+    background-color: #eee;
+    height: 48px;
+    width: 180px;
+    cursor: pointer;
+    color: rgb(236, 76, 20);
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+.button-white:hover {
+    background-color: rgb(236, 76, 20);
+    color: #eee;
+}
+
+.button-white2 {
+    text-decoration: none;
+    border: 2px solid #eee;
+    background-color: rgba(0, 0, 0, 0);
+    height: 48px;
+    width: 180px;
+    cursor: pointer;
+    color: #eee;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+.button-white2:hover {
+    background-color: rgb(236, 76, 20);
+    border: 2px solid rgb(236, 76, 20);
+    color: #eee;
+}
+
+.button-white3 {
+    text-decoration: none;
+    border: 2px solid #eee;
+    background-color: rgba(0, 0, 0, 0);
+    height: 48px;
+    width: 180px;
+    cursor: pointer;
+    color: #eee;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+.button-white3:hover {
+    background-color: #eee;
+    color: rgb(236, 76, 20);
+}
+
+.form-input {
+    text-decoration: none;
+    border: 2px solid rgb(51, 51, 51);
+    background-color: #eee;
+    height: 48px;
+    width: 100%;
+    cursor: pointer;
+    color: rgb(236, 76, 20);
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.form-input:focus {
+    border: 3px solid rgb(51, 51, 51);
+    box-shadow: 0 0 15px rgb(248, 168, 138);
+    color: rgb(236, 76, 20);
+}
+
+.min-height-210 {
+    min-height: 210px;
+}
+

@@ -1,0 +1,15 @@
+body section article {
+  color: #00ffff;
+  font-size: 30px;
+  font-weight: 600; }
+  body section article p {
+    font-size: 16px;
+    font-weight: 300; }
+
+aside article {
+  color: #7ae034;
+  font-size: 30px;
+  font-weight: 300px; }
+  aside article p {
+    font-size: 30px;
+    font-weight: 600; }

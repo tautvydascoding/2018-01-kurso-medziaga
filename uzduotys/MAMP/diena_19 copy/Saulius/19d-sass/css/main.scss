@@ -1,0 +1,35 @@
+$spalva : rgb(196, 59, 186); // kintamasis
+$didelis : 30px;
+$mazas : 16px;
+$storas : 600;
+$plonas : 300;
+
+section {
+    h2 {
+        color: $spalva;
+        font: {
+            size: $didelis;
+            weight: $storas;
+        }
+    }
+    p {
+    font: {
+        size: $mazas;
+        weight: $plonas;
+    }
+    }
+}
+
+.sidebar {
+    h2 {
+        color: $spalva;
+        font: {
+            size: $didelis;
+            weight: $plonas;
+        }
+    }
+    p {
+        size: $mazas;
+        weight: $storas;
+    }
+}

@@ -25,9 +25,9 @@
 
 // if (isset(_GET['vardas'])) {_GET['vardas'];}
 
-        $vard = $_GET['vardas'];
-        $klaus = $_GET['klausimas'];
-        $elpastas = $_GET['elpastas'];
+        // $vard = $_GET['vardas'];
+        // $klaus = $_GET['klausimas'];
+        // $elpastas = $_GET['elpastas'];
         //echo $vard . $klaus . $elpastas; test ar gauname duomenis
 
 
@@ -41,7 +41,7 @@
         <h1>Isijunk konsole</h1>
 
         <form class="" action="send_email.php" method="get">
-            <input type="text" name="vardas" placeholder="Jusu vardas" maxlength="50" value="<?php echo $vard ?>" > <br>
+            <input type="text" name="vardas" placeholder="Jusu vardas" maxlength="50" value="" > <br>
             <!-- reloadinus liks tas vardas nes per php i value ivesta kad saugotu visada atejus vartotojui po pirmo ivedimo -->
             <textarea name="klausimas" rows="8" cols="80" placeholder="klausimas" required ></textarea> <br>
             <input type="email" name="elpastas" value="" autocomplete="" required placeholder="Jusu elpastas"> <br>

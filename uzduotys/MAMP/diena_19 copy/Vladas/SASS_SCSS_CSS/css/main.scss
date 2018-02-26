@@ -1,0 +1,35 @@
+$spalva : #00ffff;
+$font-size : 30px;
+
+body {
+    section article {
+        color: $spalva;
+        font : {
+            size: $font-size;
+            weight: 600;
+            }
+    p {
+        font : {
+            size: 16px;
+            weight: 300;
+        }
+        }
+    }
+}
+
+$spalva1 : rgb(122, 224, 52);
+
+
+aside article {
+    color: $spalva1;
+    font : {
+        size: 30px;
+        weight: 300px;
+            }
+    p {
+        font : {
+            size: $font-size;
+            weight: 600;
+        }
+    }
+}

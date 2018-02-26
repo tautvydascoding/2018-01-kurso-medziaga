@@ -1,4 +1,5 @@
 <?php
+require_once('libs/doctors_db.php');
 
 echo "pries emailo siuntima";
 
@@ -52,15 +53,15 @@ try {
     $mail->Body    = $klaus;
     $mail->AltBody = $klaus;
 
-    // if ($mail->send());{
-    // 	createDoctor($vard, $klaus, $pastas); // cia isirasyti funkcija susikurta prie visu spec emailam kad storintu duombazej, nera butina ateiciai jei naujienlaiskiam ir pns
-    // }
+    if ($mail->send()) {
+    	createDoctor($vard, $klaus, $elpastas); // cia isirasyti funkcija susikurta prie visu spec emailam kad storintu duombazej, nera butina ateiciai jei naujienlaiskiam ir pns
+    }
 
 	$mail->send();
 
 
-    echo 'Laiskas issiustas sekmingai';
+    echo 'Laiškas išsiųstas sėkmingai';
 } catch (Exception $e) {
-    echo 'siuntimas nepavyko, bandykite dar karta: ', $mail->ErrorInfo;
+    echo 'siuntimas nepavyko, bandykite dar kartą: ', $mail->ErrorInfo;
 }
 

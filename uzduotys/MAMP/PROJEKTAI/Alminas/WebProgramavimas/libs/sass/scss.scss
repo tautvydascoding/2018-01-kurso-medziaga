@@ -1,0 +1,75 @@
+$light: #f7f3ef;
+$dark: #332d2f;
+$light_dark: #66585c;
+$font_small: 20px;
+$font_smaller: 16px;
+
+
+.logo{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+//logreg
+
+body {
+    background-image: url("../images/about_bg.png");
+}
+.contacts{
+    position: absolute;
+    margin-left: 10%;
+    font-size: $font_smaller;
+    &:hover{
+        font-size: $font_small;
+    }
+
+}
+
+.mdl-grid {
+    height: 25vh;
+    .mdl-textfield {
+        width: 100%;
+        color: $dark;
+        background-color: $light;
+        border: 2px solid $light_dark;
+    }
+
+    .last_input {
+        margin-bottom: 10px;
+    }
+
+    .mdl-button {
+        background-color: $dark;
+        color: $light;
+        font-size: $font_smaller;
+        transition: all 1s;
+    }
+
+    .mdl-button:hover {
+        background-color: $light_dark;
+        color: $light;
+        font-size: $font_small;
+    }
+
+    a {
+        color: $light;
+        font-size: $font_smaller;
+        transition: all 1s;
+    }
+
+    a:hover {
+        color: $light;
+        font-size: $font_small;
+    }
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    p{
+        font-size: $font_small;
+        color: $light
+    }
+}

@@ -18,6 +18,8 @@ $(document).ready(function(){
     $('.pn2').fadeTo(4000, 1);
 });
 
+// failu PROJECTS-1.php, PROJECTS-2.php, etc. apacioje irgi yra jq efektai sudėti
+
 // ------END fades & animations-------
 
 function validate(event) {

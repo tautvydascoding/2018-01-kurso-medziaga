@@ -1,0 +1,381 @@
+/* header dalis */
+#offi_lo {
+    height: 15vh;
+    min-height: 70px;
+    padding-top: 0.3rem;
+
+}
+
+body.pim.pi.rim {
+    width: 100%;
+}
+
+header {
+    font-size: 16px;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+
+.header {
+    height: 15vh;
+    min-height: 70px;
+
+}
+
+.container.redakcija {
+background-color: rgb(179, 128, 127);
+padding-bottom: 2rem;
+
+}
+.adjust_mt {
+    /* margin-top: ; */
+    position: relative;
+}
+.meniu_icon {
+    /* position: absolute;
+    top: 1.5rem;
+    right: 1.5rem; */
+
+
+
+    padding: 20px;
+    letter-spacing: 4px;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    transform: rotateZ(90deg);
+}
+a.navi {
+    display: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #000000;
+}
+a.navi-vazi:hover, a.navi:hover {
+    font-weight: 400;
+}
+
+a.navi-vazi {
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 200;
+    padding-top: 1.4rem;
+}
+
+.meniu_icon:hover {
+    transform: rotateZ(180deg);
+}
+.meniu-isvaziuojantis a:first-of-type {
+    padding-top: 11vh;
+}
+.meniu-isvaziuojantis {
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 25%;
+    min-width: 200px;
+    min-height: 100vh;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+
+    top: 70px;
+    right: -400px;
+    text-transform: uppercase;
+    z-index: 2;
+    /* box-shadow: 0 0 0px 1px rgb(150, 150, 150); */
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.logas {
+    min-height: 70vh;
+}
+#logo {
+    position: absolute;
+    top: 30vh;
+    height: 20vh;
+
+}
+a.liurliur {
+    opacity: 0;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 2rem;
+    font-weight: 200;
+
+}
+a.liurliur:hover {
+    font-weight: 400;
+}
+
+/* =================main dalis======== */
+body.landing {
+    background-image: url("../images/land_back.jpg");
+    height: 100vh;
+
+    background-position: center;
+    background-size: cover;
+}
+
+.office_im {
+
+    background-image: url("../images/offi_back.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.3;
+    height: 90vh;
+    width: 100%;
+    position: fixed;
+    z-index: -5;
+    top: 70px;
+}
+.contacts {
+    min-height: 75vh;
+    background-color: rgba(255, 255, 255, 0.6);
+
+}
+.parth {
+    min-height: 37.5vh;
+}
+main.office {
+    width: 70%;
+
+    min-height: 85vh;
+    padding-top: 6vh;
+    z-index: 0;
+    padding-bottom: 6vh;
+}
+
+main.offi {
+    width: 100%;
+
+    min-height: 85vh;
+    padding-top: 6vh;
+    z-index: 0;
+    padding-bottom: 6vh;
+}
+
+article.office {
+    background-color: rgba(255, 255, 255, 0.65);
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    text-align: justify;
+    line-height: 3rem;
+}
+
+.paslaugos h4 {
+    min-width: 300px;
+}
+.paslaugos p {
+    min-width: 300px;
+}
+article.paslaugos {
+    background-color: rgba(255, 255, 255, 0.65);
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    text-align: justify;
+    line-height: 3rem;
+    margin-bottom: 0.7rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+article.ofice:first-child {
+    padding-top: 10rem;
+}
+section.office {
+    background-color: rgba(245, 245, 245, 0.9);
+    padding: 3vw;
+    display: flex;
+    min-height: 35vh;
+}
+article.projektai {
+padding-left: 2vw;
+}
+.projektavimas {
+    max-width: 28vw;
+    min-width: 400px;
+
+    height: auto;
+    border: solid 1px #000;
+}
+p.textas {
+    text-align: justify;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.aukstelis {
+    height: 20vh;
+}
+.card {
+    max-width: 300px;
+    min-width: 200px;
+    margin: 0.5rem;
+
+
+
+}
+.pirst {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+}
+
+.card h5 {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.card:hover {
+    border: solid 1px rgb(182, 182, 182);
+
+}
+
+.card p {
+    padding: 0.7rem;
+    text-align: justify;
+}
+ /* ===============footer */
+footer.dugnas {
+
+}
+#icons {
+    color: red;
+    height: 30px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+textarea {
+    width: 32vw;
+    min-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 407px;
+}
+
+.modal-dialog.sokas {
+    position: relative;
+    top: 15vh;
+    /* left: 24.5vw;
+    right: 24.4vw; */
+    width: 40vw;
+    min-width: 431px;
+    margin: auto;
+}
+
+
+.mygtukas {
+    border: none;
+    background-color: rgb(102, 102, 102);
+    color: #fff;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+
+}
+input.formos:focus {
+    background-color: #fff;
+}
+input.formos {
+    border: none;
+    border-bottom: solid 1px rgb(140, 140, 140);
+    width: 162px;
+    max-width: 300px;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/*  --------karusele-start---------*/
+#carouselExampleIndicators, img.projektai {
+    /* height: 200px; */
+    min-width: 38vw;
+    height: 25vw
+
+}
+
+
+
+/* -------karusele-end-------- */
+
+
+/* ----------googleMaps-start------- */
+#map {
+    height: 65vh;
+    min-height: 300px;
+    width: 42vw;
+    padding-top: 3vh;
+    background-color: rgba(255, 255, 255, 0.6);
+    /* AIzaSyDU9_cEktvd-cT-IS6QFv4XIsUQTxI8jkY  */
+}
+.b-map {
+    height: 5vh;
+}
+
+
+
+
+
+/* ----------googleMaps-end------- */
+
+
+
+@media (min-width: 540px) {
+    .navi-coll {
+        display: block;
+}
+    main.office {
+    width: 100%;
+
+}
+@media (max-width: 680px) {
+main.office {
+    width: 120%;
+}
+}
+
+@media (min-width: 720px) {
+        a.navi {
+        display: block;
+        font-size: 1rem;
+    }
+
+    .navi-vazi.isimtinai {
+        padding-top: 11vh;
+    }
+    .navi-coll {
+        display: none;
+    }
+
+
+}
+@media (min-width: 960px) {
+    span.navi-coll {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+
+
+}
+
+@media (min-width: 1140px){
+
+
+
+
+}

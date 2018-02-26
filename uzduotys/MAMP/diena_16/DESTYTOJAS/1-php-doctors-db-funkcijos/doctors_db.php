@@ -142,7 +142,6 @@ function getDoctors() {
 //     $gydytojas = mysqli_fetch_assoc( $all_doctors); // imame sekancia eilute/ sekanti gydytoja
 // }
 
-
 // ARBA TRUMPIAU
 // while( $gydytojas = mysqli_fetch_assoc( $all_doctors)) {
 //     echo  $gydytojas['lname']  . '<br>';               // xxx <br>

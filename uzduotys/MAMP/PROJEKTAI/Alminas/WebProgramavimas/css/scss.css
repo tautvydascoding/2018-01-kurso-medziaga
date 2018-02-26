@@ -1,0 +1,54 @@
+.logo {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto; }
+
+body {
+  background-image: url("../images/about_bg.png"); }
+
+.contacts {
+  position: absolute;
+  margin-left: 10%;
+  font-size: 16px; }
+  .contacts:hover {
+    font-size: 20px; }
+
+.mdl-grid {
+  height: 25vh; }
+  .mdl-grid .mdl-textfield {
+    width: 100%;
+    color: #332d2f;
+    background-color: #f7f3ef;
+    border: 2px solid #66585c; }
+  .mdl-grid .last_input {
+    margin-bottom: 10px; }
+  .mdl-grid .mdl-button {
+    background-color: #332d2f;
+    color: #f7f3ef;
+    font-size: 16px;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s; }
+  .mdl-grid .mdl-button:hover {
+    background-color: #66585c;
+    color: #f7f3ef;
+    font-size: 20px; }
+  .mdl-grid a {
+    color: #f7f3ef;
+    font-size: 16px;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s; }
+  .mdl-grid a:hover {
+    color: #f7f3ef;
+    font-size: 20px; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+  .footer p {
+    font-size: 20px;
+    color: #f7f3ef; }

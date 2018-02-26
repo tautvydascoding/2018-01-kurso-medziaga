@@ -1,0 +1,157 @@
+$font_mobile: 14px;
+$font_tablet: 16px;
+$light: #f7f3ef;
+$dark: #332d2f;
+@media (max-width: 767px) {
+    html{
+        overflow-x: hidden;
+    }
+    footer, p, .lead {
+        font-size: $font_mobile;
+    }
+    .h2{
+        font-size: 22px;
+    }
+    .about_me {
+        margin-top: 25%;
+    }
+    .gallery_bg {
+        text-align: center;
+    }
+    .pc_header {
+        display: none;
+    }
+    .bg_mobile {
+        background-color: $light;
+        color: $dark;
+        height: 100vh;
+        .nav-link{
+            padding: 18px;
+        }
+    }
+    .center_button {
+        position: absolute;
+        bottom: 0;
+        left: 25%;
+        right: 20%;
+    }
+    .pc_footer {
+        display: none;
+    }
+    .mobile_footer {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .banner_text {
+        font-size: 40px;
+        font-weight: 400;
+    }
+    .mobile_header {
+        width: 100vw;
+        display: block;
+        padding: 0;
+    }
+    .banner_image {
+        content: url('../images/banner_small.png');
+    }
+    .foto_box{
+        text-align: center;
+        .me{
+            width: 100%;
+            max-width: 230px;
+        }
+    }
+    .banner_row2{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1130px) {
+    html{
+        overflow-x: hidden;
+    }
+    footer, p, .lead {
+        font-size: $font_tablet;
+    }
+
+    .h2{
+        font-size: 26px;
+    }
+    .pc_header {
+        display: none;
+    }
+    .bg_mobile {
+        background-color: $light;
+        color: $dark;
+        height: 100vh;
+        .nav-link{
+            padding: 20px;
+        }
+    }
+    .thankyou_row{
+        div{
+            padding: 0;
+            margin: 0;
+        }
+    }
+    .banner_row2{
+        display: none;
+    }
+    .pc_footer {
+        display: none;
+    }
+    .mobile_footer {
+        display: block;
+        width: 100%;
+    }
+    .center_button {
+        position: absolute;
+        bottom: 0;
+        left: 40%;
+        right: 30%;
+    }
+    .mobile_header {
+        display: block;
+        width: 100vw;
+    }
+    .foto_box{
+        text-align: center;
+        .me{
+            width: 100%;
+            max-width: 230px;
+        }
+    }
+    .about_me {
+        margin-top: 15%;
+    }
+    .banner_row2{
+        display: none;
+    }
+}
+
+@media (min-width: 1130px) {
+    html{
+        overflow-x: hidden;
+    }
+    .mobile_header {
+        display: none;
+    }
+    .pc_header {
+        display: block;
+    }
+    .pc_footer {
+        display: block;
+    }
+    .mobile_footer {
+        display: none;
+    }
+    .banner_text{
+        margin-top: -5%;
+    }
+}
+@media (min-width: 1430px){
+    .banner_text{
+        margin-top: -10%;
+    }
+}

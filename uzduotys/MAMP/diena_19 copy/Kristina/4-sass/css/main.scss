@@ -1,0 +1,43 @@
+$spalva : #00ffff; // kintamassis
+$h1-dydis : 30px;
+$h1-storis : 600;
+$p-dydis : 16px;
+$p-storis : 300;
+
+body {
+		section {
+			h1 {
+			color: $spalva;
+			font: {
+				size: $h1-dydis;
+				weight: $h1-storis;
+				}
+			}
+			p {
+			font: {
+				size: $p-dydis;
+				weight: $p-storis;
+			}
+		}
+
+		aside {
+			h1 {
+			color: $spalva;
+			font: {
+				size: $h1-dydis;
+				weight: $h1-storis;
+				}
+			}
+			p {
+			font: {
+				size: $p-dydis;
+				weight: $p-storis;
+				}
+				&:hover {
+					color: #fff;
+				}
+
+			}
+		}
+	}
+}

@@ -1,0 +1,351 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #332d2f;
+}
+
+[alt] {
+    width: 100%;
+}
+
+.logo {
+    width: 200px;
+    height: 50px;
+}
+
+.clear_fix {
+    clear: both;
+}
+
+/* HEADER */
+
+.navbar {
+    background-color: #f7f3ef;
+    color: #332d2f;
+    height: 80px;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #332d2f;
+    font-weight: 300;
+    padding: 32px 5px 32px 5px;
+    transition: all 0.3s, linear 0.3s;
+}
+
+.nav-link:hover {
+    font-size: 22px;
+    padding: 20px 5px 28px 5px;
+    font-weight: 400;
+    color: #332d2f;
+}
+
+.navbar-brand {
+    padding: 17px 0px 13px 0px;
+}
+.btn-dark {
+  background-color: #332d2f;
+  color: #f7f3ef;
+  font-size: 20px;
+  border: none; }
+
+.btn-dark:hover {
+  background-color: #66585c; }
+
+/* HEADER */
+
+/* SLIDES */
+
+.carousel-item img {
+    height: 100vh;
+    width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #332d2f;
+}
+
+/* SLIDES */
+
+.default_button {
+    font-family: Roboto;
+    font-weight: 300;
+    color: #f7f3ef;
+    font-size: 30px;
+    background: #332d2f;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+}
+
+.default_button:hover {
+    background: #66585c;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+/* paslaugos row */
+
+.paslaugos_row {
+    background-color: #332d2f;
+}
+
+.paslaugu_box {
+    background-color: #f7f3ef;
+    position: relative;
+    text-align: justify;
+    margin: 5% auto 5% auto;
+}
+
+.paslaugu_images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.margin75 {
+    margin-top: 75%;
+}
+
+.margin20 {
+    margin-bottom: 20%;
+}
+
+.center_button {
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    right: 20%;
+}
+
+/* paslaugos row end */
+
+/* atsiliepimai start */
+
+.atsiliepimai_header {
+    background-color: #f7f3ef;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.atsiliepimai {
+    background-color: #f7f3ef;
+    text-align: justify;
+    margin-top: 5%;
+}
+
+.atsiliepimai div .h2 {
+    text-align: center;
+}
+
+.padding_l {
+    padding-left: 8%;
+}
+
+.padding_r {
+    padding-right: 8%;
+}
+
+/* atsiliepimai end */
+
+/* Footer start */
+
+footer {
+    height: 80px;
+    background: #332d2f;
+    color: #f7f3ef;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+footer div p {
+    padding-top: 30px;
+}
+
+.float_l {
+    float: left;
+}
+
+.float_r {
+    float: right;
+}
+
+footer div p a {
+    color: #f7f3ef;
+    transition: all 0.3s, linear 0.3s;
+}
+
+footer div p a:hover {
+    font-size: 24px;
+    font-weight: 400;
+    color: #f7f3ef;
+}
+
+/* Footer end */
+
+/* about me start*/
+
+.about_me {
+    margin-top: 10%;
+    background-color: #f7f3ef;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.gallery_bg {
+    margin-top: 2%;
+    background-color: #f7f3ef;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.about_bg_image {
+    background-image: url("../images/about_bg.png");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.img-thumbnail {
+    height: 150px;
+    width: 150px;
+}
+
+.gallery_bg div p, .gallery_bg div {
+    display: inline-block;
+}
+
+.gallery_margin {
+    margin-bottom: 2%;
+}
+
+.placiau_btn {
+    padding: 0;
+}
+
+.thumbnails img {
+    transition: all 0.5s ease-in-out;
+}
+
+.thumbnails:hover img {
+    opacity: 0.6;
+    transform: scale(0.92);
+}
+
+.thumbnails img:hover {
+    opacity: 1;
+    transform: scale(1) rotate(2deg);
+    box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+}
+
+/* about me end*/
+
+/* comments start*/
+.comments_div{
+    margin-bottom: 2%;
+    background-color: #f7f3ef;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+}
+/* comments end*/
+
+/* contacts start*/
+
+.banner_row {
+    position: relative;
+}
+
+.banner_image {
+    content: url('../images/banner.png');
+}
+
+.banner_text {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: #f7f3ef;
+    font-family: 300;
+    font-weight: 300;
+    font-size: 72px;
+    display: none;
+}
+
+.forms_row {
+    height: auto;
+    background-color: #f7f3ef;
+    text-align: center;
+}
+
+.form_design {
+    background-color: #f7f3ef;
+    border: none;
+    border-bottom: 3px solid #332d2f;
+}
+
+.form_design:focus {
+    outline: 0;
+    border: 3px solid #332d2f;
+}
+
+.emailas {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    background-color: #f7f3ef;
+    border: 3px solid #332d2f;
+}
+
+textarea:focus {
+    outline: 0;
+}
+
+::placeholder {
+    color: #332d2f;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.copy_button:hover {
+    cursor: pointer;
+}
+.hover_div{
+    display: none;
+    position: absolute;
+    font-size: 16px;
+    background-color: #332d2f;
+    color: #f7f3ef;
+    border: 1px solid #f7f3ef;
+    padding: 5px;
+}
+
+.error_para{
+    color: rgb(255, 69, 42);
+    font-weight: 400;
+}
+
+/* contacts end*/
+
+.thankyou_row {
+    text-align: center;
+    color: #f7f3ef;
+}
+
+.text1, .text2 {
+    display: inline;
+}

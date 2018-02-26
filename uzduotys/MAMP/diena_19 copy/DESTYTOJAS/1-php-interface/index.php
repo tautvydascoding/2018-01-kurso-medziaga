@@ -25,7 +25,7 @@ class Meska  implements lifeNeeds {
     }
     public function valgymas($kalorijos) {
 
-    }
+    };
 }
 
 

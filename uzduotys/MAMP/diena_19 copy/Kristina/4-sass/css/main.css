@@ -1,0 +1,25 @@
+body section h1 {
+  color: #00ffff;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+body section p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+body section aside h1 {
+  color: #00ffff;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+body section aside p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+body section aside p:hover {
+  color: #fff;
+}

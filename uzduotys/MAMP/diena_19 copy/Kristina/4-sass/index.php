@@ -19,42 +19,29 @@
     </head>
     <body>
 
-        <?php
-
-        //print_r($_GET); // test . ismeta masyvus kaip kas kur Array ( [vardas] => tomas [klausimas] => taelkfn [elpastas] => a@a.lt ) ty tai kas virsuj buvo http
-
-// if (isset(_GET['vardas'])) {_GET['vardas'];}
-
-        // $vard = $_GET['vardas'];
-        // $klaus = $_GET['klausimas'];
-        // $elpastas = $_GET['elpastas'];
-        //echo $vard . $klaus . $elpastas; test ar gauname duomenis
-
-
-
-
-
-
-        ?>
-
-
-        <h1>Isijunk konsole</h1>
-
-        <form class="" action="send_email.php" method="get">
-            <input type="text" name="vardas" placeholder="Jusu vardas" maxlength="50" value="" > <br>
-            <!-- reloadinus liks tas vardas nes per php i value ivesta kad saugotu visada atejus vartotojui po pirmo ivedimo -->
-            <textarea name="klausimas" rows="8" cols="80" placeholder="klausimas" required ></textarea> <br>
-            <input type="email" name="elpastas" value="" autocomplete="" required placeholder="Jusu elpastas"> <br>
-
-            <input type="submit" name="" value="Klausti"> <!-- automatiskai sukuria mygtuka kai irasai type submit input lauke -->
-            <!-- <button type="submit" name="button">Klausti</button> --> <!-- geriau tik formose -->
-        </form>
-
-        <!-- kai suvedam ir spaudziam 'klausti' ismeta "http://localhost/diena_17/Kristina/1-php-email/?vardas=tomas&klausimas=taelkfn&elpastas=a%40a.lt#" sitas reiksmes reiks paimti su php-->
-
-
-
-
+        <div class="container">
+            <div class="row">
+                <section class="col-9 bg-info">
+                    <h1 class="section-h">antraste</h1>
+                    <p class="section-p">spalva red dydis 30px storis 600</p>
+                </section>
+                <aside class="col bg-warning">
+                    <h1 class="aside-h">antraste</h1>
+                    <p class="aside-p">spalva red dydis 30px storis 300</p>
+                </aside>
+            </div>
+<!--             <div class="row">
+                <section class="col">
+                    <h1>antraste</h1>
+                    <p>dydis 16px storis 300</p>
+                </section>
+                <aside class="col">
+                    <h1>antraste</h1>
+                    <p>dydis 16px storis 600</p>
+                </aside>
+            </div> -->
+            
+        </div>
 
 
 
@@ -66,14 +53,5 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <!-- !!! mano js failas - VISADA pats zemiausias -->
         <script type="text/javascript" src="js/main.js">     </script>
-
-
-<!--         <script type="text/javascript">
-            $('input[name="elpastas"]').val("ivestas tekstas su js");
-        </script> -->
-
-
-
     </body>
 </html>
-

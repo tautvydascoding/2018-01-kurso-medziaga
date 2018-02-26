@@ -1,0 +1,115 @@
+$nematomas : 0;
+$permatomas : 0.8;
+$pagrFont : 'Roboto',sans-serif;
+$baltas : #fff;
+$seselis : 0 0 50px #ad0e1c;
+$fonas : rgba(68,68,68,0.46);
+$minAukstis : 25rem;
+
+.dark {
+    box-shadow: $seselis;
+    &:active {background-color: rgba(0, 0, 0, 0.58);
+        box-shadow: $seselis;
+    }
+}
+
+.btn-trans {
+    background-color: rgba(0, 0, 0, 0.03);
+    &:hover {background-color: rgba(0, 0, 0, 0.41);}
+}
+
+.logo {
+    height:80px;
+    width:80px;
+    &:hover {
+        cursor:pointer;
+        opacity: $permatomas;
+    }
+    &:active {
+        opacity: $nematomas;
+    }
+}
+
+.logo2 {
+    height:5rem;
+    width:auto;
+    &:hover {
+        cursor:pointer;
+        opacity: $permatomas;
+    }
+    &:active {
+        opacity: $nematomas;
+    }
+}
+
+.btn {
+    color: $baltas;
+    font-family: $pagrFont;
+    &:hover {
+        color: $baltas;
+    }
+}
+
+.tamsus {
+    background-color:rgba(204,195,195,0.14);
+    font-family: $pagrFont;
+    box-shadow:0 0 50px #ad0e1c;
+    color: $baltas;
+}
+
+.card {
+    font-family: $pagrFont;
+    &:hover {box-shadow:0 0 30px #e83747;}
+}
+
+.slbg {
+    box-shadow: $seselis;
+    background-color: $fonas;
+    min-height: $minAukstis;
+    color: $baltas;
+}
+
+.mbg {
+    box-shadow: $seselis;
+    background-color: $fonas;
+    color: $baltas;
+}
+
+.apiemus {
+box-shadow: $seselis;
+background-color: $fonas;
+color: $baltas;
+min-height: $minAukstis;
+font-family: $pagrFont;
+color: $baltas;
+}
+
+.foot-txt {
+font-family: $pagrFont;
+color: $baltas;
+}
+
+div {
+    .kat {
+        background-color:rgba(204,195,195,0.14);
+        color: $baltas;
+        text-align:center;
+        border-width:2px;
+        font-family: $pagrFont;
+        box-shadow: $seselis;
+        display:none;
+    }
+}
+
+nav {
+    ul {
+        padding-left:0
+    }
+    li {
+        margin-top:1rem;
+        color: $baltas;
+        text-align:center;
+        font-family: $pagrFont;
+        justify-content:center
+    }
+}

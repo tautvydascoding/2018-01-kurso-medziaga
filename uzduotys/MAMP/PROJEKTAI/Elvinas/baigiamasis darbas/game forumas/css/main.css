@@ -1,0 +1,526 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #666;
+  font-family: Arial, Helvetica, Sans-Serif;
+  font-size: 11px;
+  background: #222;
+  background-image: url("../images/cs-go-Urbalan-Winter-2017.jpg");
+  background-repeat: repeat-y;
+  background-position: center top;
+  opacity: 0.9;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  background-image: url("../images/5.jpg");
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: RGB(72, 251, 71);
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+  color: red;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+p {
+  text-align: justify;
+  /* top meniu */
+}
+
+.meniu {
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+
+.meniu a {
+  list-style: none;
+  padding-left: 20px;
+  display: block;
+  height: 20px;
+  line-height: 10px;
+  border: none;
+  background-image: url("../images/5.jpg");
+  vertical-align: middle;
+  font-size: 13px;
+}
+
+.meniu a:hover {
+  color: red;
+  /* soniniai meniu kairys_col ir desinys_col*/
+}
+
+.meniu a:link {
+  background-color: white;
+}
+
+#nav {
+  height: 30px;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/5.jpg");
+  /* nav juosta virsutine */
+}
+
+#wrapper {
+  width: 980px;
+  margin: 0 auto;
+  background: #000;
+  padding: 0;
+}
+
+#headerpagr {
+  height: 270px;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/22_1407441980.jpg");
+  background-repeat: no-repeat;
+  /* headerio foto */
+}
+
+#container {
+  min-width: 600px;
+  padding-top: 15px;
+}
+
+#kairys_col {
+  width: 170px;
+  float: left;
+  background-color: #222;
+  min-height: 800px;
+  border-top: 3px solid #444;
+  border-bottom: 3px solid #444;
+  background-image: url("../images/5.jpg");
+  background-repeat: repeat-y;
+  /* meniu stulpelis kairej turinio */
+}
+
+
+.button {
+
+    position:relative;
+    left: 20%;
+    bottom: 0%;
+    padding: 16px;
+    padding-right: 10px;
+    border-radius: 8px;
+    background-color: red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+
+
+
+
+}
+
+.button a:link {
+
+  color: yellow;
+  height: auto;
+  width: auto;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: red;
+  margin: auto;
+
+
+
+}
+
+.button:hover {
+    background-color: RGB(72, 251, 71);
+    color: white;
+}
+
+
+@-webkit-keyframes glowing {
+  0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+@keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+.button {
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+
+/* download mygtukas + uzdeta svytejimo efektas */
+
+#desinys_col {
+  width: 170px;
+  float: right;
+  background-color: #222;
+  min-height: 800px;
+  border-top: 3px solid #444;
+  border-bottom: 3px solid #444;
+  background-image: url('../images/5.jpg');
+  background-repeat: repeat-y;
+  /* meniu stulpelis desineje */
+}
+
+
+.material-icons { color: white;}
+
+
+
+#kairys_col p, #desinys_col p {
+  padding: 0 10px 0 10px;
+}
+
+#kairys_col h3, #desinys_col h3 {
+  color: red;
+  padding: 3;
+  margin: 0;
+  text-align: center;
+  background-color: #333;
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  background-image: url("../images/meniu_h3.jpg");
+  background-repeat: no-repeat;
+}
+
+#turinys {
+  margin-left: 175px;
+  margin-right: 175px;
+  min-height: 822px;
+  padding: 20px;
+  color: RGB(72, 251, 71);
+  border-top: 3px solid #444;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-image: url("../images/thumb-1920-570391.jpg");
+  font-size: 13px;
+}
+
+
+
+/* skaidriu konteineris */
+.slides-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+
+}
+
+
+
+/* skaidriu pavadinimai */
+.tekstas {
+  color: RGB(72, 251, 71);
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* skaidriu eiles tvarka */
+.numeracija {
+  color: RGB(72, 251, 71);
+  font-size: 12px;
+  padding: 12px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+
+
+/* taskeliai slaideryje */
+.taskelis {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+/* skaidriu animacija */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4s;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .1}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .1}
+  to {opacity: 1}
+}
+
+
+#apacia {
+  color: RGB(72, 251, 71);
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 3em;
+  margin-top: -3em;
+  width: 100%;
+  height: 35px;
+  font-size: 13px;
+  background-image: url("../images/footer.jpg");
+
+}
+
+
+
+/* prisijungimo formos pradzia */
+
+
+/* laukeliai ivedimo */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid RGB(72, 251, 71);
+    box-sizing: border-box;
+    background-color: white;
+
+
+}
+
+
+@media screen and (min-width : 300px)  {
+
+
+#wrapper {
+
+  width: 100%;
+
+}
+
+
+}
+
+
+
+/* mygtuku stilius */
+button {
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* cancel button stilius */
+.atsaukti {
+    width: auto;
+    padding: 10px 18px;
+    background-color: red;
+}
+
+/* centruotas avataras */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* avataro img */
+img.avatar {
+    width: 30%;
+    border-radius: 50%;
+}
+
+img.avatar3 {
+    width: 20%;
+    border-radius: 50%;
+}
+/* slaptazodzio priminimo formos paveikslelis */
+
+.container {
+    padding: 16px;
+    width: 400px;
+}
+
+/* pamirsau slaptazodi */
+span.password {
+    float: right;
+    padding-top: 16px;
+}
+
+/* input ir cancel mygtuko responsive mobile s */
+@media screen and (max-width: 300px) {
+    span.password {
+        display: block;
+        float: none;
+    }
+    .atsaukti {
+        width: 100%;
+    }
+}
+    /* prisijungimo formos pabaiga */
+
+
+
+    /* registracijos formos pradzia */
+
+    /* centruotas avataras */
+    .img2container {
+        text-align: center;
+        margin: 24px 0 12px 0;
+    }
+
+    /* avataro img */
+    img.avatar2 {
+        width: 40%;
+        border-radius: 50%;
+    }
+
+
+    /* input laukai */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: white;
+}
+
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+/* mygtuku stilius - registruotis */
+button {
+  background-color: RGB(72, 251, 71);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* cancel mygtuko stilius */
+.mygtukai a {
+  padding: 16.5px 49px;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+
+
+
+}
+
+/* registracijos btn cancel su plociu */
+ .registruotis_btn {
+  width: 25%;
+
+}
+
+
+.reg_container {
+  padding: 16px;
+  text-align: left;
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+}
+
+
+/* responsive forma */
+@media screen and (max-width: 300px) {
+  .atsaukimas_btn, .registruotis_btn {
+    width: 100%;
+  }
+}
+
+  /* registracijos formos pabaiga */

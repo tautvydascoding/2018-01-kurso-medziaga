@@ -1,0 +1,51 @@
+$spalva : #00ffff; // kintamasis
+
+
+body {
+    h1 {
+        color: $spalva;
+    }
+}
+
+/*
+body h1 {
+    color: #00fff;
+}
+*/
+// kintamieji
+$mainColor : #aa5900;
+$h2-dydis : 30px;
+$h2-storis : 600;
+$p-dydis : 16px;
+$p-storis : 100;
+
+section {
+    h2 {
+        color: $mainColor;
+        font: {
+            size: $h2-dydis;
+            weight: $h2-storis;
+        }
+    }
+    p {
+        font: {
+            size: $p-dydis;
+            weight: $p-storis;
+        }
+    }
+}
+aside {
+    h2 {
+        color: $mainColor;
+        font: {
+            size: $h2-dydis;
+            weight: $h2-storis;
+        }
+    }
+    p {
+        font: {
+            size: $p-dydis;
+            weight: 600;
+        }
+    }
+}
